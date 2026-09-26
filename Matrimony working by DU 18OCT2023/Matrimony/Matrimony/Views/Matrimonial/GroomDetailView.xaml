@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Matrimony.Views.Matrimonial.GroomDetailView"
+             xmlns:ffimage="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:ffTransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+             xmlns:proc="clr-namespace:PanCardView.Processors;assembly=PanCardView"
+             xmlns:cards="clr-namespace:PanCardView;assembly=PanCardView"
+             xmlns:tabview="clr-namespace:Xam.Plugin.TabView;assembly=Xam.Plugin.TabView"
+             Title="{Binding Title}" ControlTemplate="{StaticResource MainPageBackTemplate}">
+    <ContentPage.ToolbarItems>
+        <!--<ToolbarItem Text="About-us" Order="Secondary" />
+        <ToolbarItem Text="Contact-us" Order="Secondary"/>
+        <ToolbarItem Text="Help" Order="Secondary"/>-->
+    </ContentPage.ToolbarItems>
+    <NavigationPage.TitleView>
+        <Grid ColumnDefinitions="*,48" RowDefinitions="48" BackgroundColor="Transparent" Margin="0,0,8,0">
+
+            <StackLayout Orientation="Horizontal" Grid.Column="0" HorizontalOptions="CenterAndExpand" VerticalOptions="Center">
+                <Label Style="{DynamicResource MediumLable}" TextColor="White" Text="{Binding MemberDetailResponse.matrimonialMember.fullname, StringFormat='{0} की जानकारी'}"/>
+            </StackLayout>
+            <ffimage:CachedImage Margin="2"  Aspect="AspectFit"  Grid.Column="1" HeightRequest="42" WidthRequest="42"  Source="boy">
+                <ffimage:CachedImage.Transformations>
+                    <ffTransformations:RoundedTransformation CropHeightRatio="42" CropWidthRatio="42" Radius="500" BorderSize="10" BorderHexColor="#FFFFFF"/>
+                </ffimage:CachedImage.Transformations>
+            </ffimage:CachedImage>
+
+        </Grid>
+    </NavigationPage.TitleView>
+
+    <Grid Padding="10,4,10,2" RowDefinitions="1.2*,20,*">
+        <cards:CoverFlowView Grid.Row="0" ItemsSource="{Binding MemberDetailResponse.matrimonialMemberImageList}" PositionShiftValue="145">
+            <x:Arguments>
+                <!--<proc:BaseCoverFlowFrontViewProcessor/>
+                <proc:BaseCoverFlowBackViewProcessor/>-->
+                <proc:CoverFlowProcessor ScaleFactor="0.75" OpacityFactor="0.5" />
+            </x:Arguments>
+            <cards:CoverFlowView.ItemTemplate>
+                <DataTemplate>
+                    <ContentView Margin="45,4,45,4">
+                        <!--<ffimage:CachedImage Margin="2" Grid.Row="0" Grid.RowSpan="9" Grid.Column="0" BackgroundColor="Transparent" Aspect="Fill"  Source="{Binding ImageUrl}">
+                            <ffimage:CachedImage.Transformations>
+                                <ffTransformations:RoundedTransformation Radius="50" BorderSize="0" BorderHexColor="#FFFFFF"/>
+                            </ffimage:CachedImage.Transformations>
+                        </ffimage:CachedImage>-->
+                        <ImageButton
+                                    Grid.Row="0"
+                                    Grid.RowSpan="9"
+                                    Grid.Column="0"
+                                    Margin="2"
+                                    Aspect="Fill"
+                                    BackgroundColor="Transparent"
+                                    CornerRadius="15"
+                                    Source="{Binding ImageUrl}"
+                                    WidthRequest="100" />
+                    </ContentView>
+                </DataTemplate>
+            </cards:CoverFlowView.ItemTemplate>
+
+        </cards:CoverFlowView>
+
+        <StackLayout Orientation="Horizontal" TranslationY="6" VerticalOptions="Fill" Grid.Row="1"  HorizontalOptions="CenterAndExpand">
+            <!--<Frame Opacity="0.75" HasShadow="False" HeightRequest="12" WidthRequest="60" Padding="0" CornerRadius="6" BackgroundColor="{DynamicResource ThemeBaseColor}">
+                <Label TextColor="White" FontSize="12" Text="Call" Style="{DynamicResource MediumLable}"  />
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="Call_Tapped"/>
+                </Frame.GestureRecognizers>
+            </Frame>
+            <Frame Opacity="0.75" HasShadow="False" HeightRequest="12" WidthRequest="60" Padding="0" CornerRadius="6" BackgroundColor="{DynamicResource ThemeBaseColor}">
+                <Label TextColor="White" FontSize="7" Text="Short List" Style="{DynamicResource MediumLable}"  />
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="ShortList_Tapped"/>
+                </Frame.GestureRecognizers>
+            </Frame>-->
+            <Frame Opacity="0.75" HasShadow="False" HeightRequest="12" WidthRequest="80" Padding="0" CornerRadius="6" BackgroundColor="{DynamicResource ThemeBaseColor}">
+                <Label TextColor="White" FontSize="12" Text="संपर्क करें" Style="{DynamicResource BoldLable}"  />
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="Chat_Tapped"/>
+                </Frame.GestureRecognizers>
+            </Frame>
+            <Frame Opacity="0.75" HasShadow="False" HeightRequest="12" WidthRequest="80" Padding="0" CornerRadius="6" BackgroundColor="{DynamicResource ThemeBaseColor}">
+                <Label TextColor="White" FontSize="12" Text="सन्देश भेजें" Style="{DynamicResource BoldLable}"  />
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="SendInterest_Tapped"/>
+                </Frame.GestureRecognizers>
+            </Frame>
+        </StackLayout>
+        
+        <tabview:TabViewControl Grid.Row="2" HeaderBackgroundColor="White" HeaderSelectionUnderlineThickness="2" HeaderSelectionUnderlineColor="{DynamicResource ThemeBaseColor}"
+                HeaderTabTextColor="{DynamicResource ThemeTextColor}" HeaderTabTextFontAttributes="Bold" HeaderTabTextFontFamily="{DynamicResource MediumFont}"
+                HorizontalOptions="FillAndExpand" IsSwipeEnabled="True" TabHeaderSpacing="0" HeaderTabTextFontSize="16" VerticalOptions="FillAndExpand">
+            <tabview:TabViewControl.ItemSource>
+
+                <tabview:TabItem HeaderText="व्यक्तिगत" HeaderTabTextFontSize="12" HeaderTabTextFontFamily="{DynamicResource RegularFont}">
+
+                    <ContentView Margin="10" Padding="2,2" BackgroundColor="Transparent">
+                        <Frame Margin="0,0" BackgroundColor="White" BorderColor="White"  HasShadow="True" CornerRadius="10" Padding="2,4,2,4">
+                            <Grid RowSpacing="4" ColumnSpacing="14" RowDefinitions="16,24,14,14,14,14,14,14,14,14,14,14,14" ColumnDefinitions="0,*">
+
+                                <Label FontSize="12" HorizontalOptions="StartAndExpand"  Grid.Row="0" Grid.Column="1" Text="{Binding MemberDetailResponse.matrimonialMember.memberid,StringFormat='JM{0}'}" Style="{DynamicResource BoldLable}"  TextColor="{DynamicResource ThemeTextColor}"/>
+
+                                <Label FontSize="14" HorizontalOptions="StartAndExpand" Grid.Row="1" Grid.Column="1" Text="{Binding MemberDetailResponse.matrimonialMember.fullname}" Style="{DynamicResource RegularLable}"  TextColor="{DynamicResource ThemeTextColor}"/>
+
+                                <Label FontSize="10" HorizontalOptions="StartAndExpand" Grid.Row="2" Grid.Column="1" Text="{Binding MemberDetailResponse.matrimonialMember.dob.Value, StringFormat='जन्म तारीख: {0:dd-MMM-yyyy}'}" Style="{DynamicResource RegularLable}"  TextColor="{DynamicResource ThemeTextColor}"/>
+
+                                <Label FontSize="10" HorizontalOptions="StartAndExpand" Grid.Row="3" Grid.Column="1" Text="{Binding MemberDetailResponse.matrimonialMember.fathername, StringFormat='पिता का नाम: {0}'}" Style="{DynamicResource RegularLable}"  TextColor="{DynamicResource ThemeTextColor}"/>
+
+                                <Label FontSize="10" HorizontalOptions="StartAndExpand" Grid.Row="4" Grid.Column="1" Text="{Binding MemberDetailResponse.matrimonialMember.mothername, StringFormat='माता का नाम: {0}'}" Style="{DynamicResource RegularLable}"  TextColor="{DynamicResource ThemeTextColor}"/>
+
+                                <Label FontSize="10" HorizontalOptions="StartAndExpand" Grid.Row="5" Grid.Column="1" Text="{Binding MemberDetailResponse.matrimonialMember.GetAgeHeight,StringFormat='ऊँचाई: {0}'}" Style="{DynamicResource RegularLable}"  TextColor="{DynamicResource ThemeTextColor}"/>
+
+                                <Label FontSize="10" HorizontalOptions="StartAndExpand" Grid.Row="6" Grid.Column="1" Text="वैवाहिक स्थिति: Single" Style="{DynamicResource RegularLable}"  TextColor="{DynamicResource ThemeTextColor}"/>
+
+                                <Label FontSize="10" HorizontalOptions="StartAndExpand" Grid.Row="7" Grid.Column="1" Text="{Binding MemberDetailResponse.matrimonialMember.occupationprofile,StringFormat='व्यवसाय: {0}'}" Style="{DynamicResource RegularLable}"  TextColor="{DynamicResource ThemeTextColor}"/>
+
+                                <Label FontSize="10" HorizontalOptions="StartAndExpand" Grid.Row="8" Grid.Column="1" Text="{Binding MemberDetailResponse.matrimonialMember.IncomeText,StringFormat='वार्षिक आय: {0}'}" Style="{DynamicResource RegularLable}"  TextColor="{DynamicResource ThemeTextColor}"/>
+
+                                <Label FontSize="10" HorizontalOptions="StartAndExpand" Grid.Row="9" Grid.Column="1" MaxLines="2" Text="{Binding MemberDetailResponse.matrimonialMember.education}" Style="{DynamicResource RegularLable}"  TextColor="{DynamicResource ThemeTextColor}"/>
+
+                                <Label FontSize="10" HorizontalOptions="StartAndExpand" Grid.Row="10" Grid.Column="1" Text="{Binding MemberDetailResponse.matrimonialMember.address,StringFormat='पता: {0}'}" Style="{DynamicResource RegularLable}"  TextColor="{DynamicResource ThemeTextColor}"/>
+
+                                <Label FontSize="10" HorizontalOptions="StartAndExpand" Grid.Row="11" Grid.Column="1" Text="{Binding MemberDetailResponse.matrimonialMember.city}" Style="{DynamicResource RegularLable}"  TextColor="{DynamicResource ThemeTextColor}"/>
+
+                            </Grid>
+                        </Frame>
+                    </ContentView>
+
+                </tabview:TabItem>
+
+                <tabview:TabItem HeaderText="परिवार" HeaderTabTextFontSize="12" HeaderTabTextFontFamily="{DynamicResource RegularFont}">
+                    <CollectionView HorizontalOptions="FillAndExpand"  SelectionMode="None" ItemsSource="{Binding MemberDetailResponse.matrimonialFamilyMemberList}">
+                        <CollectionView.ItemsLayout>
+                            <LinearItemsLayout Orientation="Vertical" ItemSpacing="2"  />
+                        </CollectionView.ItemsLayout>
+                        <CollectionView.EmptyView>
+                            <Label Text="No Record Available" Style="{DynamicResource MediumLable}" TextColor="{DynamicResource ThemeTextColor}"/>
+                        </CollectionView.EmptyView>
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <ContentView Margin="10,4" Padding="2,2" BackgroundColor="Transparent">
+                                    <Frame Margin="0,0" BackgroundColor="White" BorderColor="White" HasShadow="True" CornerRadius="0" Padding="2,4,2,0">
+                                        <Grid RowSpacing="1" VerticalOptions="FillAndExpand" RowDefinitions="Auto,Auto,Auto">
+
+                                            <Label FontSize="12" HorizontalOptions="StartAndExpand"  Grid.Row="0" 
+                                                    Style="{DynamicResource BoldLable}" Text="{Binding name,StringFormat='नाम: {0}'}" FontAttributes="Bold" 
+                                                   TextColor="{DynamicResource ThemeTextColor}"/>
+
+                                            <Label FontSize="10" HorizontalOptions="StartAndExpand" Grid.Row="1" Text="{Binding relation,StringFormat='रिश्ता: {0}'}" Style="{DynamicResource RegularLable}"  TextColor="{DynamicResource ThemeTextColor}"/>
+
+                                            <Label FontSize="10" HorizontalOptions="StartAndExpand" Grid.Row="2" Text="{Binding mobile,StringFormat='सम्पर्क नं: {0}'}" Style="{DynamicResource RegularLable}"  TextColor="{DynamicResource ThemeTextColor}"/>
+
+                                        </Grid>
+                                    </Frame>
+                                </ContentView>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+
+                </tabview:TabItem>
+
+                <tabview:TabItem HeaderText="कुंडली" HeaderTabTextFontSize="12" HeaderTabTextFontFamily="{DynamicResource RegularFont}">
+                    <ContentView Margin="10" Padding="2,2" BackgroundColor="Transparent">
+                        <Frame Margin="0,0" BackgroundColor="White" BorderColor="White" HasShadow="True" CornerRadius="10" Padding="2,4,2,4">
+                            <Grid RowSpacing="4" ColumnSpacing="14" RowDefinitions="16,24,14,14,14,14,14,14,14,14,14,14,14" ColumnDefinitions="*,2.5*">
+
+                                <ffimage:CachedImage Margin="2" Grid.Row="0" Grid.RowSpan="9" Grid.Column="0" BackgroundColor="Transparent" Aspect="Fill"  Source="{Binding MemberDetailResponse.matrimonialMember.kundaliImageNameUrl}">
+                                    <ffimage:CachedImage.Transformations>
+                                        <ffTransformations:RoundedTransformation Radius="50" BorderSize="0" BorderHexColor="#FFFFFF"/>
+                                    </ffimage:CachedImage.Transformations>
+                                </ffimage:CachedImage>
+
+                                <Label FontSize="12" HorizontalOptions="StartAndExpand"  Grid.Row="0" Grid.Column="1" Text="नक्षत्र" Style="{DynamicResource BoldLable}"  TextColor="{DynamicResource ThemeTextColor}"/>
+
+                                <Label FontSize="10" HorizontalOptions="StartAndExpand" Grid.Row="1" Grid.Column="1" Text="जन्म तारीख" Style="{DynamicResource RegularLable}"  TextColor="{DynamicResource ThemeTextColor}"/>
+
+                                <Label FontSize="10" HorizontalOptions="StartAndExpand" Grid.Row="2" Grid.Column="1" Text="मांगलिक" Style="{DynamicResource RegularLable}"  TextColor="{DynamicResource ThemeTextColor}"/>
+
+                                <Label FontSize="10" HorizontalOptions="StartAndExpand" Grid.Row="3" Grid.Column="1" Text="जन्म समय" Style="{DynamicResource RegularLable}"  TextColor="{DynamicResource ThemeTextColor}"/>
+
+                                <Label FontSize="10" HorizontalOptions="StartAndExpand" Grid.Row="4" Grid.Column="1" Text="जन्म स्थान" Style="{DynamicResource RegularLable}"  TextColor="{DynamicResource ThemeTextColor}"/>
+
+                                <!--<Label FontSize="10" HorizontalOptions="StartAndExpand" Grid.Row="5" Grid.Column="1" Text="" Style="{DynamicResource RegularLable}"  TextColor="{DynamicResource ThemeTextColor}"/>-->
+
+                            </Grid>
+                        </Frame>
+                    </ContentView>
+                </tabview:TabItem>
+
+                <tabview:TabItem  HeaderText="सम्पर्क सूची" HeaderTabTextFontSize="12" HeaderTabTextFontFamily="{DynamicResource RegularFont}">
+
+                    <CollectionView HorizontalOptions="FillAndExpand"  SelectionMode="None" ItemsSource="{Binding MemberDetailResponse.matrimonialContactList}">
+                        <CollectionView.ItemsLayout>
+                            <LinearItemsLayout Orientation="Vertical" ItemSpacing="2"  />
+                        </CollectionView.ItemsLayout>
+                        <CollectionView.EmptyView>
+                            <Label Text="No Record Available" Style="{DynamicResource MediumLable}" TextColor="{DynamicResource ThemeTextColor}"/>
+                        </CollectionView.EmptyView>
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <ContentView Margin="10,4" Padding="2,2" BackgroundColor="Transparent">
+                                    <Frame Margin="0,0" BackgroundColor="White" BorderColor="White" HeightRequest="60" HasShadow="True" CornerRadius="0" Padding="2,2">
+                                        <Grid Padding="0" RowSpacing="1" RowDefinitions="Auto,Auto,Auto,Auto">
+
+                                            <Label FontSize="12" HorizontalOptions="StartAndExpand"  Grid.Row="0" 
+                                                    Style="{DynamicResource BoldLable}" Text="{Binding name,StringFormat='नाम: {0}'}" FontAttributes="Bold" 
+                                                   TextColor="{DynamicResource ThemeTextColor}"/>
+
+                                            <Label FontSize="10" HorizontalOptions="StartAndExpand" Grid.Row="1" Text="{Binding relation,StringFormat='रिश्ता: {0}'}" Style="{DynamicResource RegularLable}"  TextColor="{DynamicResource ThemeTextColor}"/>
+
+                                            <Label FontSize="10" HorizontalOptions="StartAndExpand" Grid.Row="2" Text="{Binding mobile,StringFormat='सम्पर्क नं: {0}'}" Style="{DynamicResource RegularLable}"  TextColor="{DynamicResource ThemeTextColor}"/>
+
+                                            <Label FontSize="10" HorizontalOptions="StartAndExpand"  Grid.Row="3"  LineBreakMode="TailTruncation" 
+                                                   Text="{Binding FullAddress,StringFormat='पता: {0}'}" MaxLines="2" Style="{DynamicResource RegularLable}"  TextColor="{DynamicResource ThemeTextColor}"/>
+
+                                        </Grid>
+                                    </Frame>
+                                </ContentView>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+
+                </tabview:TabItem>
+
+            </tabview:TabViewControl.ItemSource>
+
+        </tabview:TabViewControl>
+
+    </Grid>
+
+</ContentPage>    

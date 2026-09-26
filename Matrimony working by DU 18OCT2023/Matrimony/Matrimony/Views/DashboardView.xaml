@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Matrimony.Views.DashboardView"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:cell="clr-namespace:Matrimony.Cells"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:ffTransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+    xmlns:ffimage="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    xmlns:ffimageloadingsvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+    xmlns:local="clr-namespace:Matrimony.NewFolder"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="clr-namespace:Matrimony.ViewModels"
+    Title="{Binding Title}"
+    ControlTemplate="{StaticResource MainPageTemplate}"
+    mc:Ignorable="d">
+
+    <NavigationPage.TitleView>
+        <Grid
+            Margin="0,0,8,0"
+            BackgroundColor="Transparent"
+            ColumnDefinitions="*,48"
+            RowDefinitions="48">
+
+            <StackLayout
+                Grid.Column="0"
+                HorizontalOptions="CenterAndExpand"
+                Orientation="Horizontal"
+                VerticalOptions="Center">
+                <ffimageloadingsvg:SvgCachedImage
+                    HeightRequest="16"
+                    Source="resource://Matrimony.Resources.namaste.svg"
+                    WidthRequest="16" />
+                <Label
+                    Style="{DynamicResource MediumLable}"
+                    Text="Jain Matrimonials"
+                    TextColor="White" />
+                <ffimageloadingsvg:SvgCachedImage
+                    HeightRequest="16"
+                    Source="resource://Matrimony.Resources.namaste.svg"
+                    WidthRequest="16" />
+            </StackLayout>
+            <!--<BoxView Grid.Column="1" CornerRadius="26" BackgroundColor="White" WidthRequest="48" HeightRequest="48" />-->
+            <!--<Image BackgroundColor="{DynamicResource ThemeBaseColor}" Grid.Column="1" HeightRequest="48" WidthRequest="48" Source="xamarin_logo.png" Aspect="AspectFit">
+                <Image.Clip>
+                    <EllipseGeometry  Center="26,26" RadiusX="18" RadiusY="18"/>
+                </Image.Clip>
+            </Image>-->
+            <ffimage:CachedImage
+                Grid.Column="1"
+                Margin="2"
+                Aspect="AspectFit"
+                HeightRequest="42"
+                Source="{Binding AppMemberImageUrl}"
+                WidthRequest="42">
+                <ffimage:CachedImage.Transformations>
+                    <ffTransformations:RoundedTransformation
+                        BorderHexColor="#FFFFFF"
+                        BorderSize="10"
+                        CropHeightRatio="42"
+                        CropWidthRatio="42"
+                        Radius="500" />
+                </ffimage:CachedImage.Transformations>
+            </ffimage:CachedImage>
+
+        </Grid>
+    </NavigationPage.TitleView>
+    <ContentPage.ToolbarItems>
+        <!--<ToolbarItem Order="Secondary" Text="About-us" />
+        <ToolbarItem Order="Secondary" Text="Contact-us" />
+        <ToolbarItem Order="Secondary" Text="Help" />-->
+    </ContentPage.ToolbarItems>
+
+    <Grid Padding="10,4,10,2" RowDefinitions="Auto,1.2*,Auto,1.2*,0.8*">
+
+        <StackLayout
+            Grid.Row="0"
+            BackgroundColor="Transparent"
+            HorizontalOptions="FillAndExpand"
+            Orientation="Horizontal"
+            VerticalOptions="FillAndExpand">
+            <Label
+                HorizontalOptions="Start"
+                Style="{DynamicResource BoldLable}"
+                Text="कन्या देखें"
+                TextColor="{DynamicResource ThemeTextColor}"
+                TranslationX="10" />
+            <Button
+                BackgroundColor="Transparent"
+                Clicked="ViewAllBridal_Clicked"
+                FontSize="10"
+                HeightRequest="36"
+                HorizontalOptions="EndAndExpand"
+                Style="{DynamicResource MediumButton}"
+                Text="सभी कन्या देखें"
+                TextColor="{DynamicResource ThemeBaseColor}"
+                TranslationX="10"
+                WidthRequest="100" />
+        </StackLayout>
+        <CollectionView
+            x:Name="femaleCollection"
+            Grid.Row="1"
+            HorizontalOptions="FillAndExpand"
+            ItemsSource="{Binding DashboardResponse.Females, Mode=TwoWay}"
+            SelectionMode="None">
+            <CollectionView.ItemsLayout>
+                <LinearItemsLayout ItemSpacing="10" Orientation="Horizontal" />
+            </CollectionView.ItemsLayout>
+            <CollectionView.EmptyView>
+                <ContentView
+                    Margin="0"
+                    Padding="6"
+                    BackgroundColor="{StaticResource NavigationPrimary}">
+                    <Image
+                        Margin="0"
+                        Aspect="Fill"
+                        HorizontalOptions="FillAndExpand"
+                        Source="ads.png"
+                        VerticalOptions="FillAndExpand" />
+                </ContentView>
+            </CollectionView.EmptyView>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <ContentView
+                        Margin="1,1,4,1"
+                        Padding="0,0"
+                        BackgroundColor="Transparent">
+                        <cell:BridalCell />
+                    </ContentView>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <StackLayout
+            Grid.Row="2"
+            BackgroundColor="Transparent"
+            HorizontalOptions="FillAndExpand"
+            Orientation="Horizontal"
+            VerticalOptions="FillAndExpand">
+            <Label
+                HorizontalOptions="Start"
+                Style="{DynamicResource BoldLable}"
+                Text="वर खोजें"
+                TextColor="{DynamicResource ThemeTextColor}"
+                TranslationX="10" />
+            <Button
+                BackgroundColor="Transparent"
+                Clicked="ViewAllGroom_Clicked"
+                FontSize="10"
+                HeightRequest="36"
+                HorizontalOptions="EndAndExpand"
+                Style="{DynamicResource MediumButton}"
+                Text="सभी वर देखें"
+                TextColor="{DynamicResource ThemeBaseColor}"
+                TranslationX="10"
+                WidthRequest="100" />
+        </StackLayout>
+        <CollectionView
+            Grid.Row="3"
+            HorizontalOptions="FillAndExpand"
+            ItemsSource="{Binding DashboardResponse.Males, Mode=TwoWay}"
+            SelectionMode="None">
+            <CollectionView.ItemsLayout>
+                <LinearItemsLayout ItemSpacing="10" Orientation="Horizontal" />
+            </CollectionView.ItemsLayout>
+            <CollectionView.EmptyView>
+                <ContentView
+                    Margin="0"
+                    Padding="6"
+                    BackgroundColor="{StaticResource NavigationPrimary}">
+                    <Image
+                        Margin="0"
+                        Aspect="Fill"
+                        HorizontalOptions="FillAndExpand"
+                        Source="ads.png"
+                        VerticalOptions="FillAndExpand" />
+                </ContentView>
+            </CollectionView.EmptyView>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <ContentView
+                        Margin="1,1,4,1"
+                        Padding="0,0"
+                        BackgroundColor="Transparent">
+                        <cell:GroomCell />
+                    </ContentView>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <local:BottamToolBoxView
+            Grid.Row="4"
+            Margin="4,6,4,6"
+            Padding="2,2,2,2" />
+
+    </Grid>
+
+</ContentPage>

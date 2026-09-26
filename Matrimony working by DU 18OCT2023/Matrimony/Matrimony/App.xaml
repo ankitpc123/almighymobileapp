@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application
+    x:Class="Matrimony.App"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:ffimageloadingsvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+    xmlns:local="clr-namespace:Matrimony.NewFolder"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <!--  #f08181Global Styles  -->
+            <Color x:Key="NavigationPrimary" />
+            <Color x:Key="ThemeBaseColor">#f9adad</Color>
+            <Color x:Key="ThemeIconColor">#f9adad</Color>
+            <Color x:Key="ThemeTextColor">#303333</Color>
+
+            <OnPlatform x:Key="BoldFont" x:TypeArguments="x:String">
+                <On Platform="Android" Value="Roboto-Bold.ttf#Roboto-Bold" />
+                <On Platform="iOS" Value="Roboto-Bold" />
+            </OnPlatform>
+
+            <OnPlatform x:Key="LightFont" x:TypeArguments="x:String">
+                <On Platform="Android" Value="Roboto-Light.ttf#Roboto-Light" />
+                <On Platform="iOS" Value="Roboto-Light" />
+            </OnPlatform>
+
+            <OnPlatform x:Key="MediumFont" x:TypeArguments="x:String">
+                <On Platform="Android" Value="Roboto-Medium.ttf#Roboto-Medium" />
+                <On Platform="iOS" Value="Roboto-Medium" />
+            </OnPlatform>
+
+            <OnPlatform x:Key="RegularFont" x:TypeArguments="x:String">
+                <On Platform="Android" Value="Roboto-Regular.ttf#Roboto-Regular" />
+                <On Platform="iOS" Value="Roboto-Regular" />
+            </OnPlatform>
+
+            <OnPlatform x:Key="ThinFont" x:TypeArguments="x:String">
+                <On Platform="Android" Value="Roboto-Thin.ttf#Roboto-Thin" />
+                <On Platform="iOS" Value="Roboto-Thin" />
+            </OnPlatform>
+
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="{DynamicResource ThemeBaseColor}" />
+                <Setter Property="BarTextColor" Value="White" />
+            </Style>
+
+            <Style x:Key="RegularLable" TargetType="Label">
+                <Setter Property="FontFamily" Value="{StaticResource RegularFont}" />
+                <Setter Property="HorizontalTextAlignment" Value="Center" />
+                <Setter Property="VerticalTextAlignment" Value="Center" />
+            </Style>
+
+            <Style x:Key="MediumLable" TargetType="Label">
+                <Setter Property="FontFamily" Value="{StaticResource MediumFont}" />
+                <Setter Property="HorizontalTextAlignment" Value="Center" />
+                <Setter Property="VerticalTextAlignment" Value="Center" />
+            </Style>
+
+            <Style x:Key="LightLable" TargetType="Label">
+                <Setter Property="FontFamily" Value="{StaticResource LightFont}" />
+                <Setter Property="HorizontalTextAlignment" Value="Center" />
+                <Setter Property="VerticalTextAlignment" Value="Center" />
+            </Style>
+
+            <Style x:Key="BoldLable" TargetType="Label">
+                <Setter Property="FontFamily" Value="{StaticResource BoldFont}" />
+                <Setter Property="HorizontalTextAlignment" Value="Center" />
+                <Setter Property="VerticalTextAlignment" Value="Center" />
+            </Style>
+
+            <Style x:Key="ThinLable" TargetType="Label">
+                <Setter Property="FontFamily" Value="{StaticResource ThinFont}" />
+                <Setter Property="HorizontalTextAlignment" Value="Center" />
+                <Setter Property="VerticalTextAlignment" Value="Center" />
+            </Style>
+
+            <Style x:Key="RegularEntry" TargetType="Entry">
+                <Setter Property="FontFamily" Value="{StaticResource RegularFont}" />
+            </Style>
+
+            <Style x:Key="RegularButton" TargetType="Button">
+                <Setter Property="FontFamily" Value="{StaticResource RegularFont}" />
+            </Style>
+
+            <Style x:Key="MediumButton" TargetType="Button">
+                <Setter Property="FontFamily" Value="{StaticResource MediumFont}" />
+            </Style>
+
+            <ControlTemplate x:Key="MainPageTemplate">
+                <Grid
+                    Margin="0"
+                    Padding="0" RowSpacing="0"
+                    RowDefinitions="*,50">
+                    <!--<Grid
+                        Grid.Row="0"
+                        Padding="12,6,12,0"
+                        ColumnDefinitions="40,*,40"
+                        HorizontalOptions="FillAndExpand"
+                        RowDefinitions="48,Auto"
+                        VerticalOptions="Center">
+                        <Frame
+                            Grid.ColumnSpan="2" Grid.Row="0"
+                            Padding="8,4,8,4"
+                            BorderColor="White"
+                            CornerRadius="10"
+                            HasShadow="True">
+                            <StackLayout Orientation="Horizontal">
+
+                                <ffimageloadingsvg:SvgCachedImage
+                                    Grid.Column="2"
+                                    HeightRequest="12"
+                                    Source="resource://Matrimony.Resources.search.svg"
+                                    WidthRequest="12" />
+
+                                <Entry
+                                    x:Name="txtSearch"
+                                    Grid.Column="1"
+                                    x:FieldModifier="Public"
+                                    Completed="Search_Tapped"
+                                    FontSize="12"
+                                    HeightRequest="36"
+                                    HorizontalOptions="FillAndExpand"
+                                    Keyboard="Default"
+                                    Placeholder="Search..."
+                                    ReturnType="Search"
+                                    Style="{DynamicResource RegularEntry}"
+                                    Text=""
+                                    TextChanged="txtSearch_TextChanged"
+                                    TextColor="{DynamicResource ThemeTextColor}" />
+
+                            </StackLayout>
+                        </Frame>
+                        <ContentView
+                            Grid.Column="2"
+                            Padding="2"
+                            HeightRequest="40">
+                            <ffimageloadingsvg:SvgCachedImage Grid.Column="2" Source="resource://Matrimony.Resources.add.svg" />
+                            <ContentView.GestureRecognizers>
+                                <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="AddMember_Tapped" />
+                            </ContentView.GestureRecognizers>
+                        </ContentView>
+                        
+                            <Button InputTransparent="False"
+                             Grid.Row="0"
+                            Grid.Column="1" 
+                            BackgroundColor="Transparent"
+                            FontSize="12" VerticalOptions="CenterAndExpand"
+                            HorizontalOptions="EndAndExpand" TranslationX="16"
+                            FontFamily="{StaticResource MediumFont}"
+                            Text="खोजें"
+                            TextColor="Black" Clicked="AdvanceSearch_Tapped"
+                            />
+
+                            <ContentView.GestureRecognizers>
+                                <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="AdvanceSearch_Tapped" />
+                            </ContentView.GestureRecognizers>
+                        </ContentView>
+                    </Grid>-->
+
+                    <ContentPresenter
+                        Grid.Row="0"
+                        HorizontalOptions="FillAndExpand"
+                        VerticalOptions="FillAndExpand" />
+
+                    <ContentView
+                        Grid.Row="1"
+                        BackgroundColor="{DynamicResource ThemeBaseColor}"
+                        HorizontalOptions="FillAndExpand"
+                        VerticalOptions="FillAndExpand">
+                        <local:AnimatedLabel
+                            Style="{DynamicResource RegularLable}"
+                            Text="हम नहीं दिगंबर, श्वेताम्बर, तेरापंथी, स्थानकवासी हम एक धर्म के अनुयायी, हम एक देव के विश्वासी हम जैनी - अपना जैन धर्म, इतना ही परिचय केवल हो हम यही कामना करते है, ऐसा आने वाला कल हो"
+                            TextColor="White" />
+                    </ContentView>
+                </Grid>
+            </ControlTemplate>
+
+            <ControlTemplate x:Key="MainPageBackTemplate">
+                <Grid
+                    Margin="0"
+                    Padding="0"
+                    RowDefinitions="*">
+                    <ContentPresenter
+                        Grid.Row="0"
+                        HorizontalOptions="FillAndExpand"
+                        VerticalOptions="FillAndExpand" />
+                </Grid>
+            </ControlTemplate>
+
+        </ResourceDictionary>
+    </Application.Resources>
+
+</Application>

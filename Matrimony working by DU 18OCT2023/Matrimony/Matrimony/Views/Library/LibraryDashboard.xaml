@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Matrimony.Views.Library.LibraryDashboard"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:cell="clr-namespace:Matrimony.Cells"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:ffTransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+    xmlns:ffimage="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    xmlns:ffimageloadingsvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+    xmlns:local="clr-namespace:Matrimony.NewFolder"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="clr-namespace:Matrimony.ViewModels"
+    Title="{Binding Title}"
+    ControlTemplate="{StaticResource MainPageTemplate}"
+    mc:Ignorable="d">
+    <NavigationPage.TitleView>
+        <Grid
+            Margin="0,0,8,0"
+            BackgroundColor="Transparent"
+            ColumnDefinitions="*,48"
+            RowDefinitions="48">
+
+            <StackLayout
+                Grid.Column="0"
+                HorizontalOptions="CenterAndExpand"
+                Orientation="Horizontal"
+                VerticalOptions="Center">
+                <ffimageloadingsvg:SvgCachedImage
+                    HeightRequest="16"
+                    Source="resource://Matrimony.Resources.namaste.svg"
+                    WidthRequest="16" />
+                <Label
+                    Style="{DynamicResource MediumLable}"
+                    Text="Jain Matrimonials"
+                    TextColor="White" />
+                <ffimageloadingsvg:SvgCachedImage
+                    HeightRequest="16"
+                    Source="resource://Matrimony.Resources.namaste.svg"
+                    WidthRequest="16" />
+            </StackLayout>
+            <!--<BoxView Grid.Column="1" CornerRadius="26" BackgroundColor="White" WidthRequest="48" HeightRequest="48" />-->
+            <!--<Image BackgroundColor="{DynamicResource ThemeBaseColor}" Grid.Column="1" HeightRequest="48" WidthRequest="48" Source="xamarin_logo.png" Aspect="AspectFit">
+                <Image.Clip>
+                    <EllipseGeometry  Center="26,26" RadiusX="18" RadiusY="18"/>
+                </Image.Clip>
+            </Image>-->
+            <ffimage:CachedImage
+                Grid.Column="1"
+                Margin="2"
+                Aspect="AspectFit"
+                HeightRequest="42"
+                Source="{Binding ImageUrl}"
+                WidthRequest="42">
+                <ffimage:CachedImage.Transformations>
+                    <ffTransformations:RoundedTransformation
+                        BorderHexColor="#FFFFFF"
+                        BorderSize="10"
+                        CropHeightRatio="42"
+                        CropWidthRatio="42"
+                        Radius="500" />
+                </ffimage:CachedImage.Transformations>
+            </ffimage:CachedImage>
+
+        </Grid>
+    </NavigationPage.TitleView>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Order="Secondary" Text="About-us" />
+        <ToolbarItem Order="Secondary" Text="Contact-us" />
+        <ToolbarItem Order="Secondary" Text="Help" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Welcome to Xamarin.Forms Libarary!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

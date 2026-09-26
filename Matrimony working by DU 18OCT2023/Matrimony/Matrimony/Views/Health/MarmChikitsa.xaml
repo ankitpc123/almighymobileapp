@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Matrimony.Views.Health.MarmChikitsa">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="मर्म चिकित्सा एवं एक्युपंक्चर"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Grid
+                                ColumnDefinitions="0,*"
+                                ColumnSpacing="14"
+                                RowDefinitions="16,24,14"
+                                RowSpacing="4">
+
+                <Label
+                                    Grid.Row="0"
+                                    Grid.Column="1"
+                                    FontSize="14"
+                                    HorizontalOptions="StartAndExpand"
+                                    Style="{DynamicResource RegularLable}"
+                                    Text="मर्म चिकित्सा एवं एक्युपंक्चर  स्वस्थ शिविर "
+                                    TextColor="{DynamicResource ThemeTextColor}" />
+
+                <Label
+                                    Grid.Row="1"
+                                    Grid.Column="1"
+                                    FontSize="10"
+                                    HorizontalOptions="StartAndExpand"
+                                    Style="{DynamicResource RegularLable}"
+                                    Text="वैवाहिक स्थिति: Single"
+                                    TextColor="{DynamicResource ThemeTextColor}" />
+
+                <Label
+                                    Grid.Row="2"
+                                    Grid.Column="1"
+                                    FontSize="10"
+                                    HorizontalOptions="StartAndExpand"
+                                    Style="{DynamicResource RegularLable}"
+                                    Text="वैवाहिक स्थिति: Single"
+                                    TextColor="{DynamicResource ThemeTextColor}" />
+
+
+
+
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

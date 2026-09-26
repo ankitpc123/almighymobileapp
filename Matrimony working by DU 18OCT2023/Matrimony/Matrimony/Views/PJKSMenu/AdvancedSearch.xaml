@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Matrimony.Views.PJKSMenu.AdvancedSearch"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:cards="clr-namespace:PanCardView;assembly=PanCardView"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:ffTransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+    xmlns:ffimage="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    xmlns:ffimageloadingsvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+    xmlns:local="clr-namespace:Matrimony.NewFolder"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:proc="clr-namespace:PanCardView.Processors;assembly=PanCardView"
+    xmlns:tabview="clr-namespace:Xam.Plugin.TabView;assembly=Xam.Plugin.TabView"
+    xmlns:custom="clr-namespace:Matrimony.ViewModels;assembly=Matrimony"
+    Title="{Binding Title}"
+    ControlTemplate="{StaticResource MainPageBackTemplate}"
+    mc:Ignorable="d">
+    <ContentPage.ToolbarItems>
+        <!--<ToolbarItem Order="Secondary" Text="About-us" />
+        <ToolbarItem Order="Secondary" Text="Contact-us" />
+        <ToolbarItem Order="Secondary" Text="Help" />-->
+    </ContentPage.ToolbarItems>
+    <NavigationPage.TitleView>
+        <Grid
+            Margin="0,0,8,0"
+            BackgroundColor="Transparent"
+            ColumnDefinitions="*,48"
+            RowDefinitions="48">
+
+            <StackLayout
+                Grid.Column="0"
+                HorizontalOptions="CenterAndExpand"
+                Orientation="Horizontal"
+                VerticalOptions="Center">
+                <Label
+                    Style="{DynamicResource MediumLable}"
+                    Text="पारसजनकल्याण संस्थान की जानकारी"
+                    TextColor="White" />
+            </StackLayout>
+            <ffimage:CachedImage
+                Grid.Column="1"
+                Margin="2"
+                Aspect="AspectFit"
+                HeightRequest="42"
+                Source="girl"
+                WidthRequest="42">
+                <ffimage:CachedImage.Transformations>
+                    <ffTransformations:RoundedTransformation
+                        BorderHexColor="#FFFFFF"
+                        BorderSize="10"
+                        CropHeightRatio="42"
+                        CropWidthRatio="42"
+                        Radius="500" />
+                </ffimage:CachedImage.Transformations>
+            </ffimage:CachedImage>
+
+        </Grid>
+    </NavigationPage.TitleView>
+
+    <Grid Padding="10,4,10,2" RowDefinitions="*,100">
+        <tabview:TabViewControl
+            Grid.Row="0"
+            HeaderBackgroundColor="White"
+            HeaderSelectionUnderlineColor="{DynamicResource ThemeBaseColor}"
+            HeaderSelectionUnderlineThickness="2"
+            HeaderTabTextColor="{DynamicResource ThemeTextColor}"
+            HeaderTabTextFontAttributes="Bold"
+            HeaderTabTextFontFamily="{DynamicResource MediumFont}"
+            HeaderTabTextFontSize="16"
+            HorizontalOptions="FillAndExpand"
+            IsSwipeEnabled="True"
+            TabHeaderSpacing="0"
+            VerticalOptions="FillAndExpand">
+            <tabview:TabViewControl.ItemSource>
+                <tabview:TabItem
+                    HeaderTabTextFontFamily="{DynamicResource RegularFont}"
+                    HeaderTabTextFontSize="12"
+                    HeaderText="सर्च विवरण भरें">
+
+                    <TableView
+                Margin="10,4,10,6"
+                BackgroundColor="Transparent"
+                HasUnevenRows="True"
+                RowHeight="-1">
+                        <TableView.Root>
+                            <TableSection>
+                                <ViewCell>
+                                    <ViewCell.View>
+                                        <Grid
+                                    Margin="16,8,10,4"
+                                    ColumnDefinitions="0.5*,0.5*"
+                                    ColumnSpacing="6"
+                                    HeightRequest="80"
+                                    RowDefinitions="20,Auto"
+                                    RowSpacing="0">
+
+                                            <Label
+                                        Grid.Row="0"
+                                        Grid.Column="0"
+                                        FontSize="14"
+                                        HorizontalOptions="StartAndExpand"
+                                        Style="{DynamicResource BoldLable}"
+                                        Text="न्यूनतम उम्र चुनें"
+                                        TextColor="{DynamicResource ThemeTextColor}" />
+
+                                            <Picker
+                                        Title="न्यूनतम उम्र"
+                                        Grid.Row="1"
+                                        Grid.Column="0"
+                                        FontSize="18"
+                                        HorizontalOptions="FillAndExpand"
+                                        SelectedItem="{Binding MinAge}"
+                                        TextColor="{DynamicResource ThemeTextColor}"
+                                        TitleColor="LightGray">
+                                                <Picker.ItemsSource>
+                                                    <x:Array Type="{x:Type x:String}">
+                                                        <x:String>18 years</x:String>
+                                                        <x:String>19 years</x:String>
+                                                        <x:String>20 years</x:String>
+                                                        <x:String>21 years</x:String>
+                                                        <x:String>22 years</x:String>
+                                                        <x:String>23 years</x:String>
+                                                        <x:String>24 years</x:String>
+                                                        <x:String>25 years</x:String>
+                                                        <x:String>26 years</x:String>
+                                                        <x:String>27 years</x:String>
+                                                        <x:String>28 years</x:String>
+                                                        <x:String>29 years</x:String>
+                                                        <x:String>30 years</x:String>
+                                                        <x:String>31 years</x:String>
+                                                        <x:String>32 years</x:String>
+                                                        <x:String>33 years</x:String>
+                                                        <x:String>34 years</x:String>
+                                                        <x:String>35 years</x:String>
+                                                        <x:String>36 years</x:String>
+                                                        <x:String>37 years</x:String>
+                                                        <x:String>38 years</x:String>
+                                                        <x:String>39 years</x:String>
+                                                        <x:String>40years</x:String>
+                                                        <x:String>41years</x:String>
+                                                        <x:String>42years</x:String>
+                                                        <x:String>43years</x:String>
+                                                        <x:String>44years</x:String>
+                                                        <x:String>45years</x:String>
+                                                        <x:String>46years</x:String>
+                                                        <x:String>47years</x:String>
+                                                        <x:String>48years</x:String>
+                                                        <x:String>49years</x:String>
+                                                        <x:String>50years</x:String>
+                                                        <x:String>51years</x:String>
+                                                        <x:String>52years</x:String>
+                                                        <x:String>53years</x:String>
+                                                        <x:String>54years</x:String>
+                                                        <x:String>55years</x:String>
+                                                        <x:String>56years</x:String>
+                                                        <x:String>57years</x:String>
+                                                        <x:String>58years</x:String>
+                                                        <x:String>59years</x:String>
+                                                        <x:String>60years</x:String>
+                                                        <x:String>61years</x:String>
+                                                        <x:String>62years</x:String>
+                                                        <x:String>63years</x:String>
+                                                        <x:String>64years</x:String>
+                                                        <x:String>65years</x:String>
+                                                        <x:String>66years</x:String>
+                                                        <x:String>67years</x:String>
+                                                        <x:String>68years</x:String>
+                                                        <x:String>69years</x:String>
+                                                        <x:String>70years</x:String>
+                                                        <x:String>71years</x:String>
+                                                        <x:String>72years</x:String>
+                                                        <x:String>73years</x:String>
+                                                        <x:String>74years</x:String>
+                                                        <x:String>75years</x:String>
+                                                        <x:String>76years</x:String>
+                                                        <x:String>77years</x:String>
+                                                        <x:String>78years</x:String>
+                                                        <x:String>79years</x:String>
+                                                        <x:String>80years</x:String>
+                                                        <x:String>81years</x:String>
+                                                        <x:String>82years</x:String>
+                                                        <x:String>83years</x:String>
+                                                        <x:String>84years</x:String>
+                                                        <x:String>85years</x:String>
+                                                        <x:String>86years</x:String>
+                                                        <x:String>87years</x:String>
+                                                        <x:String>88years</x:String>
+                                                        <x:String>89years</x:String>
+                                                        <x:String>90years</x:String>
+                                                        <x:String>91years</x:String>
+                                                        <x:String>92years</x:String>
+                                                        <x:String>93years</x:String>
+                                                        <x:String>94years</x:String>
+                                                        <x:String>95years</x:String>
+                                                        <x:String>96years</x:String>
+                                                        <x:String>97years</x:String>
+                                                        <x:String>98years</x:String>
+                                                        <x:String>99years</x:String>
+                                                    </x:Array>
+                                                </Picker.ItemsSource>
+                                            </Picker>
+                                            <ffimageloadingsvg:SvgCachedImage
+                                        Grid.Row="1"
+                                        Grid.Column="0"
+                                        Margin="2"
+                                        HeightRequest="12"
+                                        HorizontalOptions="End"
+                                        Source="resource://Matrimony.Resources.downarrow.svg"
+                                        WidthRequest="12" />
+                                            <Label
+                                        Grid.Row="0"
+                                        Grid.Column="1"
+                                        FontSize="14"
+                                        HorizontalOptions="StartAndExpand"
+                                        Style="{DynamicResource BoldLable}"
+                                        Text="अधिकतम उम्र चुनें"
+                                        TextColor="{DynamicResource ThemeTextColor}" />
+                                            <Picker
+                                        Title="अधिकतम उम्र"
+                                        Grid.Row="1"
+                                        Grid.Column="1"
+                                        FontSize="18"
+                                        HorizontalOptions="FillAndExpand"
+                                        SelectedItem="{Binding MaxAge}"
+                                        TextColor="{DynamicResource ThemeTextColor}"
+                                        TitleColor="LightGray">
+                                                <Picker.ItemsSource>
+                                                    <x:Array Type="{x:Type x:String}">
+                                                        <x:String>23 years</x:String>
+                                                        <x:String>24 years</x:String>
+                                                        <x:String>25 years</x:String>
+                                                        <x:String>26 years</x:String>
+                                                        <x:String>27 years</x:String>
+                                                        <x:String>28 years</x:String>
+                                                        <x:String>29 years</x:String>
+                                                        <x:String>30 years</x:String>
+                                                        <x:String>31 years</x:String>
+                                                        <x:String>32 years</x:String>
+                                                        <x:String>33 years</x:String>
+                                                        <x:String>34 years</x:String>
+                                                        <x:String>35 years</x:String>
+                                                        <x:String>36 years</x:String>
+                                                        <x:String>37 years</x:String>
+                                                        <x:String>38 years</x:String>
+                                                        <x:String>39 years</x:String>
+                                                        <x:String>40years</x:String>
+                                                        <x:String>41years</x:String>
+                                                        <x:String>42years</x:String>
+                                                        <x:String>43years</x:String>
+                                                        <x:String>44years</x:String>
+                                                        <x:String>45years</x:String>
+                                                        <x:String>46years</x:String>
+                                                        <x:String>47years</x:String>
+                                                        <x:String>48years</x:String>
+                                                        <x:String>49years</x:String>
+                                                        <x:String>50years</x:String>
+                                                        <x:String>51years</x:String>
+                                                        <x:String>52years</x:String>
+                                                        <x:String>53years</x:String>
+                                                        <x:String>54years</x:String>
+                                                        <x:String>55years</x:String>
+                                                        <x:String>56years</x:String>
+                                                        <x:String>57years</x:String>
+                                                        <x:String>58years</x:String>
+                                                        <x:String>59years</x:String>
+                                                        <x:String>60years</x:String>
+                                                        <x:String>61years</x:String>
+                                                        <x:String>62years</x:String>
+                                                        <x:String>63years</x:String>
+                                                        <x:String>64years</x:String>
+                                                        <x:String>65years</x:String>
+                                                        <x:String>66years</x:String>
+                                                        <x:String>67years</x:String>
+                                                        <x:String>68years</x:String>
+                                                        <x:String>69years</x:String>
+                                                        <x:String>70years</x:String>
+                                                        <x:String>71years</x:String>
+                                                        <x:String>72years</x:String>
+                                                        <x:String>73years</x:String>
+                                                        <x:String>74years</x:String>
+                                                        <x:String>75years</x:String>
+                                                        <x:String>76years</x:String>
+                                                        <x:String>77years</x:String>
+                                                        <x:String>78years</x:String>
+                                                        <x:String>79years</x:String>
+                                                        <x:String>80years</x:String>
+                                                        <x:String>81years</x:String>
+                                                        <x:String>82years</x:String>
+                                                        <x:String>83years</x:String>
+                                                        <x:String>84years</x:String>
+                                                        <x:String>85years</x:String>
+                                                        <x:String>86years</x:String>
+                                                        <x:String>87years</x:String>
+                                                        <x:String>88years</x:String>
+                                                        <x:String>89years</x:String>
+                                                        <x:String>90years</x:String>
+                                                        <x:String>91years</x:String>
+                                                        <x:String>92years</x:String>
+                                                        <x:String>93years</x:String>
+                                                        <x:String>94years</x:String>
+                                                        <x:String>95years</x:String>
+                                                        <x:String>96years</x:String>
+                                                        <x:String>97years</x:String>
+                                                        <x:String>98years</x:String>
+                                                        <x:String>99years</x:String>
+                                                    </x:Array>
+                                                </Picker.ItemsSource>
+                                            </Picker>
+                                            <ffimageloadingsvg:SvgCachedImage
+                                        Grid.Row="1"
+                                        Grid.Column="1"
+                                        Margin="2"
+                                        HeightRequest="12"
+                                        HorizontalOptions="End"
+                                        Source="resource://Matrimony.Resources.downarrow.svg"
+                                        WidthRequest="12" />
+                                        </Grid>
+                                    </ViewCell.View>
+                                </ViewCell>
+
+                                <ViewCell>
+                                    <ViewCell.View>
+                                        <Grid Margin="16,8,10,4" RowDefinitions="38" ColumnDefinitions="0.5*,1.5*" ColumnSpacing="6">
+
+                                            <Label Grid.Row="0" Grid.Column="0" Style="{DynamicResource MediumLable}" HorizontalOptions="StartAndExpand" 
+                                                   FontSize="14" TextColor="{DynamicResource ThemeTextColor}" 
+                                                                Text="वंश चुनें: "/>
+
+                                            <Picker Grid.Row="0" Grid.Column="1" Title="Select All" 
+                         TitleColor="LightGray" HorizontalOptions="StartAndExpand" FontSize="14" TextColor="{DynamicResource ThemeTextColor}"
+                         ItemsSource="{Binding WanshList}" 
+                         ItemDisplayBinding="{Binding wanshInHindi}" 
+                         SelectedItem="{Binding Wans}" />
+                                        </Grid>
+                                    </ViewCell.View>
+                                </ViewCell>
+                                
+                                <ViewCell>
+                                    <ViewCell.View>
+                                        <Button
+                                    Margin="10,20"
+                                    BackgroundColor="{StaticResource ThemeBaseColor}"
+                                    Command="{Binding AdvanceSearchCommand}"
+                                    Text="खोजें"
+                                    TextColor="White"
+                                    VerticalOptions="End" />
+                                    </ViewCell.View>
+                                </ViewCell>
+                            </TableSection>
+                        </TableView.Root>
+                    </TableView>
+                </tabview:TabItem>
+
+                <tabview:TabItem
+                    HeaderTabTextFontFamily="{DynamicResource RegularFont}"
+                    HeaderTabTextFontSize="12"
+                    HeaderText="जाने,आपके आस-पास और कौन है">
+
+                    <StackLayout>
+                        <custom:CustomMap x:Name="mapView" IsShowingUser="true" />
+                    </StackLayout>
+
+                </tabview:TabItem>
+
+            </tabview:TabViewControl.ItemSource>
+        </tabview:TabViewControl>
+        <!-- Show bottom images gurkul, pujari, tiffin, jain hostel -->
+        <local:BottamToolBoxView
+            Grid.Row="1"
+            HeightRequest="100"
+            VerticalOptions="End"
+            Margin="4,6,4,6"
+            Padding="2,2,2,2" />
+    </Grid>
+
+</ContentPage>              

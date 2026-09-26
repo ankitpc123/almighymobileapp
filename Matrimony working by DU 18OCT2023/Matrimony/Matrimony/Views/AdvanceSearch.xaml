@@ -1,0 +1,627 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Matrimony.Views.AdvanceSearch"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:ffTransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+    xmlns:ffimage="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    xmlns:ffimageloadingsvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+    BackgroundColor="White"
+    mc:Ignorable="d">
+    <NavigationPage.TitleView>
+        <Grid
+            Margin="0,0,8,0"
+            BackgroundColor="Transparent"
+            ColumnDefinitions="*,48"
+            RowDefinitions="48">
+
+            <StackLayout
+                Grid.Column="0"
+                HorizontalOptions="CenterAndExpand"
+                Orientation="Horizontal"
+                VerticalOptions="Center">
+                <ffimageloadingsvg:SvgCachedImage
+                    HeightRequest="16"
+                    Source="resource://Matrimony.Resources.namaste.svg"
+                    WidthRequest="16" />
+                <Label
+                    Style="{DynamicResource MediumLable}"
+                    Text="Jain Matrimonials"
+                    TextColor="White" />
+                <ffimageloadingsvg:SvgCachedImage
+                    HeightRequest="16"
+                    Source="resource://Matrimony.Resources.namaste.svg"
+                    WidthRequest="16" />
+            </StackLayout>
+            <!--<BoxView Grid.Column="1" CornerRadius="26" BackgroundColor="White" WidthRequest="48" HeightRequest="48" />-->
+            <!--<Image BackgroundColor="{DynamicResource ThemeBaseColor}" Grid.Column="1" HeightRequest="48" WidthRequest="48" Source="xamarin_logo.png" Aspect="AspectFit">
+                <Image.Clip>
+                    <EllipseGeometry  Center="26,26" RadiusX="18" RadiusY="18"/>
+                </Image.Clip>
+            </Image>-->
+            <ffimage:CachedImage
+                Grid.Column="1"
+                Margin="2"
+                Aspect="AspectFit"
+                HeightRequest="42"
+                Source="boy"
+                WidthRequest="42">
+                <ffimage:CachedImage.Transformations>
+                    <ffTransformations:RoundedTransformation
+                        BorderHexColor="#FFFFFF"
+                        BorderSize="10"
+                        CropHeightRatio="42"
+                        CropWidthRatio="42"
+                        Radius="500" />
+                </ffimage:CachedImage.Transformations>
+            </ffimage:CachedImage>
+
+        </Grid>
+    </NavigationPage.TitleView>
+    <ContentPage.Content>
+
+        <StackLayout VerticalOptions="FillAndExpand">
+
+            <Grid
+                Grid.Row="0"
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                Margin="10"
+                Padding="10,20"
+                BackgroundColor="Transparent"
+                ColumnDefinitions="0.5*,0.5*"
+                ColumnSpacing="0"
+                HeightRequest="50"
+                RowDefinitions="*">
+
+                <yummy:PancakeView
+                    x:Name="MainBride"
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    BackgroundColor="{StaticResource ThemeBaseColor}"
+                    Border="{yummy:BorderMarkup Color={StaticResource ThemeBaseColor},
+                                                Thickness='1'}"
+                    CornerRadius="5,0,5,0">
+                    <Button
+                        x:Name="MainBrideButton"
+                        BackgroundColor="Transparent"
+                        Clicked="MainBrideButton_Clicked"
+                        HorizontalOptions="Fill"
+                        Text="कन्या खोजें"
+                        TextColor="{Binding BRIDETextColor}"
+                        VerticalOptions="Fill" />
+
+                </yummy:PancakeView>
+                <yummy:PancakeView
+                    x:Name="MainGroom"
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    BackgroundColor="White"
+                    Border="{yummy:BorderMarkup Color={StaticResource ThemeBaseColor},
+                                                Thickness='1'}"
+                    CornerRadius="0,5,0,5">
+                    <Button
+                        x:Name="MainGroomButton"
+                        BackgroundColor="Transparent"
+                        Clicked="MainGroomButton_Clicked"
+                        HorizontalOptions="Fill"
+                        Text="वर खोजें"
+                        TextColor="{StaticResource ThemeBaseColor}"
+                        VerticalOptions="Fill" />
+
+                </yummy:PancakeView>
+
+            </Grid>
+            <TableView
+                Margin="10,4,10,6"
+                BackgroundColor="Transparent"
+                HasUnevenRows="True"
+                RowHeight="-1">
+                <TableView.Root>
+                    <TableSection>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Grid
+                                    Margin="16,8,10,4"
+                                    ColumnDefinitions="0.5*,0.5*"
+                                    ColumnSpacing="6"
+                                    HeightRequest="80"
+                                    RowDefinitions="20,Auto"
+                                    RowSpacing="0">
+
+                                    <Label
+                                        Grid.Row="0"
+                                        Grid.Column="0"
+                                        FontSize="14"
+                                        HorizontalOptions="StartAndExpand"
+                                        Style="{DynamicResource BoldLable}"
+                                        Text="न्यूनतम उम्र"
+                                        TextColor="{DynamicResource ThemeTextColor}" />
+
+                                    <Picker
+                                        Title="न्यूनतम उम्र"
+                                        Grid.Row="1"
+                                        Grid.Column="0"
+                                        FontSize="18"
+                                        HorizontalOptions="FillAndExpand"
+                                        SelectedItem="{Binding MinAge}"
+                                        TextColor="{DynamicResource ThemeTextColor}"
+                                        TitleColor="LightGray">
+                                        <Picker.ItemsSource>
+                                            <x:Array Type="{x:Type x:String}">
+                                                <x:String>18 years</x:String>
+                                                <x:String>19 years</x:String>
+                                                <x:String>20 years</x:String>
+                                                <x:String>21 years</x:String>
+                                                <x:String>22 years</x:String>
+                                                <x:String>23 years</x:String>
+                                                <x:String>24 years</x:String>
+                                                <x:String>25 years</x:String>
+                                                <x:String>26 years</x:String>
+                                                <x:String>27 years</x:String>
+                                                <x:String>28 years</x:String>
+                                                <x:String>29 years</x:String>
+                                                <x:String>30 years</x:String>
+                                                <x:String>31 years</x:String>
+                                                <x:String>32 years</x:String>
+                                                <x:String>33 years</x:String>
+                                                <x:String>34 years</x:String>
+                                                <x:String>35 years</x:String>
+                                                <x:String>36 years</x:String>
+                                                <x:String>37 years</x:String>
+                                                <x:String>38 years</x:String>
+                                                <x:String>39 years</x:String>
+                                                <x:String>40years</x:String>
+                                            </x:Array>
+                                        </Picker.ItemsSource>
+                                    </Picker>
+                                    <ffimageloadingsvg:SvgCachedImage
+                                        Grid.Row="1"
+                                        Grid.Column="0"
+                                        Margin="2"
+                                        HeightRequest="12"
+                                        HorizontalOptions="End"
+                                        Source="resource://Matrimony.Resources.downarrow.svg"
+                                        WidthRequest="12" />
+                                    <Label
+                                        Grid.Row="0"
+                                        Grid.Column="1"
+                                        FontSize="14"
+                                        HorizontalOptions="StartAndExpand"
+                                        Style="{DynamicResource BoldLable}"
+                                        Text="अधिकतम उम्र"
+                                        TextColor="{DynamicResource ThemeTextColor}" />
+                                    <Picker
+                                        Title="अधिकतम उम्र"
+                                        Grid.Row="1"
+                                        Grid.Column="1"
+                                        FontSize="18"
+                                        HorizontalOptions="FillAndExpand"
+                                        SelectedItem="{Binding MaxAge}"
+                                        TextColor="{DynamicResource ThemeTextColor}"
+                                        TitleColor="LightGray">
+                                        <Picker.ItemsSource>
+                                            <x:Array Type="{x:Type x:String}">
+                                                <x:String>23 years</x:String>
+                                                <x:String>24 years</x:String>
+                                                <x:String>25 years</x:String>
+                                                <x:String>26 years</x:String>
+                                                <x:String>27 years</x:String>
+                                                <x:String>28 years</x:String>
+                                                <x:String>29 years</x:String>
+                                                <x:String>30 years</x:String>
+                                                <x:String>31 years</x:String>
+                                                <x:String>32 years</x:String>
+                                                <x:String>33 years</x:String>
+                                                <x:String>34 years</x:String>
+                                                <x:String>35 years</x:String>
+                                                <x:String>36 years</x:String>
+                                                <x:String>37 years</x:String>
+                                                <x:String>38 years</x:String>
+                                                <x:String>39 years</x:String>
+                                                <x:String>40years</x:String>
+                                            </x:Array>
+                                        </Picker.ItemsSource>
+                                    </Picker>
+                                    <ffimageloadingsvg:SvgCachedImage
+                                        Grid.Row="1"
+                                        Grid.Column="1"
+                                        Margin="2"
+                                        HeightRequest="12"
+                                        HorizontalOptions="End"
+                                        Source="resource://Matrimony.Resources.downarrow.svg"
+                                        WidthRequest="12" />
+                                </Grid>
+                            </ViewCell.View>
+                        </ViewCell>
+
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Grid
+                                    Margin="16,8,10,4"
+                                    ColumnDefinitions="0.5*,0.5*"
+                                    ColumnSpacing="6"
+                                    HeightRequest="80"
+                                    RowDefinitions="20,Auto"
+                                    RowSpacing="0">
+
+                                    <Label
+                                        Grid.Row="0"
+                                        Grid.Column="0"
+                                        FontSize="14"
+                                        HorizontalOptions="StartAndExpand"
+                                        Style="{DynamicResource BoldLable}"
+                                        Text="न्यूनतम ऊँचाई"
+                                        TextColor="{DynamicResource ThemeTextColor}" />
+
+                                    <Picker
+                                        Title="न्यूनतम ऊँचाई"
+                                        Grid.Row="1"
+                                        Grid.Column="0"
+                                        FontSize="18"
+                                        HorizontalOptions="FillAndExpand"
+                                        SelectedItem="{Binding MinHeight}"
+                                        TextColor="{DynamicResource ThemeTextColor}"
+                                        TitleColor="LightGray">
+                                        <Picker.ItemsSource>
+                                            <x:Array Type="{x:Type x:String}">
+                                                <x:String>3ft 1''</x:String>
+                                                <x:String>3ft 2''</x:String>
+                                                <x:String>3ft 3''</x:String>
+                                                <x:String>3ft 4''</x:String>
+                                                <x:String>3ft 5''</x:String>
+                                                <x:String>3ft 6''</x:String>
+                                                <x:String>3ft 7''</x:String>
+                                                <x:String>3ft 8''</x:String>
+                                                <x:String>3ft 9''</x:String>
+                                                <x:String>3ft 10''</x:String>
+                                                <x:String>3ft 11''</x:String>
+                                                <x:String>4ft 0''</x:String>
+                                                <x:String>4ft 1''</x:String>
+                                                <x:String>4ft 2''</x:String>
+                                                <x:String>4ft 3''</x:String>
+                                                <x:String>4ft 4''</x:String>
+                                                <x:String>4ft 5''</x:String>
+                                                <x:String>4ft 6''</x:String>
+                                                <x:String>4ft 7''</x:String>
+                                                <x:String>4ft 8''</x:String>
+                                                <x:String>4ft 9''</x:String>
+                                                <x:String>4ft 10''</x:String>
+                                                <x:String>4ft 11''</x:String>
+                                                <x:String>5ft 0''</x:String>
+                                                <x:String>5ft 1''</x:String>
+                                                <x:String>5ft 2''</x:String>
+                                                <x:String>5ft 3''</x:String>
+                                                <x:String>5ft 4''</x:String>
+                                                <x:String>5ft 5''</x:String>
+                                                <x:String>5ft 6''</x:String>
+                                                <x:String>5ft 7''</x:String>
+                                                <x:String>5ft 8''</x:String>
+                                                <x:String>5ft 9''</x:String>
+                                                <x:String>5ft 10''</x:String>
+                                                <x:String>5ft 11''</x:String>
+                                                <x:String>6ft 0''</x:String>
+                                                <x:String>6ft 1''</x:String>
+                                                <x:String>6ft 2''</x:String>
+                                                <x:String>6ft 3''</x:String>
+                                                <x:String>6ft 4''</x:String>
+                                                <x:String>6ft 5''</x:String>
+                                                <x:String>6ft 6''</x:String>
+                                                <x:String>6ft 7''</x:String>
+                                                <x:String>6ft 8''</x:String>
+                                                <x:String>6ft 9''</x:String>
+                                                <x:String>6ft 10''</x:String>
+                                                <x:String>6ft 11''</x:String>
+                                                <x:String>7ft 0''</x:String>
+                                                <x:String>7ft 1''</x:String>
+                                                <x:String>7ft 2''</x:String>
+                                                <x:String>7ft 3''</x:String>
+                                                <x:String>7ft 4''</x:String>
+                                                <x:String>7ft 5''</x:String>
+                                                <x:String>7ft 6''</x:String>
+                                                <x:String>7ft 7''</x:String>
+                                                <x:String>7ft 8''</x:String>
+                                                <x:String>7ft 9''</x:String>
+                                                <x:String>7ft 10''</x:String>
+                                                <x:String>7ft 11''</x:String>
+                                                <x:String>8ft 0''</x:String>
+                                                
+                                            </x:Array>
+                                        </Picker.ItemsSource>
+                                    </Picker>
+                                    <ffimageloadingsvg:SvgCachedImage
+                                        Grid.Row="1"
+                                        Grid.Column="0"
+                                        Margin="2"
+                                        HeightRequest="12"
+                                        HorizontalOptions="End"
+                                        Source="resource://Matrimony.Resources.downarrow.svg"
+                                        WidthRequest="12" />
+                                    <Label
+                                        Grid.Row="0"
+                                        Grid.Column="1"
+                                        FontSize="14"
+                                        HorizontalOptions="StartAndExpand"
+                                        Style="{DynamicResource BoldLable}"
+                                        Text="अधिकतम ऊँचाई"
+                                        TextColor="{DynamicResource ThemeTextColor}" />
+                                    <Picker
+                                        Title="अधिकतम ऊँचाई"
+                                        Grid.Row="1"
+                                        Grid.Column="1"
+                                        FontSize="18"
+                                        HorizontalOptions="FillAndExpand"
+                                        SelectedItem="{Binding MaxHeight}"
+                                        TextColor="{DynamicResource ThemeTextColor}"
+                                        TitleColor="LightGray">
+                                        <Picker.ItemsSource>
+                                            <x:Array Type="{x:Type x:String}">
+                                                <x:String>3ft 1''</x:String>
+                                                <x:String>3ft 2''</x:String>
+                                                <x:String>3ft 3''</x:String>
+                                                <x:String>3ft 4''</x:String>
+                                                <x:String>3ft 5''</x:String>
+                                                <x:String>3ft 6''</x:String>
+                                                <x:String>3ft 7''</x:String>
+                                                <x:String>3ft 8''</x:String>
+                                                <x:String>3ft 9''</x:String>
+                                                <x:String>3ft 10''</x:String>
+                                                <x:String>3ft 11''</x:String>
+                                                <x:String>4ft 0''</x:String>
+                                                <x:String>4ft 1''</x:String>
+                                                <x:String>4ft 2''</x:String>
+                                                <x:String>4ft 3''</x:String>
+                                                <x:String>4ft 4''</x:String>
+                                                <x:String>4ft 5''</x:String>
+                                                <x:String>4ft 6''</x:String>
+                                                <x:String>4ft 7''</x:String>
+                                                <x:String>4ft 8''</x:String>
+                                                <x:String>4ft 9''</x:String>
+                                                <x:String>4ft 10''</x:String>
+                                                <x:String>4ft 11''</x:String>
+                                                <x:String>5ft 0''</x:String>
+                                                <x:String>5ft 1''</x:String>
+                                                <x:String>5ft 2''</x:String>
+                                                <x:String>5ft 3''</x:String>
+                                                <x:String>5ft 4''</x:String>
+                                                <x:String>5ft 5''</x:String>
+                                                <x:String>5ft 6''</x:String>
+                                                <x:String>5ft 7''</x:String>
+                                                <x:String>5ft 8''</x:String>
+                                                <x:String>5ft 9''</x:String>
+                                                <x:String>5ft 10''</x:String>
+                                                <x:String>5ft 11''</x:String>
+                                                <x:String>6ft 0''</x:String>
+                                                <x:String>6ft 1''</x:String>
+                                                <x:String>6ft 2''</x:String>
+                                                <x:String>6ft 3''</x:String>
+                                                <x:String>6ft 4''</x:String>
+                                                <x:String>6ft 5''</x:String>
+                                                <x:String>6ft 6''</x:String>
+                                                <x:String>6ft 7''</x:String>
+                                                <x:String>6ft 8''</x:String>
+                                                <x:String>6ft 9''</x:String>
+                                                <x:String>6ft 10''</x:String>
+                                                <x:String>6ft 11''</x:String>
+                                                <x:String>7ft 0''</x:String>
+                                                <x:String>7ft 1''</x:String>
+                                                <x:String>7ft 2''</x:String>
+                                                <x:String>7ft 3''</x:String>
+                                                <x:String>7ft 4''</x:String>
+                                                <x:String>7ft 5''</x:String>
+                                                <x:String>7ft 6''</x:String>
+                                                <x:String>7ft 7''</x:String>
+                                                <x:String>7ft 8''</x:String>
+                                                <x:String>7ft 9''</x:String>
+                                                <x:String>7ft 10''</x:String>
+                                                <x:String>7ft 11''</x:String>
+                                                <x:String>8ft 0''</x:String>
+
+                                            </x:Array>
+                                        </Picker.ItemsSource>
+                                    </Picker>
+                                    <ffimageloadingsvg:SvgCachedImage
+                                        Grid.Row="1"
+                                        Grid.Column="1"
+                                        Margin="2"
+                                        HeightRequest="12"
+                                        HorizontalOptions="End"
+                                        Source="resource://Matrimony.Resources.downarrow.svg"
+                                        WidthRequest="12" />
+                                </Grid>
+                            </ViewCell.View>
+                        </ViewCell>
+
+                        <!--<ViewCell>
+                            <ViewCell.View>
+                                <Grid
+                                    Margin="16,8,10,4"
+                                    HeightRequest="50"
+                                    HorizontalOptions="FillAndExpand">
+                                    <Picker
+                                        Title="वैवाहिक स्थिति चुनें"
+                                        FontSize="18"
+                                        HorizontalOptions="FillAndExpand"
+                                        SelectedItem="{Binding MaritalStatus}"
+                                        TextColor="{DynamicResource ThemeTextColor}"
+                                        TitleColor="LightGray">
+                                        <Picker.ItemsSource>
+                                            <x:Array Type="{x:Type x:String}">
+                                                <x:String>Single</x:String>
+                                                <x:String>Widowed</x:String>
+                                                <x:String>Separated</x:String>
+                                                <x:String>Divorced</x:String>
+                                            </x:Array>
+                                        </Picker.ItemsSource>
+                                    </Picker>
+                                </Grid>
+                            </ViewCell.View>
+                        </ViewCell>-->
+
+
+
+                        <!--<ViewCell>
+                            <ViewCell.View>
+                                <Grid
+                                    Margin="16,8,10,4"
+                                    HeightRequest="50"
+                                    HorizontalOptions="FillAndExpand">
+                                    <Picker
+                                        Title="Select Religion"
+                                        FontSize="18"
+                                        HorizontalOptions="FillAndExpand"
+                                        SelectedItem="{Binding Religion}"
+                                        TextColor="{DynamicResource ThemeTextColor}"
+                                        TitleColor="LightGray">
+                                        <Picker.ItemsSource>
+                                            <x:Array Type="{x:Type x:String}">
+                                                <x:String>Digember</x:String>
+                                                <x:String>Swetamber</x:String>
+                                            </x:Array>
+                                        </Picker.ItemsSource>
+                                    </Picker>
+                                </Grid>
+                            </ViewCell.View>
+                        </ViewCell>-->
+
+                        <!--<ViewCell>
+                            <ViewCell.View>
+                                <Grid
+                                    Margin="16,8,10,4"
+                                    HeightRequest="50"
+                                    HorizontalOptions="FillAndExpand">
+                                    <Picker
+                                        Title="Select Mother Toungue"
+                                        FontSize="18"
+                                        HorizontalOptions="FillAndExpand"
+                                        SelectedItem="{Binding MotherToungue}"
+                                        TextColor="{DynamicResource ThemeTextColor}"
+                                        TitleColor="LightGray">
+                                        <Picker.ItemsSource>
+                                            <x:Array Type="{x:Type x:String}">
+                                                <x:String>Hindi</x:String>
+                                                <x:String>Bengali</x:String>
+                                                <x:String>Marathi</x:String>
+                                                <x:String>Telugu</x:String>
+                                                <x:String>Tamil</x:String>
+                                                <x:String>Gujarati</x:String>
+                                                <x:String>Urdu</x:String>
+                                                <x:String>Kannada</x:String>
+                                                <x:String>Kannada</x:String>
+                                                <x:String>Malayalam</x:String>
+
+                                            </x:Array>
+                                        </Picker.ItemsSource>
+                                    </Picker>
+                                </Grid>
+                            </ViewCell.View>
+                        </ViewCell>-->
+
+
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Grid
+                                    Margin="16,8,10,4"
+                                    ColumnDefinitions="0.5*,0.5*"
+                                    ColumnSpacing="6"
+                                    HeightRequest="80"
+                                    RowDefinitions="20,Auto"
+                                    RowSpacing="0">
+
+                                    <Label
+                                        Grid.Row="0"
+                                        Grid.Column="0"
+                                        FontSize="14"
+                                        HorizontalOptions="StartAndExpand"
+                                        Style="{DynamicResource BoldLable}"
+                                        Text="न्यूनतम आय"
+                                        TextColor="{DynamicResource ThemeTextColor}" />
+
+                                    <Picker
+                                        Title="न्यूनतम आय"
+                                        Grid.Row="1"
+                                        Grid.Column="0"
+                                        FontSize="18"
+                                        HorizontalOptions="FillAndExpand"
+                                        SelectedItem="{Binding MinIncome}"
+                                        TextColor="{DynamicResource ThemeTextColor}"
+                                        TitleColor="LightGray">
+                                        <Picker.ItemsSource>
+                                            <x:Array Type="{x:Type x:String}">
+                                                <x:String>Rs. 0</x:String>
+                                                <x:String>10000</x:String>
+                                                <x:String>20000</x:String>
+                                                <x:String>30000</x:String>
+                                                <x:String>40000</x:String>
+                                                <x:String>50000</x:String>
+                                                <x:String>60000</x:String>
+                                            </x:Array>
+                                        </Picker.ItemsSource>
+                                    </Picker>
+                                    <ffimageloadingsvg:SvgCachedImage
+                                        Grid.Row="1"
+                                        Grid.Column="0"
+                                        Margin="2"
+                                        HeightRequest="12"
+                                        HorizontalOptions="End"
+                                        Source="resource://Matrimony.Resources.downarrow.svg"
+                                        WidthRequest="12" />
+                                    <Label
+                                        Grid.Row="0"
+                                        Grid.Column="1"
+                                        FontSize="14"
+                                        HorizontalOptions="StartAndExpand"
+                                        Style="{DynamicResource BoldLable}"
+                                        Text="अधिकतम आय"
+                                        TextColor="{DynamicResource ThemeTextColor}" />
+                                    <Picker
+                                        Title="अधिकतम आय"
+                                        Grid.Row="1"
+                                        Grid.Column="1"
+                                        FontSize="18"
+                                        HorizontalOptions="FillAndExpand"
+                                        SelectedItem="{Binding MaxIncome}"
+                                        TextColor="{DynamicResource ThemeTextColor}"
+                                        TitleColor="LightGray">
+                                        <Picker.ItemsSource>
+                                            <x:Array Type="{x:Type x:String}">
+                                                <x:String>60000</x:String>
+                                                <x:String>70000</x:String>
+                                                <x:String>80000</x:String>
+                                                <x:String>90000</x:String>
+                                                <x:String>100000</x:String>
+                                                <x:String>and above</x:String>
+                                            </x:Array>
+                                        </Picker.ItemsSource>
+                                    </Picker>
+                                    <ffimageloadingsvg:SvgCachedImage
+                                        Grid.Row="1"
+                                        Grid.Column="1"
+                                        Margin="2"
+                                        HeightRequest="12"
+                                        HorizontalOptions="End"
+                                        Source="resource://Matrimony.Resources.downarrow.svg"
+                                        WidthRequest="12" />
+                                </Grid>
+                            </ViewCell.View>
+                        </ViewCell>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Button
+                                    Margin="10,20"
+                                    BackgroundColor="{StaticResource ThemeBaseColor}"
+                                    Command="{Binding SearchCommand}"
+                                    Text="खोजें"
+                                    TextColor="White"
+                                    VerticalOptions="End" />
+                            </ViewCell.View>
+                        </ViewCell>
+                    </TableSection>
+                </TableView.Root>
+            </TableView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

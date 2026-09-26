@@ -1,0 +1,225 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PKJ\\18 AUG 2026\\Matrimony working by DU 18OCT2023\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C518DDBA-7E68-44DA-90FD-BD217B49C341}|Matrimony\\Matrimony\\Matrimony.csproj|d:\\pkj\\18 aug 2026\\matrimony working by du 18oct2023\\matrimony\\matrimony\\apiprovider\\apiprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C518DDBA-7E68-44DA-90FD-BD217B49C341}|Matrimony\\Matrimony\\Matrimony.csproj|solutionrelative:matrimony\\matrimony\\apiprovider\\apiprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3B4D8D0-B176-4549-BB9D-C93F7A5A5CD3}|Matrimony\\Matrimony.Android\\Matrimony.Android.csproj|d:\\pkj\\18 aug 2026\\matrimony working by du 18oct2023\\matrimony\\matrimony.android\\properties\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}",
+      "RelativeMoniker": "D:0:0:{D3B4D8D0-B176-4549-BB9D-C93F7A5A5CD3}|Matrimony\\Matrimony.Android\\Matrimony.Android.csproj|solutionrelative:matrimony\\matrimony.android\\properties\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Matrimony.Android||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C518DDBA-7E68-44DA-90FD-BD217B49C341}|Matrimony\\Matrimony\\Matrimony.csproj|d:\\pkj\\18 aug 2026\\matrimony working by du 18oct2023\\matrimony\\matrimony\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C518DDBA-7E68-44DA-90FD-BD217B49C341}|Matrimony\\Matrimony\\Matrimony.csproj|solutionrelative:matrimony\\matrimony\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C518DDBA-7E68-44DA-90FD-BD217B49C341}|Matrimony\\Matrimony\\Matrimony.csproj|d:\\pkj\\18 aug 2026\\matrimony working by du 18oct2023\\matrimony\\matrimony\\managers\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C518DDBA-7E68-44DA-90FD-BD217B49C341}|Matrimony\\Matrimony\\Matrimony.csproj|solutionrelative:matrimony\\matrimony\\managers\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C518DDBA-7E68-44DA-90FD-BD217B49C341}|Matrimony\\Matrimony\\Matrimony.csproj|d:\\pkj\\18 aug 2026\\matrimony working by du 18oct2023\\matrimony\\matrimony\\views\\pjksmenu\\dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C518DDBA-7E68-44DA-90FD-BD217B49C341}|Matrimony\\Matrimony\\Matrimony.csproj|solutionrelative:matrimony\\matrimony\\views\\pjksmenu\\dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C518DDBA-7E68-44DA-90FD-BD217B49C341}|Matrimony\\Matrimony\\Matrimony.csproj|d:\\pkj\\18 aug 2026\\matrimony working by du 18oct2023\\matrimony\\matrimony\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C518DDBA-7E68-44DA-90FD-BD217B49C341}|Matrimony\\Matrimony\\Matrimony.csproj|solutionrelative:matrimony\\matrimony\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C518DDBA-7E68-44DA-90FD-BD217B49C341}|Matrimony\\Matrimony\\Matrimony.csproj|d:\\pkj\\18 aug 2026\\matrimony working by du 18oct2023\\matrimony\\matrimony\\appsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C518DDBA-7E68-44DA-90FD-BD217B49C341}|Matrimony\\Matrimony\\Matrimony.csproj|solutionrelative:matrimony\\matrimony\\appsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C518DDBA-7E68-44DA-90FD-BD217B49C341}|Matrimony\\Matrimony\\Matrimony.csproj|d:\\pkj\\18 aug 2026\\matrimony working by du 18oct2023\\matrimony\\matrimony\\views\\matrimonial\\dashboardview.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C518DDBA-7E68-44DA-90FD-BD217B49C341}|Matrimony\\Matrimony\\Matrimony.csproj|solutionrelative:matrimony\\matrimony\\views\\matrimonial\\dashboardview.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C518DDBA-7E68-44DA-90FD-BD217B49C341}|Matrimony\\Matrimony\\Matrimony.csproj|d:\\pkj\\18 aug 2026\\matrimony working by du 18oct2023\\matrimony\\matrimony\\views\\matrimonial\\dashboardview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{C518DDBA-7E68-44DA-90FD-BD217B49C341}|Matrimony\\Matrimony\\Matrimony.csproj|solutionrelative:matrimony\\matrimony\\views\\matrimonial\\dashboardview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C518DDBA-7E68-44DA-90FD-BD217B49C341}|Matrimony\\Matrimony\\Matrimony.csproj|d:\\pkj\\18 aug 2026\\matrimony working by du 18oct2023\\matrimony\\matrimony\\views\\pjksmenu\\dashboard.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C518DDBA-7E68-44DA-90FD-BD217B49C341}|Matrimony\\Matrimony\\Matrimony.csproj|solutionrelative:matrimony\\matrimony\\views\\pjksmenu\\dashboard.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C518DDBA-7E68-44DA-90FD-BD217B49C341}|Matrimony\\Matrimony\\Matrimony.csproj|d:\\pkj\\18 aug 2026\\matrimony working by du 18oct2023\\matrimony\\matrimony\\views\\pjksmenu\\memberdetail.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C518DDBA-7E68-44DA-90FD-BD217B49C341}|Matrimony\\Matrimony\\Matrimony.csproj|solutionrelative:matrimony\\matrimony\\views\\pjksmenu\\memberdetail.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3B4D8D0-B176-4549-BB9D-C93F7A5A5CD3}|Matrimony\\Matrimony.Android\\Matrimony.Android.csproj|d:\\pkj\\18 aug 2026\\matrimony working by du 18oct2023\\matrimony\\matrimony.android\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|1d0ccc80-25f4-4ae8-a45f-933163a51fb6"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "D:\\PKJ\\18 AUG 2026\\Matrimony working by DU 18OCT2023\\Matrimony\\Matrimony.Android\\Properties\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "Matrimony\\Matrimony.Android\\Properties\\AndroidManifest.xml",
+              "ToolTip": "D:\\PKJ\\18 AUG 2026\\Matrimony working by DU 18OCT2023\\Matrimony\\Matrimony.Android\\Properties\\AndroidManifest.xml",
+              "RelativeToolTip": "Matrimony\\Matrimony.Android\\Properties\\AndroidManifest.xml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-09-05T15:53:35.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Matrimony.Android",
+              "DocumentMoniker": "D:\\PKJ\\18 AUG 2026\\Matrimony working by DU 18OCT2023\\Matrimony\\Matrimony.Android\\Matrimony.Android.csproj",
+              "RelativeDocumentMoniker": "Matrimony\\Matrimony.Android\\Matrimony.Android.csproj",
+              "ToolTip": "D:\\PKJ\\18 AUG 2026\\Matrimony working by DU 18OCT2023\\Matrimony\\Matrimony.Android\\Matrimony.Android.csproj",
+              "RelativeToolTip": "Matrimony\\Matrimony.Android\\Matrimony.Android.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-09-05T15:52:03.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApiProvider.cs",
+              "DocumentMoniker": "D:\\PKJ\\18 AUG 2026\\Matrimony working by DU 18OCT2023\\Matrimony\\Matrimony\\ApiProvider\\ApiProvider.cs",
+              "RelativeDocumentMoniker": "Matrimony\\Matrimony\\ApiProvider\\ApiProvider.cs",
+              "ToolTip": "D:\\PKJ\\18 AUG 2026\\Matrimony working by DU 18OCT2023\\Matrimony\\Matrimony\\ApiProvider\\ApiProvider.cs",
+              "RelativeToolTip": "Matrimony\\Matrimony\\ApiProvider\\ApiProvider.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAawDMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T15:48:11.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\PKJ\\18 AUG 2026\\Matrimony working by DU 18OCT2023\\Matrimony\\Matrimony\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Matrimony\\Matrimony\\App.xaml.cs",
+              "ToolTip": "D:\\PKJ\\18 AUG 2026\\Matrimony working by DU 18OCT2023\\Matrimony\\Matrimony\\App.xaml.cs",
+              "RelativeToolTip": "Matrimony\\Matrimony\\App.xaml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAMwBYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T15:45:08.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Member.cs",
+              "DocumentMoniker": "D:\\PKJ\\18 AUG 2026\\Matrimony working by DU 18OCT2023\\Matrimony\\Matrimony\\Models\\Member.cs",
+              "RelativeDocumentMoniker": "Matrimony\\Matrimony\\Models\\Member.cs",
+              "ToolTip": "D:\\PKJ\\18 AUG 2026\\Matrimony working by DU 18OCT2023\\Matrimony\\Matrimony\\Models\\Member.cs",
+              "RelativeToolTip": "Matrimony\\Matrimony\\Models\\Member.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAkwEIAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T14:26:21.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "D:\\PKJ\\18 AUG 2026\\Matrimony working by DU 18OCT2023\\Matrimony\\Matrimony\\Managers\\ApiService.cs",
+              "RelativeDocumentMoniker": "Matrimony\\Matrimony\\Managers\\ApiService.cs",
+              "ToolTip": "D:\\PKJ\\18 AUG 2026\\Matrimony working by DU 18OCT2023\\Matrimony\\Matrimony\\Managers\\ApiService.cs",
+              "RelativeToolTip": "Matrimony\\Matrimony\\Managers\\ApiService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwPEBAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T15:44:52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DashboardView.xaml",
+              "DocumentMoniker": "D:\\PKJ\\18 AUG 2026\\Matrimony working by DU 18OCT2023\\Matrimony\\Matrimony\\Views\\Matrimonial\\DashboardView.xaml",
+              "RelativeDocumentMoniker": "Matrimony\\Matrimony\\Views\\Matrimonial\\DashboardView.xaml",
+              "ToolTip": "D:\\PKJ\\18 AUG 2026\\Matrimony working by DU 18OCT2023\\Matrimony\\Matrimony\\Views\\Matrimonial\\DashboardView.xaml",
+              "RelativeToolTip": "Matrimony\\Matrimony\\Views\\Matrimonial\\DashboardView.xaml",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAAANgAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-13T15:42:27.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppSetup.cs",
+              "DocumentMoniker": "D:\\PKJ\\18 AUG 2026\\Matrimony working by DU 18OCT2023\\Matrimony\\Matrimony\\AppSetup.cs",
+              "RelativeDocumentMoniker": "Matrimony\\Matrimony\\AppSetup.cs",
+              "ToolTip": "D:\\PKJ\\18 AUG 2026\\Matrimony working by DU 18OCT2023\\Matrimony\\Matrimony\\AppSetup.cs",
+              "RelativeToolTip": "Matrimony\\Matrimony\\AppSetup.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAWwAwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T15:44:54.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dashboard.xaml.cs",
+              "DocumentMoniker": "D:\\PKJ\\18 AUG 2026\\Matrimony working by DU 18OCT2023\\Matrimony\\Matrimony\\Views\\PJKSMenu\\Dashboard.xaml.cs",
+              "RelativeDocumentMoniker": "Matrimony\\Matrimony\\Views\\PJKSMenu\\Dashboard.xaml.cs",
+              "ToolTip": "D:\\PKJ\\18 AUG 2026\\Matrimony working by DU 18OCT2023\\Matrimony\\Matrimony\\Views\\PJKSMenu\\Dashboard.xaml.cs",
+              "RelativeToolTip": "Matrimony\\Matrimony\\Views\\PJKSMenu\\Dashboard.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T15:34:45.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DashboardView.xaml.cs",
+              "DocumentMoniker": "D:\\PKJ\\18 AUG 2026\\Matrimony working by DU 18OCT2023\\Matrimony\\Matrimony\\Views\\Matrimonial\\DashboardView.xaml.cs",
+              "RelativeDocumentMoniker": "Matrimony\\Matrimony\\Views\\Matrimonial\\DashboardView.xaml.cs",
+              "ToolTip": "D:\\PKJ\\18 AUG 2026\\Matrimony working by DU 18OCT2023\\Matrimony\\Matrimony\\Views\\Matrimonial\\DashboardView.xaml.cs",
+              "RelativeToolTip": "Matrimony\\Matrimony\\Views\\Matrimonial\\DashboardView.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T15:43:53.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MemberDetail.xaml",
+              "DocumentMoniker": "D:\\PKJ\\18 AUG 2026\\Matrimony working by DU 18OCT2023\\Matrimony\\Matrimony\\Views\\PJKSMenu\\MemberDetail.xaml",
+              "RelativeDocumentMoniker": "Matrimony\\Matrimony\\Views\\PJKSMenu\\MemberDetail.xaml",
+              "ToolTip": "D:\\PKJ\\18 AUG 2026\\Matrimony working by DU 18OCT2023\\Matrimony\\Matrimony\\Views\\PJKSMenu\\MemberDetail.xaml",
+              "RelativeToolTip": "Matrimony\\Matrimony\\Views\\PJKSMenu\\MemberDetail.xaml",
+              "ViewState": "AgIAAF8BAAAAAAAAAAAAALgBAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-11T12:20:45.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Dashboard.xaml",
+              "DocumentMoniker": "D:\\PKJ\\18 AUG 2026\\Matrimony working by DU 18OCT2023\\Matrimony\\Matrimony\\Views\\PJKSMenu\\Dashboard.xaml",
+              "RelativeDocumentMoniker": "Matrimony\\Matrimony\\Views\\PJKSMenu\\Dashboard.xaml",
+              "ToolTip": "D:\\PKJ\\18 AUG 2026\\Matrimony working by DU 18OCT2023\\Matrimony\\Matrimony\\Views\\PJKSMenu\\Dashboard.xaml",
+              "RelativeToolTip": "Matrimony\\Matrimony\\Views\\PJKSMenu\\Dashboard.xaml",
+              "ViewState": "AgIAALMBAAAAAAAAAAAAAMEBAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-11T11:36:24.368Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,605 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Matrimony.Views.SearchView"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:cards="clr-namespace:PanCardView;assembly=PanCardView"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:ffTransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+    xmlns:ffimage="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:proc="clr-namespace:PanCardView.Processors;assembly=PanCardView"
+    xmlns:tabview="clr-namespace:Xam.Plugin.TabView;assembly=Xam.Plugin.TabView"
+    Title="{Binding Title}"
+    ControlTemplate="{StaticResource MainPageBackTemplate}"
+    mc:Ignorable="d">
+    <NavigationPage.TitleView>
+        <Grid
+            Margin="0,0,8,0"
+            BackgroundColor="Transparent"
+            ColumnDefinitions="*,48"
+            RowDefinitions="48">
+
+            <StackLayout
+                Grid.Column="0"
+                HorizontalOptions="CenterAndExpand"
+                Orientation="Horizontal"
+                VerticalOptions="Center">
+                <Label
+                    Style="{DynamicResource MediumLable}"
+                    Text="Search"
+                    TextColor="White" />
+            </StackLayout>
+            <!--<ffimage:CachedImage Margin="2"  Aspect="AspectFit"  Grid.Column="1" HeightRequest="42" WidthRequest="42"  Source="girl">
+                    <ffimage:CachedImage.Transformations>
+                        <ffTransformations:RoundedTransformation CropHeightRatio="42" CropWidthRatio="42" Radius="500" BorderSize="10" BorderHexColor="#FFFFFF"/>
+                    </ffimage:CachedImage.Transformations>
+                </ffimage:CachedImage>-->
+
+        </Grid>
+    </NavigationPage.TitleView>
+
+    <Grid Padding="10,4,10,2">
+
+        <TableView
+            Margin="10,4,10,6"
+            BackgroundColor="Transparent"
+            HasUnevenRows="True"
+            RowHeight="-1">
+            <TableView.Root>
+                <TableSection>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <Grid ColumnDefinitions="*,*">
+                                <Button
+                                    x:Name="btnBride"
+                                    BackgroundColor="{StaticResource NavigationPrimary}"
+                                    BorderColor="{StaticResource NavigationPrimary}"
+                                    BorderWidth="1"
+                                    CornerRadius="0"
+                                    FontFamily="{StaticResource RegularFont}"
+                                    Text="Bride"
+                                    TextColor="{StaticResource ThemeTextColor}" />
+                                <Button
+                                    x:Name="btnGroom"
+                                    BackgroundColor="{StaticResource NavigationPrimary}"
+                                    BorderColor="{StaticResource NavigationPrimary}"
+                                    BorderWidth="1"
+                                    CornerRadius="0"
+                                    FontFamily="{StaticResource RegularFont}"
+                                    Text="Bride"
+                                    TextColor="{StaticResource ThemeTextColor}" />
+                            </Grid>
+                        </ViewCell.View>
+                    </ViewCell>
+                </TableSection>
+
+                <TableSection Title="Personal Information">
+
+                    <EntryCell Placeholder="First name" Text="{Binding FirstName}" />
+                    <EntryCell Placeholder="Middle name" Text="{Binding MiddleName}" />
+                    <EntryCell Placeholder="Last name" Text="{Binding LastName}" />
+
+                    <EntryCell
+                        Keyboard="Telephone"
+                        Placeholder="Mobile no."
+                        Text="{Binding MobileNo}" />
+
+                    <EntryCell
+                        Keyboard="Email"
+                        Placeholder="Email address"
+                        Text="{Binding EMail}" />
+
+
+                    <ViewCell>
+                        <ViewCell.View>
+                            <Grid
+                                Margin="16,8,10,4"
+                                ColumnDefinitions="*,1.5*,*,*"
+                                ColumnSpacing="6"
+                                RowDefinitions="38">
+
+                                <Label
+                                    Grid.Row="0"
+                                    Grid.Column="0"
+                                    FontSize="14"
+                                    HorizontalOptions="StartAndExpand"
+                                    Style="{DynamicResource MediumLable}"
+                                    Text="Birth date: "
+                                    TextColor="{DynamicResource ThemeTextColor}" />
+
+                                <DatePicker
+                                    Grid.Row="0"
+                                    Grid.Column="1"
+                                    Date="{Binding BirthDate}"
+                                    FontFamily="{StaticResource RegularFont}"
+                                    FontSize="14"
+                                    Format="dd-MMM-yyyy"
+                                    HorizontalOptions="StartAndExpand"
+                                    TextColor="{StaticResource ThemeTextColor}" />
+                                <Label
+                                    Grid.Row="0"
+                                    Grid.Column="2"
+                                    FontSize="14"
+                                    HorizontalOptions="StartAndExpand"
+                                    Style="{DynamicResource MediumLable}"
+                                    Text="Birth time: "
+                                    TextColor="{DynamicResource ThemeTextColor}" />
+                                <TimePicker
+                                    Grid.Row="0"
+                                    Grid.Column="3"
+                                    FontFamily="{StaticResource RegularFont}"
+                                    FontSize="14"
+                                    Format="hh:mm tt"
+                                    HorizontalOptions="EndAndExpand"
+                                    TextColor="{StaticResource ThemeTextColor}"
+                                    Time="{Binding BirthTime}" />
+
+
+                            </Grid>
+                        </ViewCell.View>
+                    </ViewCell>
+
+                    <ViewCell>
+                        <ViewCell.View>
+                            <Grid
+                                Margin="16,8,10,4"
+                                ColumnDefinitions="Auto,Auto,Auto"
+                                ColumnSpacing="6"
+                                RowDefinitions="38">
+
+                                <Label
+                                    Grid.Row="0"
+                                    Grid.Column="0"
+                                    FontSize="14"
+                                    HorizontalOptions="StartAndExpand"
+                                    Style="{DynamicResource MediumLable}"
+                                    Text="Gender: "
+                                    TextColor="{DynamicResource ThemeTextColor}" />
+                                <RadioButton
+                                    Grid.Row="0"
+                                    Grid.Column="1"
+                                    BackgroundColor="Transparent"
+                                    BorderColor="Transparent"
+                                    GroupName="gender"
+                                    IsChecked="{Binding IsMale}"
+                                    Value="Male"
+                                    TextColor="{StaticResource ThemeTextColor}" />
+
+                                <RadioButton
+                                    Grid.Row="0"
+                                    Grid.Column="2"
+                                    BackgroundColor="Transparent"
+                                    BorderColor="Transparent"
+                                    GroupName="gender"
+                                    Value="Female"
+                                    TextColor="{StaticResource ThemeTextColor}" />
+
+
+                            </Grid>
+                        </ViewCell.View>
+                    </ViewCell>
+
+
+                    <EntryCell Placeholder="Birth place" Text="{Binding BirthPlace}" />
+
+                    <ViewCell>
+                        <ViewCell.View>
+                            <Grid
+                                Margin="16,8,10,4"
+                                ColumnDefinitions="0.5*,1.5*"
+                                ColumnSpacing="6"
+                                RowDefinitions="38">
+
+                                <Label
+                                    Grid.Row="0"
+                                    Grid.Column="0"
+                                    FontSize="14"
+                                    HorizontalOptions="StartAndExpand"
+                                    Style="{DynamicResource MediumLable}"
+                                    Text="Religion: "
+                                    TextColor="{DynamicResource ThemeTextColor}" />
+
+                                <Picker
+                                    Title="Select Religion"
+                                    Grid.Row="0"
+                                    Grid.Column="1"
+                                    FontSize="14"
+                                    HorizontalOptions="StartAndExpand"
+                                    SelectedItem="{Binding SelectedReligion}"
+                                    TextColor="{DynamicResource ThemeTextColor}"
+                                    TitleColor="LightGray">
+                                    <Picker.ItemsSource>
+                                        <x:Array Type="{x:Type x:String}">
+                                            <x:String>Digember</x:String>
+                                            <x:String>Swetamber</x:String>
+                                        </x:Array>
+                                    </Picker.ItemsSource>
+                                </Picker>
+
+                            </Grid>
+                        </ViewCell.View>
+                    </ViewCell>
+
+                    <ViewCell>
+                        <ViewCell.View>
+                            <Grid
+                                Margin="16,8,10,4"
+                                ColumnDefinitions="0.5*,1.5*"
+                                ColumnSpacing="6"
+                                RowDefinitions="38">
+
+                                <Label
+                                    Grid.Row="0"
+                                    Grid.Column="0"
+                                    FontSize="14"
+                                    HorizontalOptions="StartAndExpand"
+                                    Style="{DynamicResource MediumLable}"
+                                    Text="Sub Religion: "
+                                    TextColor="{DynamicResource ThemeTextColor}" />
+
+                                <Picker
+                                    Title="Select Sub-Religion"
+                                    Grid.Row="0"
+                                    Grid.Column="1"
+                                    FontSize="14"
+                                    HorizontalOptions="StartAndExpand"
+                                    SelectedItem="{Binding SubSelectedReligion}"
+                                    TextColor="{DynamicResource ThemeTextColor}"
+                                    TitleColor="LightGray">
+                                    <Picker.ItemsSource>
+                                        <x:Array Type="{x:Type x:String}">
+                                            <x:String>Golapoorva</x:String>
+                                            <x:String>Pariwar</x:String>
+                                            <x:String>Khandelwal</x:String>
+                                            <x:String>Jaiswal</x:String>
+                                            <x:String>Palliwal</x:String>
+                                            <x:String>TaranTaran</x:String>
+                                            <x:String>Simaiya</x:String>
+
+                                        </x:Array>
+                                    </Picker.ItemsSource>
+                                </Picker>
+
+                            </Grid>
+                        </ViewCell.View>
+                    </ViewCell>
+
+                    <ViewCell>
+                        <ViewCell.View>
+                            <Grid
+                                Margin="16,8,10,4"
+                                ColumnDefinitions="Auto,Auto,Auto"
+                                ColumnSpacing="6"
+                                RowDefinitions="38">
+
+                                <Label
+                                    Grid.Row="0"
+                                    Grid.Column="0"
+                                    FontSize="14"
+                                    HorizontalOptions="StartAndExpand"
+                                    Style="{DynamicResource MediumLable}"
+                                    Text="Manglik: "
+                                    TextColor="{DynamicResource ThemeTextColor}" />
+                                <RadioButton
+                                    Grid.Row="0"
+                                    Grid.Column="1"
+                                    BackgroundColor="Transparent"
+                                    BorderColor="Transparent"
+                                    GroupName="manglik"
+                                    IsChecked="{Binding IsManglik}"
+                                    Value="Yes"
+                                    TextColor="{StaticResource ThemeTextColor}" />
+
+                                <RadioButton
+                                    Grid.Row="0"
+                                    Grid.Column="2"
+                                    BackgroundColor="Transparent"
+                                    BorderColor="Transparent"
+                                    GroupName="manglik"
+                                    Value="No"
+                                    TextColor="{StaticResource ThemeTextColor}" />
+
+
+                            </Grid>
+                        </ViewCell.View>
+                    </ViewCell>
+
+
+                    <EntryCell Placeholder="Wans" Text="{Binding Wans}" />
+                    <EntryCell Placeholder="Gotra" Text="{Binding Gotra}" />
+
+                    <ViewCell>
+                        <ViewCell.View>
+                            <Grid
+                                Margin="16,8,10,4"
+                                ColumnDefinitions="Auto,Auto,Auto"
+                                ColumnSpacing="6"
+                                RowDefinitions="38">
+
+                                <Label
+                                    Grid.Row="0"
+                                    Grid.Column="0"
+                                    FontSize="14"
+                                    HorizontalOptions="StartAndExpand"
+                                    Style="{DynamicResource MediumLable}"
+                                    Text="Milan: "
+                                    TextColor="{DynamicResource ThemeTextColor}" />
+                                <RadioButton
+                                    Grid.Row="0"
+                                    Grid.Column="1"
+                                    BackgroundColor="Transparent"
+                                    BorderColor="Transparent"
+                                    GroupName="milan"
+                                    IsChecked="{Binding IsMilan}"
+                                    Value="Yes"
+                                    TextColor="{StaticResource ThemeTextColor}" />
+
+                                <RadioButton
+                                    Grid.Row="0"
+                                    Grid.Column="2"
+                                    BackgroundColor="Transparent"
+                                    BorderColor="Transparent"
+                                    GroupName="milan"
+                                    Value="No"
+                                    TextColor="{StaticResource ThemeTextColor}" />
+
+
+                            </Grid>
+                        </ViewCell.View>
+                    </ViewCell>
+
+
+                    <ViewCell>
+                        <ViewCell.View>
+                            <Grid
+                                Margin="16,8,10,4"
+                                ColumnDefinitions="Auto,Auto,Auto"
+                                ColumnSpacing="6"
+                                RowDefinitions="38">
+
+                                <Label
+                                    Grid.Row="0"
+                                    Grid.Column="0"
+                                    FontSize="14"
+                                    HorizontalOptions="StartAndExpand"
+                                    Style="{DynamicResource MediumLable}"
+                                    Text="Height: "
+                                    TextColor="{DynamicResource ThemeTextColor}" />
+
+                                <Picker
+                                    Title="In Feet"
+                                    Grid.Row="0"
+                                    Grid.Column="1"
+                                    FontSize="14"
+                                    HorizontalOptions="CenterAndExpand"
+                                    SelectedItem="{Binding SelectedHeightInft}"
+                                    TextColor="{DynamicResource ThemeTextColor}"
+                                    TitleColor="LightGray">
+                                    <Picker.ItemsSource>
+                                        <x:Array Type="{x:Type x:String}">
+                                            <x:String>3ft</x:String>
+                                            <x:String>4ft</x:String>
+                                            <x:String>5ft</x:String>
+                                            <x:String>6ft</x:String>
+                                            <x:String>7ft</x:String>
+                                            <x:String>8ft</x:String>
+                                        </x:Array>
+                                    </Picker.ItemsSource>
+                                </Picker>
+
+                                <Picker
+                                    Title="In Inches"
+                                    Grid.Row="0"
+                                    Grid.Column="2"
+                                    FontSize="14"
+                                    HorizontalOptions="CenterAndExpand"
+                                    SelectedItem="{Binding SelectedHeightInInch}"
+                                    TextColor="{DynamicResource ThemeTextColor}"
+                                    TitleColor="LightGray">
+                                    <Picker.ItemsSource>
+                                        <x:Array Type="{x:Type x:String}">
+                                            <x:String>0 Inch</x:String>
+                                            <x:String>1 Inch</x:String>
+                                            <x:String>2 Inch</x:String>
+                                            <x:String>3 Inch</x:String>
+                                            <x:String>4 Inch</x:String>
+                                            <x:String>5 Inch</x:String>
+                                            <x:String>6 Inch</x:String>
+                                            <x:String>7 Inch</x:String>
+                                            <x:String>8 Inch</x:String>
+                                            <x:String>9 Inch</x:String>
+                                            <x:String>10 Inch</x:String>
+                                            <x:String>11 Inch</x:String>
+                                        </x:Array>
+                                    </Picker.ItemsSource>
+                                </Picker>
+
+                            </Grid>
+                        </ViewCell.View>
+                    </ViewCell>
+
+
+                    <EntryCell
+                        Keyboard="Numeric"
+                        Placeholder="Monthly Income"
+                        Text="{Binding MonthlyIncome}" />
+
+
+                    <EntryCell
+                        Keyboard="Default"
+                        Placeholder="Address"
+                        Text="{Binding Address}" />
+
+                    <EntryCell
+                        Keyboard="Default"
+                        Placeholder="City"
+                        Text="{Binding City}" />
+                    <EntryCell
+                        Keyboard="Default"
+                        Placeholder="State"
+                        Text="{Binding State}" />
+                    <EntryCell
+                        Keyboard="Numeric"
+                        Placeholder="Zip code"
+                        Text="{Binding ZipCode}" />
+                </TableSection>
+                <TableSection Title="Family Details">
+
+                    <EntryCell Placeholder="Fathers name" Text="{Binding FatherName}" />
+
+                    <EntryCell Placeholder="Mothers name" Text="{Binding MotherName}" />
+
+
+                    <EntryCell Placeholder="Contact no." Text="{Binding ContactNo}" />
+
+                    <ViewCell>
+                        <ViewCell.View>
+                            <Grid
+                                Margin="16,1,10,1"
+                                ColumnDefinitions="*,*"
+                                ColumnSpacing="6"
+                                RowDefinitions="38">
+
+                                <Label
+                                    Grid.Row="0"
+                                    Grid.Column="0"
+                                    FontSize="14"
+                                    HorizontalOptions="StartAndExpand"
+                                    Style="{DynamicResource MediumLable}"
+                                    Text="Father occupation: "
+                                    TextColor="{DynamicResource ThemeTextColor}" />
+
+                                <Picker
+                                    Title="Select a occupation"
+                                    Grid.Row="0"
+                                    Grid.Column="1"
+                                    FontSize="14"
+                                    HorizontalOptions="EndAndExpand"
+                                    SelectedItem="{Binding SelectOccupation}"
+                                    TextColor="{DynamicResource ThemeTextColor}"
+                                    TitleColor="LightGray">
+                                    <Picker.ItemsSource>
+                                        <x:Array Type="{x:Type x:String}">
+                                            <x:String>Business</x:String>
+                                            <x:String>Service</x:String>
+                                        </x:Array>
+                                    </Picker.ItemsSource>
+                                </Picker>
+
+                            </Grid>
+                        </ViewCell.View>
+                    </ViewCell>
+
+                    <ViewCell>
+                        <ViewCell.View>
+                            <Grid
+                                Margin="16,1,10,1"
+                                ColumnDefinitions="*,*,*"
+                                ColumnSpacing="6"
+                                RowDefinitions="38">
+
+                                <Label
+                                    Grid.Row="0"
+                                    Grid.Column="0"
+                                    FontSize="14"
+                                    HorizontalOptions="StartAndExpand"
+                                    Style="{DynamicResource MediumLable}"
+                                    Text="Siblings: "
+                                    TextColor="{DynamicResource ThemeTextColor}" />
+
+                                <Entry
+                                    Grid.Column="1"
+                                    FontSize="12"
+                                    HeightRequest="36"
+                                    Keyboard="Numeric"
+                                    Placeholder="Sisters"
+                                    Style="{DynamicResource RegularEntry}"
+                                    Text="{Binding Sisters}"
+                                    TextColor="{DynamicResource ThemeTextColor}" />
+                                <Entry
+                                    Grid.Column="2"
+                                    FontSize="12"
+                                    HeightRequest="36"
+                                    Keyboard="Numeric"
+                                    Placeholder="Brothers"
+                                    Style="{DynamicResource RegularEntry}"
+                                    Text="{Binding Brothers}"
+                                    TextColor="{DynamicResource ThemeTextColor}" />
+
+
+                            </Grid>
+                        </ViewCell.View>
+                    </ViewCell>
+                </TableSection>
+                <TableSection Title="Educational Details">
+                    <ViewCell>
+                        <ViewCell.View>
+                            <Grid
+                                Margin="16,1,10,1"
+                                ColumnDefinitions="*,*"
+                                ColumnSpacing="6"
+                                RowDefinitions="38">
+
+                                <Label
+                                    Grid.Row="0"
+                                    Grid.Column="0"
+                                    FontSize="14"
+                                    HorizontalOptions="StartAndExpand"
+                                    Style="{DynamicResource MediumLable}"
+                                    Text="Higher Education: "
+                                    TextColor="{DynamicResource ThemeTextColor}" />
+
+                                <Picker
+                                    Title="Select Education"
+                                    Grid.Row="0"
+                                    Grid.Column="1"
+                                    FontSize="14"
+                                    HorizontalOptions="EndAndExpand"
+                                    SelectedItem="{Binding SelectEducation}"
+                                    TextColor="{DynamicResource ThemeTextColor}"
+                                    TitleColor="LightGray">
+                                    <Picker.ItemsSource>
+                                        <x:Array Type="{x:Type x:String}">
+                                            <x:String>High School</x:String>
+                                            <x:String>Higher Secondary</x:String>
+                                            <x:String>Under Graduate</x:String>
+                                            <x:String>Graduate</x:String>
+                                            <x:String>Under Post Graduate</x:String>
+                                            <x:String>Post Graduate</x:String>
+                                            <x:String>Phd</x:String>
+                                        </x:Array>
+                                    </Picker.ItemsSource>
+                                </Picker>
+
+                            </Grid>
+
+
+                        </ViewCell.View>
+                    </ViewCell>
+
+
+                    <EntryCell
+                        Keyboard="Default"
+                        Placeholder="Cource name"
+                        Text="{Binding CourceName}" />
+
+                    <ViewCell>
+                        <ViewCell.View>
+                            <Button
+                                Margin="10,20"
+                                BackgroundColor="{StaticResource NavigationPrimary}"
+                                Command="{Binding SaveCommand}"
+                                Text="Save"
+                                TextColor="White" />
+                        </ViewCell.View>
+                    </ViewCell>
+                </TableSection>
+
+            </TableView.Root>
+
+        </TableView>
+    </Grid>
+
+
+</ContentPage>

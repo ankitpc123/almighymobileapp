@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Matrimony.Views.ContactUs"
+             xmlns:vm="clr-namespace:Matrimony.ViewModels" xmlns:ffimageloadingsvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms" xmlns:ffimage="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms" xmlns:ffTransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+             Title="{Binding Title}" ControlTemplate="{StaticResource MainPageTemplate}">
+
+    <NavigationPage.TitleView>
+        <Grid ColumnDefinitions="*,48" RowDefinitions="48" BackgroundColor="Transparent" Margin="0,0,8,0">
+
+            <StackLayout Orientation="Horizontal" Grid.Column="0" HorizontalOptions="CenterAndExpand" VerticalOptions="Center">
+                <ffimageloadingsvg:SvgCachedImage  WidthRequest="16" HeightRequest="16" Source="resource://Matrimony.Resources.namaste.svg"/>
+                <Label Style="{DynamicResource MediumLable}" TextColor="White" Text="Jain Matrimonials"/>
+                <ffimageloadingsvg:SvgCachedImage  WidthRequest="16" HeightRequest="16" Source="resource://Matrimony.Resources.namaste.svg"/>
+            </StackLayout>
+            <!--<BoxView Grid.Column="1" CornerRadius="26" BackgroundColor="White" WidthRequest="48" HeightRequest="48" />-->
+            <!--<Image BackgroundColor="{DynamicResource ThemeBaseColor}" Grid.Column="1" HeightRequest="48" WidthRequest="48" Source="xamarin_logo.png" Aspect="AspectFit">
+                <Image.Clip>
+                    <EllipseGeometry  Center="26,26" RadiusX="18" RadiusY="18"/>
+                </Image.Clip>
+            </Image>-->
+            <ffimage:CachedImage Margin="2"  Aspect="AspectFit"  Grid.Column="1" HeightRequest="42" WidthRequest="42"  Source="boy">
+                <ffimage:CachedImage.Transformations>
+                    <ffTransformations:RoundedTransformation CropHeightRatio="42" CropWidthRatio="42" Radius="500" BorderSize="10" BorderHexColor="#FFFFFF"/>
+                </ffimage:CachedImage.Transformations>
+            </ffimage:CachedImage>
+
+        </Grid>
+    </NavigationPage.TitleView>
+
+    <!--<Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        
+       
+        
+    </Grid>-->
+    <StackLayout>
+        <Frame
+                Padding="0"
+                BackgroundColor="{DynamicResource ThemeBaseColor}"
+                CornerRadius="6"
+                HasShadow="False"
+                HeightRequest="12"
+                Opacity="0.75"
+                WidthRequest="80">
+            <Label
+                    FontSize="12"
+                    Style="{DynamicResource BoldLable}"
+                    Text="संपर्क करें"
+                    TextColor="White" />
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="Chat_Tapped" />
+            </Frame.GestureRecognizers>
+        </Frame>
+    </StackLayout>
+</ContentPage>
+    

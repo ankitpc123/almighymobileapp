@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Matrimony.Views.BridalListView"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:cell="clr-namespace:Matrimony.Cells"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:ffTransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+    xmlns:ffimage="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    xmlns:ffimageloadingsvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+    xmlns:local="clr-namespace:Matrimony.NewFolder"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="clr-namespace:Matrimony.ViewModels"
+    Title="{Binding Title}"
+    ControlTemplate="{StaticResource MainPageTemplate}"
+    mc:Ignorable="d">
+    <ContentPage.ToolbarItems>
+        <!--<ToolbarItem Order="Secondary" Text="About-us" />
+        <ToolbarItem Order="Secondary" Text="Contact-us" />
+        <ToolbarItem Order="Secondary" Text="Help" />-->
+    </ContentPage.ToolbarItems>
+    <NavigationPage.TitleView>
+        <Grid
+            Margin="0,0,8,0"
+            BackgroundColor="Transparent"
+            ColumnDefinitions="*,48"
+            RowDefinitions="48">
+
+            <StackLayout
+                Grid.Column="0"
+                HorizontalOptions="CenterAndExpand"
+                Orientation="Horizontal"
+                VerticalOptions="Center">
+                <ffimageloadingsvg:SvgCachedImage
+                    HeightRequest="16"
+                    Source="resource://Matrimony.Resources.namaste.svg"
+                    WidthRequest="16" />
+                <Label
+                    Style="{DynamicResource MediumLable}"
+                    Text="Jain Matrimonials"
+                    TextColor="White" />
+                <ffimageloadingsvg:SvgCachedImage
+                    HeightRequest="16"
+                    Source="resource://Matrimony.Resources.namaste.svg"
+                    WidthRequest="16" />
+            </StackLayout>
+            <!--<BoxView Grid.Column="1" CornerRadius="26" BackgroundColor="White" WidthRequest="48" HeightRequest="48" />-->
+            <!--<Image BackgroundColor="{DynamicResource ThemeBaseColor}" Grid.Column="1" HeightRequest="48" WidthRequest="48" Source="xamarin_logo.png" Aspect="AspectFit">
+                <Image.Clip>
+                    <EllipseGeometry  Center="26,26" RadiusX="18" RadiusY="18"/>
+                </Image.Clip>
+            </Image>-->
+            <ffimage:CachedImage
+                Grid.Column="1"
+                Margin="2"
+                Aspect="AspectFit"
+                HeightRequest="42"
+                Source="girl"
+                WidthRequest="42">
+                <ffimage:CachedImage.Transformations>
+                    <ffTransformations:RoundedTransformation
+                        BorderHexColor="#FFFFFF"
+                        BorderSize="10"
+                        CropHeightRatio="42"
+                        CropWidthRatio="42"
+                        Radius="500" />
+                </ffimage:CachedImage.Transformations>
+            </ffimage:CachedImage>
+
+        </Grid>
+    </NavigationPage.TitleView>
+
+    <Grid Padding="10,4,10,2" RowDefinitions="Auto,*">
+        <Label
+            Grid.Row="0"
+            HorizontalOptions="Start"
+            Style="{DynamicResource BoldLable}"
+            Text="कन्या खोजें"
+            TextColor="{DynamicResource ThemeTextColor}"
+            TranslationX="10" />
+
+        <CollectionView
+            Grid.Row="1"
+            HorizontalOptions="FillAndExpand"
+            ItemsSource="{Binding BridalList}"
+            Scrolled="CollectionView_Scrolled"
+            SelectionMode="None">
+            <CollectionView.ItemsLayout>
+                <LinearItemsLayout ItemSpacing="10" Orientation="Vertical" />
+            </CollectionView.ItemsLayout>
+            <CollectionView.EmptyView>
+                <Label
+                    Style="{DynamicResource MediumLable}"
+                    Text="No Record Available"
+                    TextColor="{DynamicResource ThemeTextColor}" />
+            </CollectionView.EmptyView>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <ContentView
+                        Margin="10"
+                        Padding="2,2"
+                        BackgroundColor="Transparent">
+                        <Frame
+                            Margin="0,0"
+                            Padding="2,4,2,4"
+                            BackgroundColor="White"
+                            BorderColor="White"
+                            CornerRadius="10"
+                            HasShadow="True">
+                            <Grid
+                                ColumnDefinitions="Auto,2.5*"
+                                ColumnSpacing="14"
+                                RowDefinitions="16,14,14,14,14,14,10,1,24"
+                                RowSpacing="1">
+                                <!--<ffimage:CachedImage
+                                    Grid.Row="0"
+                                    Grid.RowSpan="9"
+                                    Grid.Column="0"
+                                    Margin="2"
+                                    Aspect="AspectFit"
+                                    BackgroundColor="Transparent"
+                                    Source="{Binding ImageUrl}"
+                                    WidthRequest="100">
+                                    <ffimage:CachedImage.Transformations>
+                                        <ffTransformations:RoundedTransformation
+                                            BorderHexColor="#FFFFFF"
+                                            BorderSize="0"
+                                            Radius="50" />
+                                    </ffimage:CachedImage.Transformations>
+                                </ffimage:CachedImage>-->
+
+                                <ImageButton
+                                    Grid.Row="0"
+                                    Grid.RowSpan="9"
+                                    Grid.Column="0"
+                                    Margin="2"
+                                    Aspect="Fill"
+                                    BackgroundColor="Transparent"
+                                    Clicked="TapGestureRecognizer_Tapped"
+                                    CornerRadius="15"
+                                    Source="{Binding ImageUrl}"
+                                    WidthRequest="100" />
+
+
+
+                                <Label
+                                    Grid.Row="0"
+                                    Grid.Column="1"
+                                    FontSize="12"
+                                    HorizontalOptions="StartAndExpand"
+                                    Style="{DynamicResource BoldLable}"
+                                    Text="{Binding memberid, StringFormat='JM{0}'}"
+                                    TextColor="{DynamicResource ThemeTextColor}" />
+
+                                <Label
+                                    Grid.Row="1"
+                                    Grid.Column="1"
+                                    FontSize="10"
+                                    HorizontalOptions="StartAndExpand"
+                                    Style="{DynamicResource RegularLable}"
+                                    Text="{Binding fullname}"
+                                    TextColor="{DynamicResource ThemeTextColor}" />
+
+                                <Label
+                                    Grid.Row="2"
+                                    Grid.Column="1"
+                                    FontSize="10"
+                                    HorizontalOptions="StartAndExpand"
+                                    Style="{DynamicResource RegularLable}"
+                                    Text="{Binding GetAgeHeight}"
+                                    TextColor="{DynamicResource ThemeTextColor}" />
+
+                                <Label
+                                    Grid.Row="3"
+                                    Grid.Column="1"
+                                    FontSize="10"
+                                    HorizontalOptions="StartAndExpand"
+                                    Style="{DynamicResource RegularLable}"
+                                    Text="{Binding IncomeText, StringFormat='Working Professional | {0}'}"
+                                    TextColor="{DynamicResource ThemeTextColor}" />
+
+                                <Label
+                                    Grid.Row="4"
+                                    Grid.Column="1"
+                                    FontSize="10"
+                                    HorizontalOptions="StartAndExpand"
+                                    Style="{DynamicResource RegularLable}"
+                                    Text="{Binding address}"
+                                    TextColor="{DynamicResource ThemeTextColor}" />
+
+                                <Label
+                                    Grid.Row="5"
+                                    Grid.Column="1"
+                                    FontSize="10"
+                                    HorizontalOptions="StartAndExpand"
+                                    Style="{DynamicResource RegularLable}"
+                                    Text="{Binding GetAddress}"
+                                    TextColor="{DynamicResource ThemeTextColor}" />
+
+                                <BoxView
+                                    Grid.Row="7"
+                                    Grid.Column="1"
+                                    BackgroundColor="{DynamicResource ThemeTextColor}"
+                                    HeightRequest="1"
+                                    HorizontalOptions="FillAndExpand" />
+
+                                <StackLayout
+                                    Grid.Row="8"
+                                    Grid.Column="1"
+                                    HorizontalOptions="EndAndExpand"
+                                    Orientation="Horizontal"
+                                    TranslationY="6"
+                                    VerticalOptions="Fill">
+                                    <!--<Frame
+                                        Padding="0"
+                                        BackgroundColor="{DynamicResource ThemeBaseColor}"
+                                        CornerRadius="6"
+                                        HasShadow="False"
+                                        HeightRequest="12"
+                                        Opacity="0.75"
+                                        WidthRequest="60">
+                                        <Label
+                                            FontSize="7"
+                                            Style="{DynamicResource MediumLable}"
+                                            Text="Short List"
+                                            TextColor="White" />
+                                        <Frame.GestureRecognizers>
+                                            <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="ShortList_Tapped" />
+                                        </Frame.GestureRecognizers>
+                                    </Frame>-->
+                                    <Frame
+                                        Padding="0"
+                                        BackgroundColor="{DynamicResource ThemeBaseColor}"
+                                        CornerRadius="6"
+                                        HasShadow="False"
+                                        HeightRequest="12"
+                                        Opacity="0.75"
+                                        WidthRequest="80">
+                                        <Label
+                                            FontSize="12"
+                                            Style="{DynamicResource BoldLable}"
+                                            Text="संपर्क करें"
+                                            TextColor="White" />
+                                        <Frame.GestureRecognizers>
+                                            <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="Chat_Tapped" />
+                                        </Frame.GestureRecognizers>
+                                    </Frame>
+                                    <Frame
+                                        Padding="0"
+                                        BackgroundColor="{DynamicResource ThemeBaseColor}"
+                                        CornerRadius="6"
+                                        HasShadow="False"
+                                        HeightRequest="12"
+                                        Opacity="0.75"
+                                        WidthRequest="80">
+                                        <Label
+                                            FontSize="12"
+                                            Style="{DynamicResource BoldLable}"
+                                            Text="पसंद करें"
+                                            TextColor="White" />
+                                        <Frame.GestureRecognizers>
+                                            <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="SendInterest_Tapped" />
+                                        </Frame.GestureRecognizers>
+                                    </Frame>
+                                </StackLayout>
+                                <Grid.GestureRecognizers>
+                                    <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="TapGestureRecognizer_Tapped" />
+                                </Grid.GestureRecognizers>
+                            </Grid>
+                        </Frame>
+                    </ContentView>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+
+    </Grid>
+
+</ContentPage>

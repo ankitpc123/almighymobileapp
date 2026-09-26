@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:ffimage="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms" xmlns:ffTransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations" xmlns:ffimageloadingsvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+             mc:Ignorable="d"
+             x:Class="Matrimony.Views.Matrimonial.AddMatrimonialMember" BackgroundColor="White">
+    <ContentPage.ToolbarItems>
+        <!--<ToolbarItem Text="About-us" Order="Secondary" />
+        <ToolbarItem Text="Contact-us" Order="Secondary"/>
+        <ToolbarItem Text="Help" Order="Secondary"/>-->
+    </ContentPage.ToolbarItems>
+    <NavigationPage.TitleView>
+        <Grid ColumnDefinitions="*,48" RowDefinitions="48" BackgroundColor="Transparent" Margin="0,0,8,0">
+
+            <StackLayout Orientation="Horizontal" Grid.Column="0" HorizontalOptions="CenterAndExpand" VerticalOptions="Center">
+                <Label Style="{DynamicResource MediumLable}" TextColor="White" Text="वर/कन्या की जानकारी"/>
+            </StackLayout>
+            <ffimage:CachedImage Margin="2"  Aspect="AspectFit"  Grid.Column="1" HeightRequest="42" WidthRequest="42"  Source="boy">
+                <ffimage:CachedImage.Transformations>
+                    <ffTransformations:RoundedTransformation CropHeightRatio="42" CropWidthRatio="42" Radius="500" BorderSize="10" BorderHexColor="#FFFFFF"/>
+                </ffimage:CachedImage.Transformations>
+            </ffimage:CachedImage>
+
+        </Grid>
+    </NavigationPage.TitleView>
+    <ContentPage.Content>
+        <StackLayout>
+            <TableView HasUnevenRows="True" RowHeight="-1" BackgroundColor="Transparent" Margin="10,4,10,6">
+                <TableView.Root>
+                    <TableSection >
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Grid  Margin="10,30" RowDefinitions="*,*,*" ColumnDefinitions="*,*,*" BackgroundColor="Transparent" HeightRequest="160" WidthRequest="160" >
+                                    <ffimage:CachedImage LoadingPlaceholder="boy.png"  Aspect="AspectFit"  Grid.RowSpan="3" Grid.ColumnSpan="3" 
+                                                       HeightRequest="150" WidthRequest="150"  Source="{Binding Photo}">
+                                        <ffimage:CachedImage.Transformations>
+                                            <ffTransformations:RoundedTransformation CropHeightRatio="42" CropWidthRatio="42" Radius="500" BorderSize="10" BorderHexColor="#f08181"/>
+                                        </ffimage:CachedImage.Transformations>
+                                    </ffimage:CachedImage>
+                                    <ffimageloadingsvg:SvgCachedImage Grid.Row="2" Grid.Column="1" VerticalOptions="EndAndExpand" HorizontalOptions="EndAndExpand" WidthRequest="24" HeightRequest="24" Source="resource://Matrimony.Resources.camera.svg">
+                                        <ffimageloadingsvg:SvgCachedImage.GestureRecognizers>
+                                            <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding CameraCommand}"/>
+                                        </ffimageloadingsvg:SvgCachedImage.GestureRecognizers>
+                                    </ffimageloadingsvg:SvgCachedImage>
+                                </Grid>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </TableSection>
+
+                    <TableSection Title="व्यक्तिगत जानकारी">
+
+                        <EntryCell Placeholder="प्रथम नाम" Text="{Binding FirstName}" />
+                        <EntryCell Placeholder="मध्यम नाम" Text="{Binding MiddleName}"/>
+                        <EntryCell Placeholder="अंतिम नाम" Text="{Binding LastName}"/>
+
+                        <EntryCell Placeholder="सम्पर्क नं" Keyboard="Telephone" Text="{Binding MobileNo}"/>
+
+                        <EntryCell Placeholder="ईमेल" Keyboard="Email" Text="{Binding EMail}"/>
+
+
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Grid Margin="16,8,10,4" RowDefinitions="38" ColumnDefinitions="*,1.5*,*,*" ColumnSpacing="6">
+
+                                    <Label Grid.Row="0" Grid.Column="0" Style="{DynamicResource MediumLable}" HorizontalOptions="StartAndExpand" FontSize="14" TextColor="{DynamicResource ThemeTextColor}" 
+                   Text="जन्म तारीख: "/>
+
+                                    <DatePicker Date="{Binding BirthDate}" HorizontalOptions="StartAndExpand" FontSize="14" Grid.Row="0" Grid.Column="1" TextColor="{StaticResource ThemeTextColor}" FontFamily="{StaticResource RegularFont}" Format="dd-MMM-yyyy"/>
+                                    <Label Grid.Row="0" Grid.Column="2" Style="{DynamicResource MediumLable}" HorizontalOptions="StartAndExpand" FontSize="14" TextColor="{DynamicResource ThemeTextColor}" 
+                   Text="जन्म स्थान: "/>
+                                    <TimePicker Time="{Binding BirthTime}" HorizontalOptions="EndAndExpand" FontSize="14" Grid.Row="0" Grid.Column="3" TextColor="{StaticResource ThemeTextColor}" FontFamily="{StaticResource RegularFont}" Format="hh:mm tt"/>
+
+
+                                </Grid>
+                            </ViewCell.View>
+                        </ViewCell>
+
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Grid Margin="16,8,10,4" RowDefinitions="38" ColumnDefinitions="Auto,Auto,Auto" ColumnSpacing="6">
+
+                                    <Label Grid.Row="0" Grid.Column="0" Style="{DynamicResource MediumLable}" HorizontalOptions="StartAndExpand" FontSize="14" TextColor="{DynamicResource ThemeTextColor}" 
+                   Text="लिंग "/>
+                                    <RadioButton IsChecked="{Binding IsMale}" Grid.Row="0" Grid.Column="1" TextColor="{StaticResource ThemeTextColor}" Content="पुरष" Value="Male" GroupName="gender" BackgroundColor="Transparent" BorderColor="Transparent" />
+
+                                    <RadioButton  Grid.Row="0" Grid.Column="2" TextColor="{StaticResource ThemeTextColor}" Content="स्त्री" Value="Female" GroupName="gender" BackgroundColor="Transparent" BorderColor="Transparent" />
+                                </Grid>
+                            </ViewCell.View>
+                        </ViewCell>
+
+
+                        <EntryCell Placeholder="जन्म स्थान" Text="{Binding BirthPlace}"/>
+
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Grid Margin="16,8,10,4" RowDefinitions="38" ColumnDefinitions="0.5*,1.5*" ColumnSpacing="6">
+
+                                    <Label Grid.Row="0" Grid.Column="0" Style="{DynamicResource MediumLable}" HorizontalOptions="StartAndExpand" FontSize="14" TextColor="{DynamicResource ThemeTextColor}" 
+                   Text="आम्नाय: "/>
+
+                                    <Picker Grid.Row="0" Grid.Column="1" Title="आम्नाय चुनें" SelectedItem="{Binding SelectedReligion}"
+        TitleColor="LightGray" HorizontalOptions="StartAndExpand" FontSize="14" TextColor="{DynamicResource ThemeTextColor}">
+                                        <Picker.ItemsSource>
+                                            <x:Array Type="{x:Type x:String}">
+                                                <x:String>Digember</x:String>
+                                                <x:String>Swetamber</x:String>
+                                            </x:Array>
+                                        </Picker.ItemsSource>
+                                    </Picker>
+
+                                </Grid>
+                            </ViewCell.View>
+                        </ViewCell>
+
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Grid Margin="16,8,10,4" RowDefinitions="38" ColumnDefinitions="0.5*,1.5*" ColumnSpacing="6">
+
+                                    <Label Grid.Row="0" Grid.Column="0" Style="{DynamicResource MediumLable}" HorizontalOptions="StartAndExpand" FontSize="14" TextColor="{DynamicResource ThemeTextColor}" 
+                   Text="उपजाति चुनें: "/>
+
+
+                                    <Picker Grid.Row="0" Grid.Column="1" Title="Select" 
+                                            TitleColor="LightGray" HorizontalOptions="StartAndExpand" FontSize="14" TextColor="{DynamicResource ThemeTextColor}"
+                                            ItemsSource="{Binding WanshList}" 
+                                            ItemDisplayBinding="{Binding wanshInHindi}" 
+                                            SelectedItem="{Binding Wans}" />
+                                </Grid>
+                            </ViewCell.View>
+                        </ViewCell>
+
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Grid Margin="16,8,10,4" RowDefinitions="38" ColumnDefinitions="Auto,Auto,Auto" ColumnSpacing="6">
+
+                                    <Label Grid.Row="0" Grid.Column="0" Style="{DynamicResource MediumLable}" HorizontalOptions="StartAndExpand" FontSize="14" TextColor="{DynamicResource ThemeTextColor}" 
+                   Text="मांगलिक: "/>
+                                    <RadioButton IsChecked="{Binding IsManglik}" Grid.Row="0" Grid.Column="1" TextColor="{StaticResource ThemeTextColor}" Content="Yes" Value="Yes" GroupName="manglik" BackgroundColor="Transparent" BorderColor="Transparent" />
+
+                                    <RadioButton  Grid.Row="0" Grid.Column="2" TextColor="{StaticResource ThemeTextColor}" Content="No" Value="No" GroupName="manglik" BackgroundColor="Transparent" BorderColor="Transparent" />
+
+
+                                </Grid>
+                            </ViewCell.View>
+                        </ViewCell>
+
+
+                        <!--<EntryCell Placeholder="Wans" Text="{Binding Wans}"/>-->
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Grid Margin="16,8,10,4" RowDefinitions="38" ColumnDefinitions="0.5*,1.5*" ColumnSpacing="6">
+
+                                    <Label Grid.Row="0" Grid.Column="0" Style="{DynamicResource MediumLable}" HorizontalOptions="StartAndExpand" FontSize="14" TextColor="{DynamicResource ThemeTextColor}" 
+                            Text="वंश :"/>
+
+
+                                    <Picker Grid.Row="0" Grid.Column="1" Title="Select" 
+                                            TitleColor="LightGray" HorizontalOptions="StartAndExpand" FontSize="14" TextColor="{DynamicResource ThemeTextColor}"
+                                            ItemsSource="{Binding WanshList}" 
+                                            ItemDisplayBinding="{Binding wanshInHindi}" 
+                                            SelectedItem="{Binding Wans}" />
+                                </Grid>
+                            </ViewCell.View>
+                        </ViewCell>
+                        <!--<EntryCell Placeholder="Gotra" Text="{Binding Gotra}" />-->
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Grid Margin="16,8,10,4" RowDefinitions="38" ColumnDefinitions="0.5*,1.5*" ColumnSpacing="6">
+
+                                    <Label Grid.Row="0" Grid.Column="0" Style="{DynamicResource MediumLable}" HorizontalOptions="StartAndExpand" FontSize="14" TextColor="{DynamicResource ThemeTextColor}" 
+                            Text="गोत्र :"/>
+
+
+                                    <Picker Grid.Row="0" Grid.Column="1" Title="Select" 
+                                            TitleColor="LightGray" HorizontalOptions="StartAndExpand" FontSize="14" TextColor="{DynamicResource ThemeTextColor}"
+                                            ItemsSource="{Binding WanshList}" 
+                                            ItemDisplayBinding="{Binding wanshInHindi}" 
+                                            SelectedItem="{Binding Gotra}" />
+                                </Grid>
+                            </ViewCell.View>
+                        </ViewCell>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Grid Margin="16,8,10,4" RowDefinitions="38" ColumnDefinitions="Auto,Auto,Auto" ColumnSpacing="6">
+
+                                    <Label Grid.Row="0" Grid.Column="0" Style="{DynamicResource MediumLable}" HorizontalOptions="StartAndExpand" FontSize="14" TextColor="{DynamicResource ThemeTextColor}" 
+                   Text="मिलान: "/>
+                                    <RadioButton IsChecked="{Binding IsMilan}" Grid.Row="0" Grid.Column="1" TextColor="{StaticResource ThemeTextColor}" Content="Yes" Value="Yes" GroupName="milan" BackgroundColor="Transparent" BorderColor="Transparent" />
+
+                                    <RadioButton  Grid.Row="0" Grid.Column="2" TextColor="{StaticResource ThemeTextColor}" Content="No" Value="No" GroupName="milan" BackgroundColor="Transparent" BorderColor="Transparent" />
+
+
+                                </Grid>
+                            </ViewCell.View>
+                        </ViewCell>
+
+
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Grid Margin="16,8,10,4" RowDefinitions="38" ColumnDefinitions="Auto,Auto,Auto" ColumnSpacing="6">
+
+                                    <Label Grid.Row="0" Grid.Column="0" Style="{DynamicResource MediumLable}" HorizontalOptions="StartAndExpand" FontSize="14" TextColor="{DynamicResource ThemeTextColor}" 
+                   Text="ऊँचाई: "/>
+
+                                    <Picker Grid.Row="0" Grid.Column="1" Title="फुट मे" SelectedItem="{Binding SelectedHeightInft}"
+        TitleColor="LightGray" HorizontalOptions="CenterAndExpand" FontSize="14" TextColor="{DynamicResource ThemeTextColor}">
+                                        <Picker.ItemsSource>
+                                            <x:Array Type="{x:Type x:String}">
+                                                <x:String>3ft</x:String>
+                                                <x:String>4ft</x:String>
+                                                <x:String>5ft</x:String>
+                                                <x:String>6ft</x:String>
+                                                <x:String>7ft</x:String>
+                                                <x:String>8ft</x:String>
+                                            </x:Array>
+                                        </Picker.ItemsSource>
+                                    </Picker>
+
+                                    <Picker Grid.Row="0" Grid.Column="2" Title="इंच मे"  SelectedItem="{Binding SelectedHeightInInch}"
+        TitleColor="LightGray" HorizontalOptions="CenterAndExpand" FontSize="14" TextColor="{DynamicResource ThemeTextColor}">
+                                        <Picker.ItemsSource>
+                                            <x:Array Type="{x:Type x:String}">
+                                                <x:String>0 Inch</x:String>
+                                                <x:String>1 Inch</x:String>
+                                                <x:String>2 Inch</x:String>
+                                                <x:String>3 Inch</x:String>
+                                                <x:String>4 Inch</x:String>
+                                                <x:String>5 Inch</x:String>
+                                                <x:String>6 Inch</x:String>
+                                                <x:String>7 Inch</x:String>
+                                                <x:String>8 Inch</x:String>
+                                                <x:String>9 Inch</x:String>
+                                                <x:String>10 Inch</x:String>
+                                                <x:String>11 Inch</x:String>
+                                            </x:Array>
+                                        </Picker.ItemsSource>
+                                    </Picker>
+
+                                </Grid>
+                            </ViewCell.View>
+                        </ViewCell>
+
+
+                        <EntryCell Placeholder="आय" Keyboard="Numeric" Text="{Binding MonthlyIncome}"/>
+
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Grid Margin="16,8,10,4" RowDefinitions="24,38,38" ColumnDefinitions="Auto,Auto,Auto,Auto" ColumnSpacing="1">
+
+                                    <Label Grid.Row="0" Grid.ColumnSpan="6" Style="{DynamicResource MediumLable}" HorizontalOptions="StartAndExpand" FontSize="14" TextColor="{DynamicResource ThemeTextColor}" 
+                   Text="रक्त ग्रुप: "/>
+                                    <RadioButton CheckedChanged="BloodGroup_CheckedChanged" FontSize="16" FontFamily="{StaticResource BoldFont}"  Grid.Row="1" Grid.Column="0" TextColor="{StaticResource ThemeTextColor}" Content="O-" Value="O-" GroupName="bloodgroup" BackgroundColor="Transparent" BorderColor="Transparent" />
+                                    <RadioButton CheckedChanged="BloodGroup_CheckedChanged" FontSize="16" FontFamily="{StaticResource BoldFont}"  Grid.Row="1" Grid.Column="1" TextColor="{StaticResource ThemeTextColor}" Content="O+"  Value="O+" GroupName="bloodgroup" BackgroundColor="Transparent" BorderColor="Transparent" />
+                                    <RadioButton CheckedChanged="BloodGroup_CheckedChanged" FontSize="16" FontFamily="{StaticResource BoldFont}"  Grid.Row="1" Grid.Column="2" TextColor="{StaticResource ThemeTextColor}" Content="A-"  Value="A-" GroupName="bloodgroup" BackgroundColor="Transparent" BorderColor="Transparent" />
+                                    <RadioButton CheckedChanged="BloodGroup_CheckedChanged" FontSize="16" FontFamily="{StaticResource BoldFont}"  Grid.Row="1" Grid.Column="3" TextColor="{StaticResource ThemeTextColor}" Content="A+"  Value="A+" GroupName="bloodgroup" BackgroundColor="Transparent" BorderColor="Transparent" />
+                                    <RadioButton CheckedChanged="BloodGroup_CheckedChanged" FontSize="16" FontFamily="{StaticResource BoldFont}"  Grid.Row="2" Grid.Column="0" TextColor="{StaticResource ThemeTextColor}" Content="B-"  Value="B-" GroupName="bloodgroup" BackgroundColor="Transparent" BorderColor="Transparent" />
+                                    <RadioButton CheckedChanged="BloodGroup_CheckedChanged" FontSize="16" FontFamily="{StaticResource BoldFont}"  Grid.Row="2" Grid.Column="1" TextColor="{StaticResource ThemeTextColor}" Content="B+"  Value="B+" GroupName="bloodgroup" BackgroundColor="Transparent" BorderColor="Transparent" />
+                                    <RadioButton CheckedChanged="BloodGroup_CheckedChanged" FontSize="16" FontFamily="{StaticResource BoldFont}"  Grid.Row="2" Grid.Column="2" TextColor="{StaticResource ThemeTextColor}" Content="AB-" Value="AB-" GroupName="bloodgroup" BackgroundColor="Transparent" BorderColor="Transparent" />
+                                    <RadioButton CheckedChanged="BloodGroup_CheckedChanged" FontSize="16" FontFamily="{StaticResource BoldFont}"  Grid.Row="2" Grid.Column="3" TextColor="{StaticResource ThemeTextColor}" Content="AB+" Value="AB+" GroupName="bloodgroup" BackgroundColor="Transparent" BorderColor="Transparent" />
+
+
+                                </Grid>
+                            </ViewCell.View>
+                        </ViewCell>
+
+                        <EntryCell Placeholder="पता" Keyboard="Default" Text="{Binding Address}"/>
+
+                        <EntryCell Placeholder="शहर" Keyboard="Default"  Text="{Binding City}"/>
+                        <EntryCell Placeholder="राज्य" Keyboard="Default"  Text="{Binding State}"/>
+                        <EntryCell Placeholder="पिन कोड" Keyboard="Numeric" Text="{Binding ZipCode}"/>
+                    </TableSection>
+                    <TableSection Title="परिवार का विवरण">
+
+                        <EntryCell Placeholder="पिता का नाम" Text="{Binding FatherName}"/>
+
+                        <EntryCell Placeholder="माता का नाम"  Text="{Binding MotherName}"/>
+
+
+                        <EntryCell Placeholder="सम्पर्क नं" Text="{Binding ContactNo}"/>
+
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Grid Margin="16,1,10,1" RowDefinitions="38" ColumnDefinitions="*,*" ColumnSpacing="6">
+
+                                    <Label Grid.Row="0" Grid.Column="0" Style="{DynamicResource MediumLable}" HorizontalOptions="StartAndExpand" FontSize="14" TextColor="{DynamicResource ThemeTextColor}" 
+                   Text="पिता का व्यवसाय: "/>
+
+                                    <Picker Grid.Row="0" Grid.Column="1" Title="व्यवसाय चुनें" SelectedItem="{Binding SelectOccupation}"
+        TitleColor="LightGray" HorizontalOptions="EndAndExpand" FontSize="14" TextColor="{DynamicResource ThemeTextColor}">
+                                        <Picker.ItemsSource>
+                                            <x:Array Type="{x:Type x:String}">
+                                                <x:String>Business</x:String>
+                                                <x:String>Service</x:String>
+                                            </x:Array>
+                                        </Picker.ItemsSource>
+                                    </Picker>
+
+                                </Grid>
+                            </ViewCell.View>
+                        </ViewCell>
+
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Grid Margin="16,1,10,1" RowDefinitions="38" ColumnDefinitions="*,*,*" ColumnSpacing="6">
+
+                                    <Label Grid.Row="0" Grid.Column="0" Style="{DynamicResource MediumLable}" HorizontalOptions="StartAndExpand" FontSize="14" TextColor="{DynamicResource ThemeTextColor}" 
+                   Text="भाई/बहिन: "/>
+
+                                    <Entry HeightRequest="36" Keyboard="Numeric" Grid.Column="1" Style="{DynamicResource RegularEntry}" 
+                                           FontSize="12" TextColor="{DynamicResource ThemeTextColor}" Placeholder="बहिन" Text="{Binding Sisters}"/>
+                                    <Entry HeightRequest="36" Keyboard="Numeric" Grid.Column="2" Style="{DynamicResource RegularEntry}" 
+                                           FontSize="12" TextColor="{DynamicResource ThemeTextColor}" Placeholder="भाई" Text="{Binding Brothers}"/>
+
+
+                                </Grid>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </TableSection>
+                    <TableSection Title="शिक्षा का विवरण">
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Grid Margin="16,1,10,1" RowDefinitions="38" ColumnDefinitions="*,*" ColumnSpacing="6">
+
+                                    <Label Grid.Row="0" Grid.Column="0" Style="{DynamicResource MediumLable}" HorizontalOptions="StartAndExpand" FontSize="14" TextColor="{DynamicResource ThemeTextColor}" 
+                   Text="उच्च शिक्षा: "/>
+
+                                    <Picker Grid.Row="0" Grid.Column="1" Title="शिक्षा चुनें" SelectedItem="{Binding SelectEducation}"
+        TitleColor="LightGray" HorizontalOptions="EndAndExpand" FontSize="14" TextColor="{DynamicResource ThemeTextColor}">
+                                        <Picker.ItemsSource>
+                                            <x:Array Type="{x:Type x:String}">
+                                                <x:String>High School</x:String>
+                                                <x:String>Higher Secondary</x:String>
+                                                <x:String>Under Graduate</x:String>
+                                                <x:String>Graduate</x:String>
+                                                <x:String>Under Post Graduate</x:String>
+                                                <x:String>Post Graduate</x:String>
+                                                <x:String>Phd</x:String>
+                                            </x:Array>
+                                        </Picker.ItemsSource>
+                                    </Picker>
+
+                                </Grid>
+
+
+                            </ViewCell.View>
+                        </ViewCell>
+
+
+                        <!--<EntryCell Placeholder="Cource name" Keyboard="Default" Text="{Binding CourceName}"/>-->
+
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Button Text="सुरक्षित करें" Command="{Binding SaveCommand}" TextColor="White" BackgroundColor="{DynamicResource ThemeBaseColor}" Margin="10,20"/>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </TableSection>
+
+                </TableView.Root>
+
+            </TableView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>    

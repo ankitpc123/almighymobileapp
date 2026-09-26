@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:ffimage="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms" xmlns:ffTransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+             mc:Ignorable="d"
+             x:Class="Matrimony.Cells.GroomCell">
+  <ContentView.Content>
+        <Grid Margin="0,2" RowSpacing="0" RowDefinitions="*,Auto,Auto" WidthRequest="120">
+
+            <ffimage:CachedImage Grid.Row="0" BackgroundColor="Transparent" Aspect="AspectFill"  Source="{Binding ImageUrl}">
+                <ffimage:CachedImage.Transformations>
+                    <ffTransformations:RoundedTransformation Radius="60" BorderSize="2" BorderHexColor="#FFFFFF"/>
+                </ffimage:CachedImage.Transformations>
+            </ffimage:CachedImage>
+
+                       <Label Grid.Row="1" Style="{DynamicResource MediumLable}" HorizontalOptions="StartAndExpand" FontSize="10" TextColor="{DynamicResource ThemeTextColor}" 
+                   Text="{Binding fullname}"/>
+
+
+            <Label Grid.Row="2" Style="{DynamicResource MediumLable}" HorizontalOptions="StartAndExpand" FontSize="10" 
+                   TextColor="{DynamicResource ThemeTextColor}" >
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="{Binding GetAge,StringFormat='Age {0}'}"/>
+                        <Span Text="{Binding city,StringFormat=' | {0}'}"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Grid.GestureRecognizers>
+                <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="TapGestureRecognizer_Tapped"/>
+            </Grid.GestureRecognizers>
+        </Grid>
+    </ContentView.Content>
+</ContentView>

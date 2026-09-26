@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Matrimony.Views.PJKSMenu.PJKSView"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:cell="clr-namespace:Matrimony.Cells"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:ffTransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+    xmlns:ffimage="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    xmlns:ffimageloadingsvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+    xmlns:local="clr-namespace:Matrimony.NewFolder"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="clr-namespace:Matrimony.ViewModels"
+    Title="{Binding Title}"
+    ControlTemplate="{StaticResource MainPageTemplate}"
+    mc:Ignorable="d">
+    <ContentPage.ToolbarItems>
+        <!--<ToolbarItem Order="Secondary" Text="About-us" />
+        <ToolbarItem Order="Secondary" Text="Contact-us" />
+        <ToolbarItem Order="Secondary" Text="Help" />-->
+    </ContentPage.ToolbarItems>
+    <NavigationPage.TitleView>
+        <Grid
+            Margin="0,0,8,0"
+            BackgroundColor="Transparent"
+            ColumnDefinitions="*,48"
+            RowDefinitions="48">
+
+            <StackLayout
+                Grid.Column="0"
+                HorizontalOptions="CenterAndExpand"
+                Orientation="Horizontal"
+                VerticalOptions="Center">
+                <ffimageloadingsvg:SvgCachedImage
+                    HeightRequest="16"
+                    Source="resource://Matrimony.Resources.namaste.svg"
+                    WidthRequest="16" />
+                <Label
+                    Style="{DynamicResource MediumLable}"
+                    Text="पारसजनकल्याण संस्थान"
+                    TextColor="White" />
+                <ffimageloadingsvg:SvgCachedImage
+                    HeightRequest="16"
+                    Source="resource://Matrimony.Resources.namaste.svg"
+                    WidthRequest="16" />
+            </StackLayout>
+
+            <ffimage:CachedImage
+                Grid.Column="1"
+                Margin="2"
+                Aspect="AspectFit"
+                HeightRequest="42"
+                Source="girl"
+                WidthRequest="42">
+                <ffimage:CachedImage.Transformations>
+                    <ffTransformations:RoundedTransformation
+                        BorderHexColor="#FFFFFF"
+                        BorderSize="10"
+                        CropHeightRatio="42"
+                        CropWidthRatio="42"
+                        Radius="500" />
+                </ffimage:CachedImage.Transformations>
+            </ffimage:CachedImage>
+
+        </Grid>
+    </NavigationPage.TitleView>
+
+    <Grid Padding="10,4,10,2" RowDefinitions="60,Auto,*">
+        <Grid
+                        Grid.Row="0"
+                        Padding="12,6,12,0"
+                        ColumnDefinitions="40,*,40"
+                        HorizontalOptions="FillAndExpand"
+                        RowDefinitions="48,Auto"
+                        VerticalOptions="Center">
+            <Frame
+                            Grid.ColumnSpan="2" Grid.Row="0"
+                            Padding="8,4,8,4"
+                            BorderColor="White"
+                            CornerRadius="10"
+                            HasShadow="True">
+                <StackLayout Orientation="Horizontal">
+
+                    <ffimageloadingsvg:SvgCachedImage
+                                    Grid.Column="2"
+                                    HeightRequest="12"
+                                    Source="resource://Matrimony.Resources.search.svg"
+                                    WidthRequest="12" />
+
+                    <Entry
+                                    x:Name="txtSearch"
+                                    Grid.Column="1"
+                                    x:FieldModifier="Public"
+                                    Completed="Search_Tapped"
+                                    FontSize="12"
+                                    HeightRequest="36"
+                                    HorizontalOptions="FillAndExpand"
+                                    Keyboard="Default"
+                                    Placeholder="Search..."
+                                    ReturnType="Search"
+                                    Style="{DynamicResource RegularEntry}"
+                                    Text=""
+                                    TextChanged="txtSearch_TextChanged"
+                                    TextColor="{DynamicResource ThemeTextColor}" />
+
+                </StackLayout>
+            </Frame>
+            <ContentView
+                            Grid.Column="2"
+                            Padding="2"
+                            HeightRequest="40">
+                <ffimageloadingsvg:SvgCachedImage Grid.Column="2" Source="resource://Matrimony.Resources.add.svg" />
+                <ContentView.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="AddMember_Tapped" />
+                </ContentView.GestureRecognizers>
+            </ContentView>
+
+            <Button InputTransparent="False"
+                             Grid.Row="0"
+                            Grid.Column="1" 
+                            BackgroundColor="Transparent"
+                            FontSize="12" VerticalOptions="CenterAndExpand"
+                            HorizontalOptions="EndAndExpand" TranslationX="16"
+                            FontFamily="{StaticResource MediumFont}"
+                            Text="खोजें"
+                            TextColor="Black" Clicked="AdvanceSearch_Tapped"
+                            />
+
+        </Grid>
+        <Label
+            Grid.Row="1"
+            HorizontalOptions="Start"
+            Style="{DynamicResource BoldLable}"
+            Text="कन्या देखें"
+            TextColor="{DynamicResource ThemeTextColor}"
+            TranslationX="10" />
+
+        <CollectionView
+            Grid.Row="2" 
+            HorizontalOptions="FillAndExpand"
+            ItemsSource="{Binding MembersList}"
+            Scrolled="CollectionView_Scrolled"
+            SelectionMode="None">
+            <CollectionView.ItemsLayout>
+                <LinearItemsLayout ItemSpacing="10" Orientation="Vertical" />
+            </CollectionView.ItemsLayout>
+            <CollectionView.EmptyView>
+                <Label
+                    Style="{DynamicResource MediumLable}"
+                    Text="No Record Available"
+                    TextColor="{DynamicResource ThemeTextColor}" />
+            </CollectionView.EmptyView>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <ContentView
+                        Margin="10"
+                        Padding="2,2"
+                        BackgroundColor="Transparent">
+                        <Frame
+                            Margin="0,0"
+                            Padding="2,4,2,4"
+                            BackgroundColor="White"
+                            BorderColor="White"
+                            CornerRadius="10"
+                            HasShadow="True">
+                            <Grid
+                                ColumnDefinitions="Auto,2.5*"
+                                ColumnSpacing="14"
+                                RowDefinitions="16,14,14,14,14,1,20"
+                                RowSpacing="1">
+                                <ImageButton
+                                    Grid.Row="0"
+                                    Grid.RowSpan="7"
+                                    Grid.Column="0"
+                                    Margin="2"
+                                    Aspect="Fill"
+                                    BackgroundColor="Transparent"
+                                    Clicked="TapGestureRecognizer_Tapped"
+                                    CornerRadius="15"
+                                    Source="{Binding ImageUrl}"
+                                    WidthRequest="100" />
+
+                                <Label 
+                                    Grid.Row="0"
+                                    Grid.Column="1"
+                                    FontSize="12"
+                                    HorizontalOptions="StartAndExpand"
+                                    Style="{DynamicResource BoldLable}"
+                                    Text="{Binding MemberId, StringFormat='JM{0}'}"
+                                    TextColor="{DynamicResource ThemeTextColor}" />
+
+                                <Label
+                                    Grid.Row="1"
+                                    Grid.Column="1"
+                                    FontSize="10"
+                                    HorizontalOptions="StartAndExpand"
+                                    Style="{DynamicResource RegularLable}"
+                                    Text="{Binding fullName}"
+                                    TextColor="{DynamicResource ThemeTextColor}" />
+
+                                <Label
+                                    Grid.Row="2"
+                                    Grid.Column="1"
+                                    FontSize="10"
+                                    HorizontalOptions="StartAndExpand"
+                                    Style="{DynamicResource RegularLable}"
+                                    Text="{Binding GetAddress}"
+                                    TextColor="{DynamicResource ThemeTextColor}" />
+
+                                <Label
+                                    Grid.Row="3"
+                                    Grid.Column="1"
+                                    FontSize="10"
+                                    HorizontalOptions="StartAndExpand"
+                                    Style="{DynamicResource RegularLable}"
+                                    Text="{Binding Mobile, StringFormat='आय | {0}'}"
+                                    TextColor="{DynamicResource ThemeTextColor}" />
+
+                                <Label
+                                    Grid.Row="4"
+                                    Grid.Column="1"
+                                    FontSize="10"
+                                    HorizontalOptions="StartAndExpand"
+                                    Style="{DynamicResource RegularLable}"
+                                    Text="{Binding GetAddress}"
+                                    TextColor="{DynamicResource ThemeTextColor}" />
+
+                                <BoxView
+                                    Grid.Row="5"
+                                    Grid.Column="1"
+                                    BackgroundColor="{DynamicResource ThemeTextColor}"
+                                    HeightRequest="1"
+                                    HorizontalOptions="FillAndExpand" />
+
+                                <StackLayout
+                                    Grid.Row="6"
+                                    Grid.Column="1"
+                                    HorizontalOptions="EndAndExpand"
+                                    Orientation="Horizontal"
+                                    TranslationY="6"
+                                    VerticalOptions="Fill">
+                                    <Frame
+                                        Padding="0"
+                                        BackgroundColor="{DynamicResource ThemeBaseColor}"
+                                        CornerRadius="6"
+                                        HasShadow="False"
+                                        HeightRequest="12"
+                                        Opacity="0.75"
+                                        WidthRequest="80">
+                                        <Label
+                                            FontSize="12"
+                                            Style="{DynamicResource BoldLable}"
+                                            Text="संपर्क करें"
+                                            TextColor="White" />
+                                        <Frame.GestureRecognizers>
+                                            <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="Chat_Tapped" />
+                                        </Frame.GestureRecognizers>
+                                    </Frame>
+                                    <Frame
+                                        Padding="0"
+                                        BackgroundColor="{DynamicResource ThemeBaseColor}"
+                                        CornerRadius="6"
+                                        HasShadow="False"
+                                        HeightRequest="12"
+                                        Opacity="0.75"
+                                        WidthRequest="80">
+                                        <Label
+                                            FontSize="12"
+                                            Style="{DynamicResource BoldLable}"
+                                            Text="सन्देश भेजें"
+                                            TextColor="White" />
+                                        <Frame.GestureRecognizers>
+                                            <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="SendInterest_Tapped" />
+                                        </Frame.GestureRecognizers>
+                                    </Frame>
+                                </StackLayout>
+                                <Grid.GestureRecognizers>
+                                    <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="TapGestureRecognizer_Tapped" />
+                                </Grid.GestureRecognizers>
+                            </Grid>
+                        </Frame>
+                    </ContentView>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </Grid>
+
+</ContentPage>    

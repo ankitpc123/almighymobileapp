@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{D3B4D8D0-B176-4549-BB9D-C93F7A5A5CD3}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/dhiraj/Downloads/Matrimony working by AT 12 NOV 2020_AUG 2023/Matrimony/Matrimony/NewFolder/BottamToolBoxView.xaml.cs" relfile="Matrimony/Matrimony/NewFolder/BottamToolBoxView.xaml.cs" line="23" column="1" />
+      <Breakpoint file="/Users/dhiraj/Downloads/Matrimony working by AT 12 NOV 2020_AUG 2023/Matrimony/Matrimony/Views/Matrimonial/BridalDetailView.xaml.cs" relfile="Matrimony/Matrimony/Views/Matrimonial/BridalDetailView.xaml.cs" line="71" column="1" />
+      <Breakpoint file="/Users/dhiraj/Downloads/Matrimony working by AT 12 NOV 2020_AUG 2023/Matrimony/Matrimony/App.xaml.cs" relfile="Matrimony/Matrimony/App.xaml.cs" line="52" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.ItemProperties.Matrimony.Android PreferredExecutionTarget="Android.pixel_5_-_api_33" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_33" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.2.2.0" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Matrimony" expanded="True">
+            <Node name="Matrimony.Android" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Matrimony.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.4CB1CA49-1C26-4598-90CD-71EA4F764AA5" />
+</Properties>

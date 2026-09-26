@@ -1,0 +1,597 @@
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Matrimony.iOS.exe
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Matrimony.iOS.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Acr.UserDialogs.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Acr.UserDialogs.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\BTProgressHUD.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\BTProgressHUD.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\CarouselView.FormsPlugin.Abstractions.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\CarouselView.FormsPlugin.iOS.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\CommonServiceLocator.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\CommunityToolkit.Mvvm.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\CommunityToolkit.Mvvm.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\GalaSoft.MvvmLight.Extras.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\GalaSoft.MvvmLight.Extras.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\GalaSoft.MvvmLight.Platform.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\GalaSoft.MvvmLight.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\GalaSoft.MvvmLight.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Newtonsoft.Json.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\PanCardView.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Plugin.Permissions.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Plugin.Permissions.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Rg.Plugins.Popup.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Rg.Plugins.Popup.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SkiaSharp.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SkiaSharp.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SkiaSharp.Extended.Svg.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SkiaSharp.Views.iOS.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SkiaSharp.Views.iOS.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SkiaSharp.Views.Forms.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SkiaSharp.Views.Forms.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SQLite-net.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SQLitePCLRaw.batteries_v2.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SQLitePCLRaw.nativelibrary.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SQLitePCLRaw.core.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\System.Buffers.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\System.Memory.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\WebP.Touch.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Plugin.Media.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Plugin.Media.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xam.Plugin.TabView.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Essentials.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Essentials.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Platform.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Platform.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Forms.Platform.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Forms.Platform.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Forms.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Forms.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Svg.Platform.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Svg.Platform.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Svg.Forms.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Svg.Forms.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Transformations.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Transformations.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.iOS.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.iOS.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\ar\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\ca\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\cs\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\da\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\de\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\el\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\es\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\fi\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\fr\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\he\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\hi\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\hr\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\hu\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\id\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\it\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\ja\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\ko\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\ms\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\nb\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\nl\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\pl\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\pt-BR\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\pt\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\ro\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\ru\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\sk\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\sv\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\th\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\tr\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\uk\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\vi\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\zh-Hans\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.OpenWhatsApp.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.PancakeView.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Matrimony.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\PanCardView.iOS.dll
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Matrimony.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\actool\_ProcessedImageAssetsPath.items
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\ibtool\_ProcessedInterfaceDefinitionsPath.items
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\coremlc\_ProcessedCoreMLModelsPath.items
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\_ProcessedBundleResourcesPath.items
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\_ProcessedContentPath.items
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\optimized\
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\Matrimony.iOS.csproj.AssemblyReference.cache
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\Matrimony.iOS.csproj.CoreCompileInputs.cache
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\Matrimony.iOS.csproj.CopyComplete
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\Matrimony.iOS.exe
+E:\Matrimony_ATUL\Matrimony working by DU 18OCT2023\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\Matrimony.iOS.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\actool\_ProcessedImageAssetsPath.items
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\ibtool\_ProcessedInterfaceDefinitionsPath.items
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\coremlc\_ProcessedCoreMLModelsPath.items
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\_ProcessedBundleResourcesPath.items
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\_ProcessedContentPath.items
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\optimized\
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\Matrimony.iOS.csproj.AssemblyReference.cache
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\Matrimony.iOS.csproj.CoreCompileInputs.cache
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Matrimony.iOS.exe
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Matrimony.iOS.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Acr.UserDialogs.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Acr.UserDialogs.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\BTProgressHUD.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\BTProgressHUD.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\CarouselView.FormsPlugin.Abstractions.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\CarouselView.FormsPlugin.iOS.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\CommonServiceLocator.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\CommunityToolkit.Mvvm.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\CommunityToolkit.Mvvm.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\GalaSoft.MvvmLight.Extras.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\GalaSoft.MvvmLight.Extras.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\GalaSoft.MvvmLight.Platform.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\GalaSoft.MvvmLight.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\GalaSoft.MvvmLight.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Newtonsoft.Json.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\PanCardView.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Plugin.Permissions.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Plugin.Permissions.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Rg.Plugins.Popup.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Rg.Plugins.Popup.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SkiaSharp.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SkiaSharp.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SkiaSharp.Extended.Svg.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SkiaSharp.Views.iOS.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SkiaSharp.Views.iOS.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SkiaSharp.Views.Forms.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SkiaSharp.Views.Forms.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SQLite-net.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SQLitePCLRaw.batteries_v2.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SQLitePCLRaw.nativelibrary.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SQLitePCLRaw.core.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\System.Buffers.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\System.Memory.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\WebP.Touch.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Plugin.Media.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Plugin.Media.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xam.Plugin.TabView.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Essentials.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Essentials.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Platform.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Platform.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Forms.Platform.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Forms.Platform.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Forms.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Forms.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Svg.Platform.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Svg.Platform.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Svg.Forms.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Svg.Forms.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Transformations.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Transformations.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.iOS.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.iOS.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\ar\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\ca\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\cs\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\da\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\de\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\el\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\es\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\fi\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\fr\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\he\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\hi\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\hr\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\hu\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\id\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\it\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\ja\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\ko\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\ms\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\nb\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\nl\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\pl\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\pt-BR\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\pt\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\ro\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\ru\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\sk\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\sv\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\th\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\tr\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\uk\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\vi\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\zh-Hans\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.OpenWhatsApp.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.PancakeView.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Matrimony.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\PanCardView.iOS.dll
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Matrimony.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\Matrimon.86B0DFFE.Up2Date
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\Matrimony.iOS.exe
+E:\Matrimony_ATUL\Matrimony working by DU 28 JAN 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\Matrimony.iOS.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Matrimony.iOS.exe
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Matrimony.iOS.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Acr.UserDialogs.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Acr.UserDialogs.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\BTProgressHUD.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\BTProgressHUD.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\CarouselView.FormsPlugin.Abstractions.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\CarouselView.FormsPlugin.iOS.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\CommonServiceLocator.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\CommunityToolkit.Mvvm.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\CommunityToolkit.Mvvm.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\GalaSoft.MvvmLight.Extras.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\GalaSoft.MvvmLight.Extras.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\GalaSoft.MvvmLight.Platform.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\GalaSoft.MvvmLight.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\GalaSoft.MvvmLight.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Newtonsoft.Json.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\PanCardView.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Plugin.Permissions.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Plugin.Permissions.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Rg.Plugins.Popup.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Rg.Plugins.Popup.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SkiaSharp.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SkiaSharp.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SkiaSharp.Extended.Svg.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SkiaSharp.Views.iOS.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SkiaSharp.Views.iOS.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SkiaSharp.Views.Forms.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SkiaSharp.Views.Forms.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SQLite-net.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SQLitePCLRaw.batteries_v2.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SQLitePCLRaw.nativelibrary.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SQLitePCLRaw.core.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\System.Buffers.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\System.Memory.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\WebP.Touch.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Plugin.Media.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Plugin.Media.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xam.Plugin.TabView.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Essentials.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Essentials.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Platform.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Platform.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Forms.Platform.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Forms.Platform.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Forms.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Forms.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Svg.Platform.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Svg.Platform.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Svg.Forms.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Svg.Forms.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Transformations.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Transformations.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.iOS.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.iOS.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\ar\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\ca\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\cs\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\da\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\de\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\el\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\es\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\fi\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\fr\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\he\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\hi\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\hr\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\hu\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\id\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\it\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\ja\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\ko\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\ms\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\nb\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\nl\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\pl\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\pt-BR\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\pt\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\ro\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\ru\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\sk\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\sv\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\th\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\tr\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\uk\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\vi\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\zh-Hans\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.OpenWhatsApp.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.PancakeView.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Matrimony.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\PanCardView.iOS.dll
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Matrimony.pdb
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\actool\_ProcessedImageAssetsPath.items
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\ibtool\_ProcessedInterfaceDefinitionsPath.items
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\coremlc\_ProcessedCoreMLModelsPath.items
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\_ProcessedBundleResourcesPath.items
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\_ProcessedContentPath.items
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\optimized\
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\Matrimony.iOS.csproj.AssemblyReference.cache
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\Matrimony.iOS.csproj.CoreCompileInputs.cache
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\Matrimon.86B0DFFE.Up2Date
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\Matrimony.iOS.exe
+E:\Matrimony_ATUL\Matrimony working by DU 13 MARCH 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\Matrimony.iOS.pdb
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Matrimony.iOS.exe
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Matrimony.iOS.pdb
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Acr.UserDialogs.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Acr.UserDialogs.pdb
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\BTProgressHUD.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\BTProgressHUD.pdb
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\CarouselView.FormsPlugin.Abstractions.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\CarouselView.FormsPlugin.iOS.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\CommonServiceLocator.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\CommunityToolkit.Mvvm.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\CommunityToolkit.Mvvm.pdb
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\GalaSoft.MvvmLight.Extras.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\GalaSoft.MvvmLight.Extras.pdb
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\GalaSoft.MvvmLight.Platform.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\GalaSoft.MvvmLight.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\GalaSoft.MvvmLight.pdb
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Newtonsoft.Json.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\PanCardView.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Plugin.Permissions.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Plugin.Permissions.pdb
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Rg.Plugins.Popup.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Rg.Plugins.Popup.pdb
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SkiaSharp.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SkiaSharp.pdb
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SkiaSharp.Extended.Svg.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SkiaSharp.Views.iOS.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SkiaSharp.Views.iOS.pdb
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SkiaSharp.Views.Forms.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SkiaSharp.Views.Forms.pdb
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SQLite-net.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SQLitePCLRaw.batteries_v2.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SQLitePCLRaw.nativelibrary.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SQLitePCLRaw.core.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\System.Buffers.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\System.Memory.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\WebP.Touch.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Plugin.Media.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Plugin.Media.pdb
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xam.Plugin.TabView.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Essentials.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Essentials.pdb
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Platform.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Platform.pdb
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.pdb
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Forms.Platform.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Forms.Platform.pdb
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Forms.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Forms.pdb
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Svg.Platform.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Svg.Platform.pdb
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Svg.Forms.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Svg.Forms.pdb
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Transformations.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Transformations.pdb
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.pdb
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.iOS.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.iOS.pdb
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.pdb
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\ar\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\ca\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\cs\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\da\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\de\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\el\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\es\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\fi\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\fr\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\he\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\hi\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\hr\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\hu\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\id\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\it\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\ja\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\ko\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\ms\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\nb\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\nl\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\pl\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\pt-BR\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\pt\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\ro\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\ru\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\sk\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\sv\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\th\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\tr\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\uk\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\vi\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\zh-Hans\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.OpenWhatsApp.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.PancakeView.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Matrimony.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\PanCardView.iOS.dll
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Matrimony.pdb
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\actool\_ProcessedImageAssetsPath.items
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\ibtool\_ProcessedInterfaceDefinitionsPath.items
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\coremlc\_ProcessedCoreMLModelsPath.items
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\_ProcessedBundleResourcesPath.items
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\_ProcessedContentPath.items
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\optimized\
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\Matrimony.iOS.csproj.AssemblyReference.cache
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\Matrimony.iOS.csproj.CoreCompileInputs.cache
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\Matrimon.86B0DFFE.Up2Date
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\Matrimony.iOS.exe
+F:\Matrimony_ATUL\20 JULY 2024\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\Matrimony.iOS.pdb
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Matrimony.iOS.exe
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Matrimony.iOS.pdb
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Acr.UserDialogs.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Acr.UserDialogs.pdb
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\BTProgressHUD.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\BTProgressHUD.pdb
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\PanCardView.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\PanCardView.iOS.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\CarouselView.FormsPlugin.Abstractions.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\CarouselView.FormsPlugin.iOS.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\CommonServiceLocator.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\CommunityToolkit.Mvvm.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\CommunityToolkit.Mvvm.pdb
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\GalaSoft.MvvmLight.Extras.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\GalaSoft.MvvmLight.Extras.pdb
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\GalaSoft.MvvmLight.Platform.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\GalaSoft.MvvmLight.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\GalaSoft.MvvmLight.pdb
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Newtonsoft.Json.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Plugin.Permissions.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Plugin.Permissions.pdb
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Rg.Plugins.Popup.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Rg.Plugins.Popup.pdb
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SkiaSharp.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SkiaSharp.pdb
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SkiaSharp.Extended.Svg.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SkiaSharp.Views.iOS.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SkiaSharp.Views.iOS.pdb
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SkiaSharp.Views.Forms.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SkiaSharp.Views.Forms.pdb
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SQLite-net.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SQLitePCLRaw.batteries_v2.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SQLitePCLRaw.nativelibrary.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SQLitePCLRaw.core.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\System.Buffers.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\System.Memory.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\WebP.Touch.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Plugin.Media.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Plugin.Media.pdb
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xam.Plugin.TabView.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Essentials.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Essentials.pdb
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Platform.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Platform.pdb
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.pdb
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Forms.Platform.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Forms.Platform.pdb
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Forms.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Forms.pdb
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Svg.Platform.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Svg.Platform.pdb
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Svg.Forms.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Svg.Forms.pdb
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Transformations.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\FFImageLoading.Transformations.pdb
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.pdb
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.iOS.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.iOS.pdb
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.pdb
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\ar\Xamarin.Forms.Platform.iOS.resources.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\ca\Xamarin.Forms.Platform.iOS.resources.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\cs\Xamarin.Forms.Platform.iOS.resources.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\da\Xamarin.Forms.Platform.iOS.resources.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\de\Xamarin.Forms.Platform.iOS.resources.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\el\Xamarin.Forms.Platform.iOS.resources.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\es\Xamarin.Forms.Platform.iOS.resources.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\fi\Xamarin.Forms.Platform.iOS.resources.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\fr\Xamarin.Forms.Platform.iOS.resources.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\he\Xamarin.Forms.Platform.iOS.resources.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\hi\Xamarin.Forms.Platform.iOS.resources.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\hr\Xamarin.Forms.Platform.iOS.resources.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\hu\Xamarin.Forms.Platform.iOS.resources.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\id\Xamarin.Forms.Platform.iOS.resources.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\it\Xamarin.Forms.Platform.iOS.resources.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\ja\Xamarin.Forms.Platform.iOS.resources.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\ko\Xamarin.Forms.Platform.iOS.resources.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\ms\Xamarin.Forms.Platform.iOS.resources.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\nb\Xamarin.Forms.Platform.iOS.resources.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\nl\Xamarin.Forms.Platform.iOS.resources.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\pl\Xamarin.Forms.Platform.iOS.resources.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\pt-BR\Xamarin.Forms.Platform.iOS.resources.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\pt\Xamarin.Forms.Platform.iOS.resources.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\ro\Xamarin.Forms.Platform.iOS.resources.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\ru\Xamarin.Forms.Platform.iOS.resources.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\sk\Xamarin.Forms.Platform.iOS.resources.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\sv\Xamarin.Forms.Platform.iOS.resources.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\th\Xamarin.Forms.Platform.iOS.resources.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\tr\Xamarin.Forms.Platform.iOS.resources.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\uk\Xamarin.Forms.Platform.iOS.resources.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\vi\Xamarin.Forms.Platform.iOS.resources.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\zh-Hans\Xamarin.Forms.Platform.iOS.resources.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.Maps.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.Maps.iOS.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.OpenWhatsApp.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Xamarin.Forms.PancakeView.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Matrimony.dll
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\bin\iPhone\Debug\Matrimony.pdb
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\actool\_ProcessedImageAssetsPath.items
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\ibtool\_ProcessedInterfaceDefinitionsPath.items
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\coremlc\_ProcessedCoreMLModelsPath.items
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\_ProcessedBundleResourcesPath.items
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\_ProcessedContentPath.items
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\optimized\
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\Matrimony.iOS.csproj.AssemblyReference.cache
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\Matrimony.iOS.csproj.CoreCompileInputs.cache
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\Matrimon.86B0DFFE.Up2Date
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\Matrimony.iOS.exe
+D:\PKJ\06 FEB 2026\Matrimony working by DU 18OCT2023\Matrimony\Matrimony.iOS\obj\iPhone\Debug\Matrimony.iOS.pdb

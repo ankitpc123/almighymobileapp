@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "845172109700",
+    "firebase_url": "https://matrimoneyjainservice.firebaseio.com",
+    "project_id": "matrimoneyjainservice",
+    "storage_bucket": "matrimoneyjainservice.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845172109700:android:e5319a4dd21e8ceb93edd1",
+        "android_client_info": {
+          "package_name": "com.matrimoney.jainservice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845172109700-mg5kphb9as6dl9bgpm00n4v1ov3sj7sh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDlj_WG8fxlMc-E48uHld5hfOctB3fymc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845172109700-mg5kphb9as6dl9bgpm00n4v1ov3sj7sh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

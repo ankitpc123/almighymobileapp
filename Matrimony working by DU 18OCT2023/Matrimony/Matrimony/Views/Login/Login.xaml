@@ -1,0 +1,59 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Matrimony.Views.Login.Login" 
+             xmlns:ffimage="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:ffTransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+             xmlns:proc="clr-namespace:PanCardView.Processors;assembly=PanCardView"
+             xmlns:cards="clr-namespace:PanCardView;assembly=PanCardView" xmlns:tabview="clr-namespace:Xam.Plugin.TabView;assembly=Xam.Plugin.TabView"
+             Title="{Binding Title}" ControlTemplate="{StaticResource MainPageBackTemplate}">
+        <ContentPage.Content>
+        <StackLayout>
+            <TableView HasUnevenRows="True" RowHeight="-1" BackgroundColor="Transparent" Margin="10,4,10,6">
+                <TableView.Root>
+                    <TableSection>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Grid  Margin="150,50" RowDefinitions="*" ColumnDefinitions="*" BackgroundColor="Transparent" HeightRequest="100" WidthRequest="60" >
+                                    <ffimage:CachedImage Margin="2" Grid.Row="0" Grid.Column="0" BackgroundColor="Transparent" Aspect="Fill"  Source="{Binding AppLogoImage}">
+                                        <ffimage:CachedImage.Transformations>
+                                            <ffTransformations:RoundedTransformation Radius="230" BorderSize="0" BorderHexColor="#FFFFFF"/>
+                                        </ffimage:CachedImage.Transformations>
+                                    </ffimage:CachedImage>
+                                </Grid>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </TableSection>
+
+                    <TableSection Title="Personal Information">
+                        <EntryCell Placeholder="Mobile no." Keyboard="Telephone" Text="{Binding LoginId}" />
+                        <EntryCell Placeholder="Password" Text="{Binding Password}"/>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Button Text="Login" Command="{Binding LoginCommand}" TextColor="White" BackgroundColor="{DynamicResource ThemeBaseColor}" Margin="10,20"/>
+                            </ViewCell.View>
+                        </ViewCell>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Button Style="{DynamicResource MediumButton}" Clicked="RegistrationView_Clicked" TextColor="White" FontSize="10" Text="Registration" BackgroundColor="Transparent"
+                            HeightRequest="36" HorizontalOptions="EndAndExpand" WidthRequest="100" TranslationX="10"/>
+                            </ViewCell.View>
+                        </ViewCell>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Button Style="{DynamicResource MediumButton}" Clicked="ForgotPasswordView_Clicked" TextColor="White" FontSize="10" Text="Forgot password" BackgroundColor="Transparent"
+                            HeightRequest="36" HorizontalOptions="EndAndExpand" WidthRequest="125" TranslationX="10"/>
+                            </ViewCell.View>
+                        </ViewCell>
+                
+                        
+                    </TableSection>
+
+                </TableView.Root>
+
+            </TableView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

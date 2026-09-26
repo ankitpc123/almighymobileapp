@@ -1,0 +1,254 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+    <BuildWithMSBuildOnMono>true</BuildWithMSBuildOnMono>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Views\AddMemberView.xaml.cs" />
+    <Compile Remove="Views\AdvanceSearch.xaml.cs" />
+    <Compile Remove="Views\Astrology\AstrologyVigyan.xaml.cs" />
+    <Compile Remove="Views\BridalDetailView.xaml.cs" />
+    <Compile Remove="Views\BridalListView.xaml.cs" />
+    <Compile Remove="Views\DashboardView.xaml.cs" />
+    <Compile Remove="Views\GroomDetailView.xaml.cs" />
+    <Compile Remove="Views\GroomListView.xaml.cs" />
+    <Compile Remove="Views\MudraVigyan\mudravigyan.xaml.cs" />
+    <Compile Remove="Views\SwarVigyan\swarvigyan.xaml.cs" />
+    <Compile Remove="Views\VastuSashtra\VashtuSashtra.xaml.cs" />
+    <Compile Remove="Views\VastuSashtra\VastuSashtra.xaml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Views\AddMemberView.xaml" />
+    <EmbeddedResource Remove="Views\AdvanceSearch.xaml" />
+    <EmbeddedResource Remove="Views\Astrology\AstrologyVigyan.xaml" />
+    <EmbeddedResource Remove="Views\BridalDetailView.xaml" />
+    <EmbeddedResource Remove="Views\BridalListView.xaml" />
+    <EmbeddedResource Remove="Views\DashboardView.xaml" />
+    <EmbeddedResource Remove="Views\GroomDetailView.xaml" />
+    <EmbeddedResource Remove="Views\GroomListView.xaml" />
+    <EmbeddedResource Remove="Views\MudraVigyan\mudravigyan.xaml" />
+    <EmbeddedResource Remove="Views\SwarVigyan\swarvigyan.xaml" />
+    <EmbeddedResource Remove="Views\VastuSashtra\VastuSashtra.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\aboutus.svg" />
+    <None Remove="Resources\add.svg" />
+    <None Remove="Resources\Astrology.svg" />
+    <None Remove="Resources\camera.svg" />
+    <None Remove="Resources\Contectus.svg" />
+    <None Remove="Resources\Directories.svg" />
+    <None Remove="Resources\downarrow.svg" />
+    <None Remove="Resources\family.svg" />
+    <None Remove="Resources\feedback.svg" />
+    <None Remove="Resources\findmycoach.svg" />
+    <None Remove="Resources\Gurukul.svg" />
+    <None Remove="Resources\Home.svg" />
+    <None Remove="Resources\jainmandir.svg" />
+    <None Remove="Resources\jaintiffn.svg" />
+    <None Remove="Resources\Library.svg" />
+    <None Remove="Resources\logout.svg" />
+    <None Remove="Resources\menu.svg" />
+    <None Remove="Resources\namaste.svg" />
+    <None Remove="Resources\Panchang.svg" />
+    <None Remove="Resources\pjks.svg" />
+    <None Remove="Resources\puaripandit.svg" />
+    <None Remove="Resources\Pujari.svg" />
+    <None Remove="Resources\salespurchase.svg" />
+    <None Remove="Resources\Search.svg" />
+    <None Remove="Resources\tolet.svg" />
+    <None Remove="Views\PJKSMenu\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\aboutus.svg" />
+    <EmbeddedResource Include="Resources\add.svg" />
+    <EmbeddedResource Include="Resources\astrology.svg" />
+    <EmbeddedResource Include="Resources\camera.svg" />
+    <EmbeddedResource Include="Resources\contectus.svg" />
+    <EmbeddedResource Include="Resources\directories.svg" />
+    <EmbeddedResource Include="Resources\downarrow.svg" />
+    <EmbeddedResource Include="Resources\family.svg" />
+    <EmbeddedResource Include="Resources\feedback.svg" />
+    <EmbeddedResource Include="Resources\findmycoach.svg" />
+    <EmbeddedResource Include="Resources\gurukul.svg" />
+    <EmbeddedResource Include="Resources\home.svg" />
+    <EmbeddedResource Include="Resources\jainmandir.svg" />
+    <EmbeddedResource Include="Resources\jaintiffn.svg" />
+    <EmbeddedResource Include="Resources\library.svg" />
+    <EmbeddedResource Include="Resources\logout.svg" />
+    <EmbeddedResource Include="Resources\menu.svg" />
+    <EmbeddedResource Include="Resources\namaste.svg" />
+    <EmbeddedResource Include="Resources\panchang.svg" />
+    <EmbeddedResource Include="Resources\pjks.svg" />
+    <EmbeddedResource Include="Resources\puaripandit.svg" />
+    <EmbeddedResource Include="Resources\pujari.svg" />
+    <EmbeddedResource Include="Resources\salespurchase.svg" />
+    <EmbeddedResource Include="Resources\search.svg" />
+    <EmbeddedResource Include="Resources\tolet.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Cells\BridalCell.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Cells\GroomCell.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="NewFolder\BottamToolBoxView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+	  <EmbeddedResource Update="NewFolder\PJKSBottamToolBoxView.xaml">
+		  <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+	  </EmbeddedResource>
+    <EmbeddedResource Update="Views\ContactUs.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Health\MarmChikitsa.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\IntroView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Library\LibraryDashboard.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Library\LibraryDetail.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Library\LibraryList.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Matrimonial\AddMatrimonialMember.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Matrimonial\BridalDetailView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Matrimonial\BridalListView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Matrimonial\DashboardView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Matrimonial\GroomDetailView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Matrimonial\GroomListView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Matrimonial\MatrimonialAdvancedSearch.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\PJKS.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\PJKSMenu\AddMember.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\PJKSMenu\AdvancedSearch.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\PJKSMenu\Dashboard.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\PJKSMenu\MemberDetail.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\PJKSMenu\NearByView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\PJKSMenu\TestDetailPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\PJKSMenu\TESTPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\PJKSMenu\TESTSearchPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\SearchView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Common\" />
+    <Folder Include="Models\PJKS\" />
+    <Folder Include="Views\Astrology\" />
+    <Folder Include="Views\BigBazar\" />
+    <Folder Include="Views\BrekeryWala\" />
+    <Folder Include="Views\Directory\" />
+    <Folder Include="Views\FindMyGuruJi\" />
+    <Folder Include="Views\Gurkul\" />
+    <Folder Include="Views\JainDharamshala\" />
+    <Folder Include="Views\JainHostal\" />
+    <Folder Include="Views\JainMandir\" />
+    <Folder Include="Views\JainWebSite\" />
+    <Folder Include="Views\MudraVigyan\" />
+    <Folder Include="Views\SwarVigyan\" />
+    <Folder Include="Views\VastuSashtra\" />
+    <Folder Include="Views\Vastu\" />
+    <Folder Include="Views\Panchang\" />
+    <Folder Include="Views\Pujari\" />
+    <Folder Include="Views\Tiffin\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Acr.UserDialogs" Version="7.1.0.446" />
+    <PackageReference Include="CardsView" Version="2.8.1" />
+    <PackageReference Include="CommonServiceLocator" Version="2.0.7" />
+    <PackageReference Include="MvvmLightLibs" Version="5.4.1.1" />
+    <PackageReference Include="NETStandard.Library" Version="2.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Plugin.Permissions" Version="6.0.1" />
+    <PackageReference Include="Rg.Plugins.Popup" Version="2.1.0" />
+    <PackageReference Include="SkiaSharp.Svg" Version="1.60.0" />
+    <PackageReference Include="SkiaSharp.Views.Forms" Version="2.88.6" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
+    <PackageReference Include="Xam.Plugin.Media" Version="6.0.2" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.8.0" />
+    <PackageReference Include="Xamarin.FFImageLoading" Version="2.4.11.982" />
+    <PackageReference Include="Xamarin.FFImageLoading.Forms" Version="2.4.11.982" />
+    <PackageReference Include="Xamarin.FFImageLoading.Svg" Version="2.4.11.982" />
+    <PackageReference Include="Xamarin.FFImageLoading.Svg.Forms" Version="2.4.11.982" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2291" />
+    <PackageReference Include="Xamarin.Forms.Maps" Version="4.8.0.1687" />
+    <PackageReference Include="Xamarin.Forms.OpenWhatsApp" Version="1.0.1" />
+    <PackageReference Include="Xamarin.Forms.PancakeView" Version="2.3.0.759" />
+    <PackageReference Include="Xamarin.FFImageLoading.Transformations" Version="2.4.11.982" />
+    <PackageReference Include="Xam.Plugin.TabView" Version="1.1.1" />
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.1" />
+    <PackageReference Include="MvvmLight" Version="5.4.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="PanCardView">
+      <HintPath>..\..\..\..\DLL\PanCardView.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="NewFolder\PJKSBottomToolBox.xaml.cs">
+      <DependentUpon>PJKSBottomToolBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Mahasabha\Dashboard.xaml.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Mahasabha\MemberDetail.xaml.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Views\ToLet\DashboardView.xaml.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+  </ItemGroup>
+</Project>

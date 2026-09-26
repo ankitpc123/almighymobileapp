@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:cards="clr-namespace:PanCardView;assembly=PanCardView"
+            xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+            xmlns:ffTransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+            xmlns:ffimage="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+            xmlns:procCard="clr-namespace:PanCardView.Processors;assembly=PanCardView"
+             xmlns:controls="clr-namespace:PanCardView.Controls;assembly=PanCardView"
+             xmlns:res="clr-namespace:PanCardView.Resources;assembly=PanCardView"
+             x:Class="Matrimony.Views.MudraVigyan.mudravigyan">
+    <ContentPage.Content>
+        <StackLayout>
+            <!--<Label Text="वास्तु शास्त्र"
+                   HeightRequest="10"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />-->
+            <Grid
+                                ColumnDefinitions="0,*"
+                                ColumnSpacing="14"
+                                RowDefinitions="20,600,10"
+                                RowSpacing="4">
+
+                <!--<Label
+                                    Grid.Row="0"
+                                    Grid.Column="1"
+                                    FontSize="14"
+                                    HorizontalOptions="StartAndExpand"
+                                    Style="{DynamicResource RegularLable}"
+                                    Text="वास्तु के अनुसार एक आदर्श मकान का मेनगेट सिर्फ पूर्व या उत्तर दिशा में ही होना चाहिए। वहीं आपके घर का ढलान पूर्व, उत्तर या पूर्व-उत्तर (इशान कोण) की और होना शुभ माना गया है। इस तरह वास्तु के अनुसार घर के कमरे, हॉल, किचन, बाथरुम और बेडरुम एक खास दिशा में होने चाहिए। जिससे घर में वास्तुदोष नहीं होता और लोग सुखी रहते हैं।"
+                                    TextColor="{DynamicResource ThemeTextColor}" />-->
+
+                <cards:CoverFlowView
+            Grid.Row="1"
+                    x:Name="coverFlow"
+                     Grid.Column="1"
+                    IsCyclical="true"
+                    IsUserInteractionEnabled="True"
+                    IsPanSwipeEnabled="True"
+            ItemsSource="{Binding MudraVigyanImageList}"
+            PositionShiftValue="145">
+                    <x:Arguments>
+                        <!--<proc:BaseCoverFlowFrontViewProcessor />
+                        <proc:BaseCoverFlowBackViewProcessor/>-->
+                        <!--<proc:BaseCoverFlowFrontViewProcessor  />-->
+                        <procCard:CoverFlowProcessor OpacityFactor="0.5" ScaleFactor="0.75" />
+                    </x:Arguments>
+
+
+                    <cards:CoverFlowView.ItemTemplate>
+                        <DataTemplate>
+
+                            <!--<ContentView Margin="45,4,45,4">
+                                <ImageButton
+                                    Grid.Row="1"
+                                    Grid.Column="1"
+                                    Margin="2"
+                                    Aspect="Fill"
+                                    BackgroundColor="Transparent"
+                                    CornerRadius="15"
+                                    Source="{Binding ImageUrl}"
+                                    WidthRequest="100" />
+                            </ContentView>-->
+                            <Frame
+                       HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
+                       Margin="80"
+                       
+                       Padding="0" 
+                       HasShadow="True"
+                       IsClippedToBounds="true"
+                       CornerRadius="10">
+                                <ffimage:CachedImage Source="{Binding ImageUrl}" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Aspect="Fill"/>
+                            </Frame>
+                        </DataTemplate>
+                    </cards:CoverFlowView.ItemTemplate>
+                    <controls:LeftArrowControl
+                AbsoluteLayout.LayoutBounds="0, 0.5, -1, -1"
+                ImageSource="{Static res:ResourcesInfo.BlackLeftArrowImageSource}" />
+                    <controls:RightArrowControl
+                AbsoluteLayout.LayoutBounds="1, 0.5, -1, -1"
+                ImageSource="{Static res:ResourcesInfo.BlackRightArrowImageSource}"/>
+                </cards:CoverFlowView>
+                <!--<Label
+                                    Grid.Row="1"
+                                    Grid.Column="1"
+                                    FontSize="10"
+                                    HorizontalOptions="StartAndExpand"
+                                    Style="{DynamicResource RegularLable}"
+                                    Text=""
+                                    TextColor="{DynamicResource ThemeTextColor}" />-->
+
+                <!--<Label
+                                    Grid.Row="2"
+                                    Grid.Column="1"
+                                    FontSize="10"
+                                    HorizontalOptions="StartAndExpand"
+                                    Style="{DynamicResource RegularLable}"
+                                    Text="MY TEST"
+                                    TextColor="{DynamicResource ThemeTextColor}" />-->
+
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>    

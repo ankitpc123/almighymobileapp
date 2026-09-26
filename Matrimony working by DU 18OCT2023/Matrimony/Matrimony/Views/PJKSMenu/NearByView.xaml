@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Near By"
+             xmlns:custom="clr-namespace:Matrimony.ViewModels;assembly=Matrimony"
+             x:Class="Matrimony.Views.PJKSMenu.NearByView">
+    <ContentPage.Content>
+        <StackLayout>
+            <custom:CustomMap x:Name="mapView" IsShowingUser="true" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

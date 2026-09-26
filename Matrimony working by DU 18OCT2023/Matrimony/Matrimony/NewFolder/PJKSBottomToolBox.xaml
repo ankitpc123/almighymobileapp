@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Frame xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:ffimageloadingsvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+       mc:Ignorable="d"
+             x:Class="Matrimony.NewFolder.PJKSBottamToolBoxView" >
+    <Frame.Content>
+        <Grid VerticalOptions="CenterAndExpand" RowDefinitions="Auto,42,16" RowSpacing="0" ColumnSpacing="6" ColumnDefinitions="*,Auto,*,Auto,*,Auto,*">
+            <StackLayout BackgroundColor="Transparent" Grid.Row="0" Grid.ColumnSpan="7" Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="Center">
+                <!--<BoxView HeightRequest="1" HorizontalOptions="StartAndExpand" BackgroundColor="{DynamicResource ThemeTextColor}"/>-->
+                <Label Style="{DynamicResource RegularLable}" HorizontalOptions="CenterAndExpand" Text="-----------------जय जिनेन्द्र--------------" TextColor="{DynamicResource ThemeTextColor}" FontSize="14"/>
+                <!--<BoxView HeightRequest="1" HorizontalOptions="EndAndExpand" BackgroundColor="{DynamicResource ThemeTextColor}"/>-->
+            </StackLayout>
+
+           
+            <!--वास्तु शास्त्र-->
+            <!--<ffimageloadingsvg:SvgCachedImage Margin="2" Grid.Row="1" Grid.Column="0" WidthRequest="42" HeightRequest="42" Source="resource://Matrimony.Resources.gurukul.svg"/>-->
+            <ffimageloadingsvg:SvgCachedImage Grid.Row="1" Margin="2" Grid.Column="0" WidthRequest="42" HeightRequest="42" Source="resource://Matrimony.Resources.gurukul.svg">
+                <ffimageloadingsvg:SvgCachedImage.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="Vastu_Tapped" />
+                </ffimageloadingsvg:SvgCachedImage.GestureRecognizers>
+            </ffimageloadingsvg:SvgCachedImage>
+            <Label Style="{DynamicResource RegularLable}" Grid.Row="2" VerticalOptions="Start" Grid.Column="0" HorizontalOptions="CenterAndExpand" Text="वास्तु विज्ञान" TextColor="{DynamicResource ThemeTextColor}" FontSize="10"/>
+            <BoxView WidthRequest="1" Grid.Row="1" Grid.Column="1" Margin="4" VerticalOptions="Fill" BackgroundColor="{DynamicResource ThemeTextColor}"/>
+
+            <!--मर्म चिकित्सा-->
+            <!--<ffimageloadingsvg:SvgCachedImage Grid.Row="1" Margin="2" Grid.Column="2" WidthRequest="42" HeightRequest="42" Source="resource://Matrimony.Resources.puaripandit.svg"/>-->
+            <ffimageloadingsvg:SvgCachedImage Grid.Row="1" Margin="2" Grid.Column="2" WidthRequest="42" HeightRequest="42" Source="resource://Matrimony.Resources.puaripandit.svg" >
+                <ffimageloadingsvg:SvgCachedImage.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="MudraVigyan_Tapped" />
+                </ffimageloadingsvg:SvgCachedImage.GestureRecognizers>
+            </ffimageloadingsvg:SvgCachedImage>
+            <Label Style="{DynamicResource RegularLable}" Grid.Row="2" Grid.Column="2" HorizontalOptions="CenterAndExpand" Text="मुद्रा विज्ञान" TextColor="{DynamicResource ThemeTextColor}" FontSize="10"/>
+            <BoxView WidthRequest="1" Grid.Row="1" Grid.Column="3" Margin="4" VerticalOptions="Fill" BackgroundColor="{DynamicResource ThemeTextColor}"/>
+
+            <!--आभूषण-->
+            <ffimageloadingsvg:SvgCachedImage Grid.Row="1" Margin="2" Grid.Column="4" WidthRequest="42" HeightRequest="42" Source="resource://Matrimony.Resources.jainmandir.svg" >
+                <ffimageloadingsvg:SvgCachedImage.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="SwarVigyan_Tapped" />
+                </ffimageloadingsvg:SvgCachedImage.GestureRecognizers>
+            </ffimageloadingsvg:SvgCachedImage>
+            <Label Style="{DynamicResource RegularLable}" Grid.Row="2" Grid.Column="4" HorizontalOptions="CenterAndExpand" Text="स्वर विज्ञान" TextColor="{DynamicResource ThemeTextColor}" FontSize="10"/>
+            <BoxView WidthRequest="1" Grid.Row="1" Grid.Column="5" Margin="4" VerticalOptions="Fill" BackgroundColor="{DynamicResource ThemeTextColor}"/>
+
+            <!--जैन ज्योतिष-->
+            <ffimageloadingsvg:SvgCachedImage Grid.Row="1" Margin="2" Grid.Column="6" WidthRequest="42" HeightRequest="42" Source="resource://Matrimony.Resources.jaintiffn.svg" >
+                <ffimageloadingsvg:SvgCachedImage.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="JYOTISH_Tapped" />
+                </ffimageloadingsvg:SvgCachedImage.GestureRecognizers>
+            </ffimageloadingsvg:SvgCachedImage>
+            <Label Style="{DynamicResource RegularLable}" Grid.Row="2" Grid.Column="6" HorizontalOptions="CenterAndExpand" Text="ज्योतिष विज्ञान" TextColor="{DynamicResource ThemeTextColor}" FontSize="10"/>
+        </Grid>
+  </Frame.Content>
+</Frame>

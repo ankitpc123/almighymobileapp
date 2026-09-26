@@ -1,0 +1,526 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Matrimony.Views.Mahasabha.MemberDetail"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:cards="clr-namespace:PanCardView;assembly=PanCardView"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:ffTransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+    xmlns:ffimage="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:proc="clr-namespace:PanCardView.Processors;assembly=PanCardView"
+    xmlns:tabview="clr-namespace:Xam.Plugin.TabView;assembly=Xam.Plugin.TabView" xmlns:viewmodels="clr-namespace:Matrimony.ViewModels" x:DataType="viewmodels:MembersViewModel"
+    Title="{Binding Title}"
+    ControlTemplate="{StaticResource MainPageBackTemplate}"
+    mc:Ignorable="d">
+    <ContentPage.ToolbarItems>
+        <!--<ToolbarItem Order="Secondary" Text="About-us" />
+        <ToolbarItem Order="Secondary" Text="Contact-us" />
+        <ToolbarItem Order="Secondary" Text="Help" />-->
+    </ContentPage.ToolbarItems>
+    <NavigationPage.TitleView>
+        <Grid
+            Margin="0,0,8,0"
+            BackgroundColor="Transparent"
+            ColumnDefinitions="*,48"
+            RowDefinitions="48">
+
+            <StackLayout
+                Grid.Column="0"
+                HorizontalOptions="CenterAndExpand"
+                Orientation="Horizontal"
+                VerticalOptions="Center">
+                <Label
+                    Style="{DynamicResource MediumLable}"
+                    Text="कन्या की जानकारी"
+                    TextColor="White" />
+            </StackLayout>
+            <ffimage:CachedImage
+                Grid.Column="1"
+                Margin="2"
+                Aspect="AspectFit"
+                HeightRequest="42"
+                Source="girl"
+                WidthRequest="42">
+                <ffimage:CachedImage.Transformations>
+                    <ffTransformations:RoundedTransformation
+                        BorderHexColor="#FFFFFF"
+                        BorderSize="10"
+                        CropHeightRatio="42"
+                        CropWidthRatio="42"
+                        Radius="500" />
+                </ffimage:CachedImage.Transformations>
+            </ffimage:CachedImage>
+
+        </Grid>
+    </NavigationPage.TitleView>
+
+    <Grid Padding="10,4,10,2" RowDefinitions="1.2*,20,*">
+        <cards:CoverFlowView
+            Grid.Row="0"
+            ItemsSource="{Binding MemberImageList}"
+            PositionShiftValue="145">
+            <x:Arguments>
+                <proc:CoverFlowProcessor OpacityFactor="0.5" ScaleFactor="0.75" />
+            </x:Arguments>
+
+            <cards:CoverFlowView.ItemTemplate>
+                <DataTemplate>
+                    <ContentView Margin="45,4,45,4">
+                        <ImageButton
+                                Grid.Row="0"
+                                Grid.RowSpan="9"
+                                Grid.Column="0"
+                                Margin="2"
+                                Aspect="Fill"
+                                BackgroundColor="Transparent"
+                                CornerRadius="15"
+                                Source="{Binding ImageUrl}"
+                                WidthRequest="100" />
+                    </ContentView>
+                </DataTemplate>
+            </cards:CoverFlowView.ItemTemplate>
+
+        </cards:CoverFlowView>
+
+        <StackLayout
+                Grid.Row="1"
+                HorizontalOptions="CenterAndExpand"
+                Orientation="Horizontal"
+                TranslationY="6"
+                VerticalOptions="Fill">
+            <Frame
+                    Padding="0"
+                    BackgroundColor="{DynamicResource ThemeBaseColor}"
+                    CornerRadius="6"
+                    HasShadow="False"
+                    HeightRequest="12"
+                    Opacity="0.75"
+                    WidthRequest="80">
+                <Label
+                        FontSize="12"
+                        Style="{DynamicResource BoldLable}"
+                        Text="संपर्क करें"
+                        TextColor="White" />
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="Chat_Tapped" />
+                </Frame.GestureRecognizers>
+            </Frame>
+            <Frame
+                Padding="0"
+                BackgroundColor="{DynamicResource ThemeBaseColor}"
+                CornerRadius="6"
+                HasShadow="False"
+                HeightRequest="12"
+                Opacity="0.75"
+                WidthRequest="80">
+                <Label
+                    FontSize="12"
+                    Style="{DynamicResource BoldLable}"
+                    Text="सन्देश भेजें"
+                    TextColor="White" />
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="SendInterest_Tapped" />
+                </Frame.GestureRecognizers>
+            </Frame>
+        </StackLayout>
+
+        <tabview:TabViewControl
+                Grid.Row="2"
+                HeaderBackgroundColor="White"
+                HeaderSelectionUnderlineColor="{DynamicResource ThemeBaseColor}"
+                HeaderSelectionUnderlineThickness="2"
+                HeaderTabTextColor="{DynamicResource ThemeTextColor}"
+                HeaderTabTextFontAttributes="Bold"
+                HeaderTabTextFontFamily="{DynamicResource MediumFont}"
+                HeaderTabTextFontSize="16"
+                HorizontalOptions="FillAndExpand"
+                IsSwipeEnabled="True"
+                TabHeaderSpacing="0"
+                VerticalOptions="FillAndExpand">
+            <tabview:TabViewControl.ItemSource>
+
+                <tabview:TabItem
+                        HeaderTabTextFontFamily="{DynamicResource RegularFont}"
+                        HeaderTabTextFontSize="12"
+                        HeaderText="व्यक्तिगत">
+
+                    <ContentView
+                            Margin="10"
+                            Padding="2,2"
+                            BackgroundColor="Transparent">
+                        <Frame
+                                Margin="0,0"
+                                Padding="2,4,2,4"
+                                BackgroundColor="White"
+                                BorderColor="White"
+                                CornerRadius="10"
+                                HasShadow="True">
+                            <Grid
+                                    ColumnDefinitions="0,*"
+                                    ColumnSpacing="14"
+                                    RowDefinitions="16,24,14,14,14,14,14,14,14,14,14,14,14"
+                                    RowSpacing="4">
+
+                                <Label
+                                        Grid.Row="0"
+                                        Grid.Column="1"
+                                        FontSize="12"
+                                        HorizontalOptions="StartAndExpand"
+                                        Style="{DynamicResource BoldLable}"
+                                        Text="{Binding SelectedItem.FirstName}"
+                                        TextColor="{DynamicResource ThemeTextColor}" />
+
+                                <Label
+                                        Grid.Row="1"
+                                        Grid.Column="1"
+                                        FontSize="14"
+                                        HorizontalOptions="StartAndExpand"
+                                        Style="{DynamicResource RegularLable}"
+                                        Text="{Binding SelectedItem.FName}"
+                                        TextColor="{DynamicResource ThemeTextColor}" />
+
+                                <Label
+                                        Grid.Row="2"
+                                        Grid.Column="1"
+                                        FontSize="10"
+                                        HorizontalOptions="StartAndExpand"
+                                        Style="{DynamicResource RegularLable}"
+                                        Text="{Binding SelectedItem.MName}"
+                                        TextColor="{DynamicResource ThemeTextColor}" />
+
+                                <Label
+                                        Grid.Row="3"
+                                        Grid.Column="1"
+                                        FontSize="10"
+                                        HorizontalOptions="StartAndExpand"
+                                        Style="{DynamicResource RegularLable}"
+                                        Text="{Binding SelectedItem.Address1}"
+                                        TextColor="{DynamicResource ThemeTextColor}" />
+
+                                <Label
+                                        Grid.Row="4"
+                                        Grid.Column="1"
+                                        FontSize="10"
+                                        HorizontalOptions="StartAndExpand"
+                                        Style="{DynamicResource RegularLable}"
+                                        Text="{Binding SelectedItem.GetAddress}"
+                                        TextColor="{DynamicResource ThemeTextColor}" />
+
+                                <Label
+                                        Grid.Row="5"
+                                        Grid.Column="1"
+                                        FontSize="10"
+                                        HorizontalOptions="StartAndExpand"
+                                        Style="{DynamicResource RegularLable}"
+                                        Text="{Binding SelectedItem.GetAddress}"
+                                        TextColor="{DynamicResource ThemeTextColor}" />
+
+                                <Label
+                                        Grid.Row="6"
+                                        Grid.Column="1"
+                                        FontSize="10"
+                                        HorizontalOptions="StartAndExpand"
+                                        Style="{DynamicResource RegularLable}"
+                                         Text="{Binding SelectedItem.GetAddress}"
+                                        TextColor="{DynamicResource ThemeTextColor}" />
+
+                                <Label
+                                        Grid.Row="7"
+                                        Grid.Column="1"
+                                        FontSize="10"
+                                        HorizontalOptions="StartAndExpand"
+                                        Style="{DynamicResource RegularLable}"
+                                         Text="{Binding SelectedItem.GetAddress}"
+                                        TextColor="{DynamicResource ThemeTextColor}" />
+
+                                <Label
+                                        Grid.Row="8"
+                                        Grid.Column="1"
+                                        FontSize="10"
+                                        HorizontalOptions="StartAndExpand"
+                                        Style="{DynamicResource RegularLable}"
+                                         Text="{Binding SelectedItem.GetAddress}"
+                                        TextColor="{DynamicResource ThemeTextColor}" />
+
+                                <Label
+                                        Grid.Row="9"
+                                        Grid.Column="1"
+                                        FontSize="10"
+                                        HorizontalOptions="StartAndExpand"
+                                        MaxLines="2"
+                                        Style="{DynamicResource RegularLable}"
+                                         Text="{Binding SelectedItem.GetAddress}"
+                                        TextColor="{DynamicResource ThemeTextColor}" />
+
+                                <Label
+                                        Grid.Row="10"
+                                        Grid.Column="1"
+                                        FontSize="10"
+                                        HorizontalOptions="StartAndExpand"
+                                        Style="{DynamicResource RegularLable}"
+                                         Text="{Binding SelectedItem.GetAddress}"
+                                        TextColor="{DynamicResource ThemeTextColor}" />
+
+                                <Label
+                                        Grid.Row="11"
+                                        Grid.Column="1"
+                                        FontSize="10"
+                                        HorizontalOptions="StartAndExpand"
+                                        Style="{DynamicResource RegularLable}"
+                                         Text="{Binding SelectedItem.GetAddress}"
+                                        TextColor="{DynamicResource ThemeTextColor}" />
+
+                            </Grid>
+                        </Frame>
+                    </ContentView>
+
+                </tabview:TabItem>
+
+                <tabview:TabItem
+                    HeaderTabTextFontFamily="{DynamicResource RegularFont}"
+                    HeaderTabTextFontSize="12"
+                    HeaderText="परिवार">
+
+                    <CollectionView
+                        HorizontalOptions="FillAndExpand"
+                        ItemsSource="{Binding GroupMemberResponse.familyMemberList}"
+                        SelectionMode="None">
+                        <CollectionView.ItemsLayout>
+                            <LinearItemsLayout ItemSpacing="4" Orientation="Vertical" />
+                        </CollectionView.ItemsLayout>
+                        <CollectionView.EmptyView>
+                            <Label
+                                Style="{DynamicResource MediumLable}"
+                                Text="No Record Available"
+                                TextColor="{DynamicResource ThemeTextColor}" />
+                        </CollectionView.EmptyView>
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <ContentView
+                                        Margin="10,4"
+                                        Padding="2,2"
+                                        BackgroundColor="Transparent">
+                                    <Frame
+                                            Margin="0,0"
+                                            Padding="2,4,2,0"
+                                            BackgroundColor="White"
+                                            BorderColor="White"
+                                            CornerRadius="0"
+                                            HasShadow="True">
+                                        <Grid
+                                                RowDefinitions="Auto,Auto,Auto"
+                                                RowSpacing="1"
+                                                VerticalOptions="FillAndExpand">
+
+                                            <Label
+                                                    Grid.Row="0"
+                                                    FontAttributes="Bold"
+                                                    FontSize="12"
+                                                    HorizontalOptions="StartAndExpand"
+                                                    Style="{DynamicResource BoldLable}"
+                                                    Text="{Binding FirstName}"
+                                                    TextColor="{DynamicResource ThemeTextColor}" />
+
+                                            <Label
+                                                    Grid.Row="1"
+                                                    FontSize="10"
+                                                    HorizontalOptions="StartAndExpand"
+                                                    Style="{DynamicResource RegularLable}"
+                                                    Text="{Binding ParentRelationShip, StringFormat='रिश्ता: {0}'}"
+                                                    TextColor="{DynamicResource ThemeTextColor}" />
+
+                                            <Label
+                                                    Grid.Row="2"
+                                                    FontSize="10"
+                                                    HorizontalOptions="StartAndExpand"
+                                                    Style="{DynamicResource RegularLable}"
+                                                    Text="{Binding Mobile, StringFormat='सम्पर्क नं: {0}'}"
+                                                    TextColor="{DynamicResource ThemeTextColor}" />
+
+                                        </Grid>
+                                    </Frame>
+                                </ContentView>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+
+                </tabview:TabItem>
+
+                <tabview:TabItem
+                    HeaderTabTextFontFamily="{DynamicResource RegularFont}"
+                    HeaderTabTextFontSize="12"
+                    HeaderText="कुंडली">
+
+                    <ContentView
+                        Margin="10"
+                        Padding="2,2"
+                        BackgroundColor="Transparent">
+                        <Frame
+                            Margin="0,0"
+                            Padding="2,4,2,4"
+                            BackgroundColor="White"
+                            BorderColor="White"
+                            CornerRadius="10"
+                            HasShadow="True">
+                            <Grid
+                                ColumnDefinitions="*,2.5*"
+                                ColumnSpacing="14"
+                                RowDefinitions="16,24,14,14,14,14,14,14,14,14,14,14,14"
+                                RowSpacing="4">
+
+                                <ffimage:CachedImage
+                                    Grid.Row="0"
+                                    Grid.RowSpan="9"
+                                    Grid.Column="0"
+                                    Margin="2"
+                                    Aspect="Fill"
+                                    BackgroundColor="Transparent"
+                                    Source="{Binding GirlImageUrl}">
+                                    <ffimage:CachedImage.Transformations>
+                                        <ffTransformations:RoundedTransformation
+                                            BorderHexColor="#FFFFFF"
+                                            BorderSize="0"
+                                            Radius="50" />
+                                    </ffimage:CachedImage.Transformations>
+                                </ffimage:CachedImage>
+
+                                <Label
+                                    Grid.Row="0"
+                                    Grid.Column="1"
+                                    FontSize="12"
+                                    HorizontalOptions="StartAndExpand"
+                                    Style="{DynamicResource BoldLable}"
+                                    Text="नक्षत्र"
+                                    TextColor="{DynamicResource ThemeTextColor}" />
+
+                                <Label
+                                    Grid.Row="1"
+                                    Grid.Column="1"
+                                    FontSize="10"
+                                    HorizontalOptions="StartAndExpand"
+                                    Style="{DynamicResource RegularLable}"
+                                    Text="जन्म तारीख"
+                                    TextColor="{DynamicResource ThemeTextColor}" />
+
+                                <Label
+                                    Grid.Row="2"
+                                    Grid.Column="1"
+                                    FontSize="10"
+                                    HorizontalOptions="StartAndExpand"
+                                    Style="{DynamicResource RegularLable}"
+                                    Text="मांगलिक"
+                                    TextColor="{DynamicResource ThemeTextColor}" />
+
+                                <Label
+                                    Grid.Row="3"
+                                    Grid.Column="1"
+                                    FontSize="10"
+                                    HorizontalOptions="StartAndExpand"
+                                    Style="{DynamicResource RegularLable}"
+                                    Text="जन्म समय"
+                                    TextColor="{DynamicResource ThemeTextColor}" />
+
+                                <Label
+                                    Grid.Row="4"
+                                    Grid.Column="1"
+                                    FontSize="10"
+                                    HorizontalOptions="StartAndExpand"
+                                    Style="{DynamicResource RegularLable}"
+                                    Text="जन्म स्थान"
+                                    TextColor="{DynamicResource ThemeTextColor}" />
+
+
+
+                            </Grid>
+                        </Frame>
+                    </ContentView>
+
+                </tabview:TabItem>
+
+                <tabview:TabItem
+                        HeaderTabTextFontFamily="{DynamicResource RegularFont}"
+                        HeaderTabTextFontSize="12"
+                        HeaderText="सम्पर्क सूची">
+
+                    <CollectionView
+                        HorizontalOptions="FillAndExpand"
+                        ItemsSource="{Binding CommitteeMemberList}"
+                        SelectionMode="None">
+                        <CollectionView.ItemsLayout>
+                            <LinearItemsLayout ItemSpacing="2" Orientation="Vertical" />
+                        </CollectionView.ItemsLayout>
+                        <CollectionView.EmptyView>
+                            <Label
+                                Style="{DynamicResource MediumLable}"
+                                Text="No Record Available"
+                                TextColor="{DynamicResource ThemeTextColor}" />
+                        </CollectionView.EmptyView>
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <ContentView
+                                    Margin="10,4"
+                                    Padding="2,2"
+                                    BackgroundColor="Transparent">
+                                    <Frame
+                                        Margin="0,0"
+                                        Padding="2,4,2,0"
+                                        BackgroundColor="White"
+                                        BorderColor="White"
+                                        CornerRadius="0"
+                                        HasShadow="True"
+                                        HeightRequest="60">
+                                        <Grid RowDefinitions="Auto,Auto,Auto,Auto" RowSpacing="1">
+
+                                            <Label
+                                                Grid.Row="0"
+                                                FontAttributes="Bold"
+                                                FontSize="12"
+                                                HorizontalOptions="StartAndExpand"
+                                                Style="{DynamicResource BoldLable}"
+                                                
+                                                TextColor="{DynamicResource ThemeTextColor}" />
+
+                                            <Label
+                                                Grid.Row="1"
+                                                FontSize="10"
+                                                HorizontalOptions="StartAndExpand"
+                                                Style="{DynamicResource RegularLable}"
+                                               
+                                                TextColor="{DynamicResource ThemeTextColor}" />
+
+                                            <Label
+                                                Grid.Row="2"
+                                                FontSize="10"
+                                                HorizontalOptions="StartAndExpand"
+                                                Style="{DynamicResource RegularLable}"
+                                        
+                                                TextColor="{DynamicResource ThemeTextColor}" />
+
+                                            <Label
+                                                Grid.Row="3"
+                                                FontSize="10"
+                                                HorizontalOptions="StartAndExpand"
+                                                LineBreakMode="TailTruncation"
+                                                MaxLines="2"
+                                                Style="{DynamicResource RegularLable}"
+                                        
+                                                TextColor="{DynamicResource ThemeTextColor}" />
+
+                                        </Grid>
+                                    </Frame>
+                                </ContentView>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+
+                </tabview:TabItem>
+
+            </tabview:TabViewControl.ItemSource>
+
+        </tabview:TabViewControl>
+
+    </Grid>
+
+
+</ContentPage>    
