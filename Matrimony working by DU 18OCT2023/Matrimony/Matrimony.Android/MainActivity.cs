@@ -69,6 +69,16 @@ namespace Matrimony.Droid
             FFImageLoading.Forms.Platform.CachedImageRenderer.Init(true);
             var ignore = typeof(SvgCachedImage);
 
+            // Register native Android HTTP handler BEFORE LoadApplication so ApiProvider picks it up
+            GalaSoft.MvvmLight.Ioc.SimpleIoc.Default.Register<System.Net.Http.HttpMessageHandler>(() =>
+            {
+                // Use AndroidClientHandler to get native Android DNS + TLS stack.
+                // This fixes "no such host" on real devices and handles Hostinger/Let's Encrypt SSL correctly.
+                var handler = new Xamarin.Android.Net.AndroidClientHandler();
+                handler.ServerCertificateCustomValidationCallback = (message, cert, chain, errors) => true;
+                return handler;
+            });
+
             LoadApplication(new App());
 
             CreateNotificationChannel();

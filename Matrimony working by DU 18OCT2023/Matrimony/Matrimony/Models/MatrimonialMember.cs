@@ -182,6 +182,7 @@ namespace Matrimony.Models
         }
     }
 
+    [Newtonsoft.Json.JsonConverter(typeof(DobConverter))]
     public class Dob
     {
         public int TimezoneOffset { get; set; }
@@ -195,5 +196,39 @@ namespace Matrimony.Models
         public int Millisecond { get; set; }
         public bool IsNull { get; set; }
         public DateTime Value { get; set; }
+    }
+
+    /// <summary>
+    /// Handles dob deserialization for both:
+    ///   - PHP API (new): plain string "2020-08-02"
+    ///   - .NET API (old): JSON object with Year/Month/Day/Value etc.
+    /// </summary>
+    public class DobConverter : Newtonsoft.Json.JsonConverter<Dob>
+    {
+        public override Dob ReadJson(Newtonsoft.Json.JsonReader reader, Type objectType,
+            Dob existingValue, bool hasExistingValue, Newtonsoft.Json.JsonSerializer serializer)
+        {
+            if (reader.TokenType == Newtonsoft.Json.JsonToken.String)
+            {
+                var raw = reader.Value?.ToString();
+                if (DateTime.TryParse(raw, out var dt))
+                    return new Dob { Year = dt.Year, Month = dt.Month, Day = dt.Day, Value = dt, IsValidDateTime = true };
+                return new Dob { IsNull = true };
+            }
+
+            if (reader.TokenType == Newtonsoft.Json.JsonToken.StartObject)
+            {
+                var dob = new Dob();
+                serializer.Populate(reader, dob);
+                return dob;
+            }
+
+            return new Dob { IsNull = true };
+        }
+
+        public override void WriteJson(Newtonsoft.Json.JsonWriter writer, Dob value, Newtonsoft.Json.JsonSerializer serializer)
+        {
+            writer.WriteValue(value?.Value.ToString("yyyy-MM-dd"));
+        }
     }
 }

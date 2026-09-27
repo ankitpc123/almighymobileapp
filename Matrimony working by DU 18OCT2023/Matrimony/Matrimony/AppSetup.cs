@@ -14,7 +14,12 @@ namespace Matrimony
     {
         public AppSetup()
         {
-            SimpleIoc.Default.Register<Matrimony.ApiProvider.IApiProvider, Matrimony.ApiProvider.ApiProvider>();
+            SimpleIoc.Default.Register<Matrimony.ApiProvider.IApiProvider>(() =>
+            {
+                System.Net.Http.HttpMessageHandler handler = null;
+                try { handler = SimpleIoc.Default.GetInstance<System.Net.Http.HttpMessageHandler>(); } catch { }
+                return new Matrimony.ApiProvider.ApiProvider(handler);
+            });
             SimpleIoc.Default.Register<IApiService, ApiService>();
 
             SimpleIoc.Default.Register<BaseViewModel>();

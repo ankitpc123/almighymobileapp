@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -8,20 +9,74 @@ using System.Threading.Tasks;
 
 namespace Matrimony.ApiProvider
 {
+    /// <summary>
+    /// Handles PHP API responses where numbers and booleans are returned as strings.
+    /// e.g. "milan": "0" -> false, "memberid": "768" -> 768, "brothers": "0" -> 0
+    /// </summary>
+    public class PhpTypeConverter : JsonConverter
+    {
+        public override bool CanConvert(Type objectType)
+        {
+            var t = Nullable.GetUnderlyingType(objectType) ?? objectType;
+            return t == typeof(bool) || t == typeof(int) || t == typeof(long) || t == typeof(double) || t == typeof(float);
+        }
+
+        public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
+        {
+            var underlying = Nullable.GetUnderlyingType(objectType) ?? objectType;
+            var token = JToken.Load(reader);
+
+            if (token.Type == JTokenType.Null)
+                return Nullable.GetUnderlyingType(objectType) != null ? (object)null : Activator.CreateInstance(underlying);
+
+            var raw = token.ToString().Trim();
+
+            if (underlying == typeof(bool))
+                return raw == "1" || raw.Equals("true", StringComparison.OrdinalIgnoreCase);
+
+            if (underlying == typeof(int))
+                return int.TryParse(raw, out var i) ? i : 0;
+
+            if (underlying == typeof(long))
+                return long.TryParse(raw, out var l) ? l : 0L;
+
+            if (underlying == typeof(double))
+                return double.TryParse(raw, System.Globalization.NumberStyles.Any, System.Globalization.CultureInfo.InvariantCulture, out var d) ? d : 0.0;
+
+            if (underlying == typeof(float))
+                return float.TryParse(raw, System.Globalization.NumberStyles.Any, System.Globalization.CultureInfo.InvariantCulture, out var f) ? f : 0f;
+
+            return Activator.CreateInstance(underlying);
+        }
+
+        public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
+            => writer.WriteValue(value?.ToString());
+    }
+
+    public static class PhpJsonSettings
+    {
+        public static readonly JsonSerializerSettings Settings = new JsonSerializerSettings
+        {
+            Converters = { new PhpTypeConverter() },
+            NullValueHandling = NullValueHandling.Ignore,
+            MissingMemberHandling = MissingMemberHandling.Ignore
+        };
+    }
+
     public class ApiProvider : IApiProvider
     {
         private readonly HttpClient httpClient;
-        public ApiProvider()
-        {
-            HttpClientHandler handler = new HttpClientHandler();
-            httpClient = new HttpClient(handler);
-            TimeSpan ts = TimeSpan.FromSeconds(15);
-            httpClient.Timeout = ts;
 
-            handler.ServerCertificateCustomValidationCallback = (message, cert, chain, errors) =>
+        public ApiProvider(HttpMessageHandler handler = null)
+        {
+            if (handler == null)
             {
-                return true;
-            };
+                var defaultHandler = new HttpClientHandler();
+                defaultHandler.ServerCertificateCustomValidationCallback = (message, cert, chain, errors) => true;
+                handler = defaultHandler;
+            }
+            httpClient = new HttpClient(handler);
+            httpClient.Timeout = TimeSpan.FromSeconds(30);
         }
         public async Task<ApiResult<T>> Get<T>(string url, Dictionary<string, string> headers = null)
         {
@@ -39,8 +94,8 @@ namespace Matrimony.ApiProvider
                 try
                 {
 
-                    var deserialized = JsonConvert.DeserializeObject<T>(rawResult);
-                    return new ApiResult<T> { value = deserialized,IsSuccess = true };// (rawResult, (int)result.StatusCode, deserialized);
+                    var deserialized = JsonConvert.DeserializeObject<T>(rawResult, PhpJsonSettings.Settings);
+                    return new ApiResult<T> { value = deserialized, IsSuccess = true };
                 }
                 catch (Exception e)
                 {
@@ -50,10 +105,10 @@ namespace Matrimony.ApiProvider
             }
             catch (Exception ex)
             {
-                string errorMessage = ex.InnerException.InnerException.Message;
-                return new ApiResult<T> { value = Activator.CreateInstance<T>() };
                 Debug.WriteLine("Error Message is :-" + ex.Message);
-
+                Debug.WriteLine("Inner Exception: " + ex.InnerException?.Message);
+                Debug.WriteLine("Inner Inner Exception: " + ex.InnerException?.InnerException?.Message);
+                return new ApiResult<T> { value = Activator.CreateInstance<T>() };
             }
         }
 
@@ -76,8 +131,8 @@ namespace Matrimony.ApiProvider
                 System.Diagnostics.Debug.WriteLine($"\n\n\nAPI Response: { resJson }\n\n\n");
                 try
                 {
-                    var deserialized = JsonConvert.DeserializeObject<T>(rawResult);
-                    return new ApiResult<T> { value = deserialized,IsSuccess = true };
+                    var deserialized = JsonConvert.DeserializeObject<T>(rawResult, PhpJsonSettings.Settings);
+                    return new ApiResult<T> { value = deserialized, IsSuccess = true };
                 }
                 catch (Exception e)
                 {
@@ -86,13 +141,14 @@ namespace Matrimony.ApiProvider
             }
             catch (OperationCanceledException tcex)
             {
-                return new ApiResult<T> { value = Activator.CreateInstance<T>()};
                 Debug.WriteLine("Error Message is :-" + tcex.Message);
+                return new ApiResult<T> { value = Activator.CreateInstance<T>()};
             }
             catch (Exception ex)
             {
-                return new ApiResult<T> { value = Activator.CreateInstance<T>() };
                 Debug.WriteLine("Error Message is :-" + ex.Message);
+                Debug.WriteLine("Inner Exception: " + ex.InnerException?.Message);
+                return new ApiResult<T> { value = Activator.CreateInstance<T>() };
             }
         }
     }
