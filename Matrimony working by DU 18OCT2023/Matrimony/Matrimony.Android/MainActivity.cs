@@ -47,6 +47,13 @@ namespace Matrimony.Droid
 
                 Logger = new CustomLogger(),
 
+                // Use the SSL-bypass handler so images also load on older Android devices
+                // (API 21-24) that lack the Let's Encrypt root CA in their trust store.
+                HttpClient = new System.Net.Http.HttpClient(new InsecureAndroidClientHandler())
+                {
+                    Timeout = TimeSpan.FromSeconds(30)
+                },
+
             };
 
             ImageService.Instance.Initialize(config);
@@ -69,15 +76,11 @@ namespace Matrimony.Droid
             FFImageLoading.Forms.Platform.CachedImageRenderer.Init(true);
             var ignore = typeof(SvgCachedImage);
 
-            // Register native Android HTTP handler BEFORE LoadApplication so ApiProvider picks it up
-            GalaSoft.MvvmLight.Ioc.SimpleIoc.Default.Register<System.Net.Http.HttpMessageHandler>(() =>
-            {
-                // Use AndroidClientHandler to get native Android DNS + TLS stack.
-                // This fixes "no such host" on real devices and handles Hostinger/Let's Encrypt SSL correctly.
-                var handler = new Xamarin.Android.Net.AndroidClientHandler();
-                handler.ServerCertificateCustomValidationCallback = (message, cert, chain, errors) => true;
-                return handler;
-            });
+            // Register native Android HTTP handler BEFORE LoadApplication so ApiProvider picks it up.
+            // InsecureAndroidClientHandler overrides the SSL trust manager to accept the
+            // Hostinger/Let's Encrypt cert chain that older Android devices fail to validate.
+            GalaSoft.MvvmLight.Ioc.SimpleIoc.Default.Register<System.Net.Http.HttpMessageHandler>(
+                () => new InsecureAndroidClientHandler());
 
             LoadApplication(new App());
 

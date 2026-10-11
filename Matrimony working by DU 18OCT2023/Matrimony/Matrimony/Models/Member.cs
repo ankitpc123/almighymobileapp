@@ -62,22 +62,24 @@ namespace Matrimony.Models
                 Age = value;
             }
         }
+        // PHP API sends the image file name in the "ImageUrl" field, map it to this backing property.
+        [Newtonsoft.Json.JsonProperty("ImageUrl")]
         public string imageUrl { get; set; }
 
         public string AppImageHostName => App.AppHostUrl+ $"images/";
+
+        [Newtonsoft.Json.JsonIgnore]
         public string ImageUrl
         {
             get
             {
-                //return "welcome";
+                var host = App.ToImageUrl(App.AppHostUrl);
                 if (MemberId == 0)
-                {
                     return "norecordfound";
-                }
-                else if (imageUrl == "" || imageUrl == null)
-                    return App.AppHostUrl + "images/welcome.jpg";
+                else if (string.IsNullOrWhiteSpace(imageUrl))
+                    return host + "images/welcome.jpg";
                 else
-                    return App.AppHostUrl+ "images/groups/1/" + imageUrl;
+                    return host + "images/groups/" + GroupId + "/" + imageUrl;
             }
         }
         public string GetImageUrl
@@ -99,6 +101,7 @@ namespace Matrimony.Models
         public int MemberNo { get; set; }
         public double longitude { get; set; }
         public double latitude { get; set; }
+        public int GroupId { get; set; }
     }
 
 }

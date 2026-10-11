@@ -306,7 +306,9 @@ namespace Matrimony.Managers
         {
             await Task.Factory.StartNew(async () =>
             {
-                string url = string.Format("{0}PJKSMember/GetPJKSList", APIHostName, "");
+                //string url = string.Format("{0}PJKSMember/GetPJKSList", APIHostName, "");
+                string url = App.AppHostUrl + $"PJKSMember.php?opr=GetPJKSList";
+
                 var result = await apiProvider.Get<MembersResponse>(url);
                 if (result.IsSuccess)
                 {
@@ -324,7 +326,9 @@ namespace Matrimony.Managers
         {
             await Task.Factory.StartNew(async () =>
             {
-                string url = string.Format("{0}PJKSMember/GetPJKSBirthdayMarriageAnniversaryList", APIHostName, "");
+                //string url = string.Format("{0}PJKSMember/GetPJKSBirthdayMarriageAnniversaryList", APIHostName, "");
+                string url = App.AppHostUrl + $"PJKSMember.php?opr=GetPJKSBirthdayMarriageAnniversaryList";
+
                 var result = await apiProvider.Get<MembersResponse>(url);
                 if (result.IsSuccess)
                 {
@@ -341,7 +345,9 @@ namespace Matrimony.Managers
         {
             await Task.Factory.StartNew(async () =>
             {
-                string url = string.Format("{0}PJKSMember/GetGroupMemberDetail?MemberId={1}", APIHostName, memberid);
+                //string url = string.Format("{0}PJKSMember/GetGroupMemberDetail?MemberId={1}", APIHostName, memberid);
+                string url = App.AppHostUrl + $"PJKSMember.php?opr=GetGroupMemberDetail&MemberId="+ memberid;
+
                 var result = await apiProvider.Get<GroupMemberResponse>(url);
                 if (result.IsSuccess)
                 {
@@ -359,7 +365,9 @@ namespace Matrimony.Managers
         {
             await Task.Factory.StartNew(async () =>
             {
-                string url = string.Format("{0}PJKSMember/SearchPJKSResponse?pageNo=1&pageSize=25&searchtext={1}", APIHostName, searchtext);
+                //string url = string.Format("{0}PJKSMember/SearchPJKSResponse?pageNo=1&pageSize=25&searchtext={1}", APIHostName, searchtext);
+                string url = App.AppHostUrl + $"PJKSMember.php?opr=SearchPJKSResponse&pageNo=1&pageSize=25&searchtext=" + searchtext;
+
                 var result = await apiProvider.Get<SearchPJKSResponse>(url);
 
                 if (result.IsSuccess)
@@ -379,7 +387,9 @@ namespace Matrimony.Managers
         {
             await Task.Factory.StartNew(async () =>
             {
-                string url = string.Format("{0}PJKSMember/GetPJKSGroupCommitteeList?GroupId="+ GroupId, APIHostName, "");
+                //string url = string.Format("{0}PJKSMember/GetPJKSGroupCommitteeList?GroupId="+ GroupId, APIHostName, "");
+                string url = App.AppHostUrl + $"PJKSMember.php?opr=GetPJKSGroupCommitteeList&GroupId=" + GroupId;
+
                 var result = await apiProvider.Get<MembersResponse>(url);
                 if (result.IsSuccess)
                 {
@@ -399,7 +409,9 @@ namespace Matrimony.Managers
             {
                 await Task.Factory.StartNew(async () =>
                 {
-                    var url = App.AppHostUrl+$"api/PJKSMember/GetNearByMattriList?radius=" + radius + "&latitude=" + latitude + "&longitude=" + longitude + "";
+                    //var url = App.AppHostUrl+$"api/PJKSMember/GetNearByMattriList?radius=" + radius + "&latitude=" + latitude + "&longitude=" + longitude + "";
+                    string url = App.AppHostUrl + $"PJKSMember.php?opr=GetNearByMattriList&radius=" + radius + "&latitude=" + latitude + "&longitude=" + longitude;
+
                     var result = await apiProvider.Get<NearByResponse>(url);
                     if (result.IsSuccess)
                     {
@@ -424,7 +436,9 @@ namespace Matrimony.Managers
             {
                 await Task.Factory.StartNew(async () =>
                 {
-                    string url = string.Format("{0}PJKSMember/GetNearByMattriList?radius=" + radius + "&latitude=" + latitude + "&longitude=" + longitude, APIHostName, "");
+                    //string url = string.Format("{0}PJKSMember/GetNearByMattriList?radius=" + radius + "&latitude=" + latitude + "&longitude=" + longitude, APIHostName, "");
+                    string url = App.AppHostUrl + $"PJKSMember.php?opr=GetNearByMattriList&radius=" + radius + "&latitude=" + latitude + "&longitude=" + longitude;
+
                     var result = await apiProvider.Get<NearByResponse>(url);
                     if (result.IsSuccess)
                     {

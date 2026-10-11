@@ -146,7 +146,7 @@
                             FontSize="10"
                             HorizontalOptions="StartAndExpand"
                             Style="{DynamicResource RegularLable}"
-                            Text="{Binding GetAddress}"
+                            Text="{Binding ImageUrl}"
                             TextColor="{DynamicResource ThemeTextColor}" />
 
                                                 <Label

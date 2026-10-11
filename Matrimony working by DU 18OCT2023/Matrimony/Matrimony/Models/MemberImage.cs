@@ -16,24 +16,21 @@ namespace Matrimony.Models
         {
             get
             {
-                //return "girl";
-                //return "welcome";//
-                //return "http://www.atyourservicejain.com/images/welcome.jpg";
-                //return App.GetImageGalleryFolderURL + "pjksmembers/" + memberid + "/" + imagename;
-                return $"{apiService.ImageHostName}" + "pjksmembers/" + $"{memberid}/{imagename}";
+                return App.ToImageUrl(apiService.ImageHostName) + "pjksmembers/" + $"{memberid}/{imagename}";
             }
         }
         public string ImageUrl
         {
             get
             {
+                var host = App.ToImageUrl(apiService.ImageHostName);
                 //return "namste.png";
                 if (imagename == "" || imagename == null || imagename == "namste.jpg")
                 {
-                    return $"{apiService.ImageHostName}" + "pjksmembers/" + $"{imagename}";
+                    return host + "pjksmembers/" + $"{imagename}";
                 }
                 else
-                    return $"{apiService.ImageHostName}" + "pjksmembers/" + $"{memberid}/{imagename}";
+                    return host + "pjksmembers/" + $"{memberid}/{imagename}";
                 //if (imagename == "" || imagename == null)
                 //{
                 //    return App.IsMemberMale ? "boy" : "girl";

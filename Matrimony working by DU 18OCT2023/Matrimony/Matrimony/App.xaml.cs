@@ -27,6 +27,20 @@ namespace Matrimony
                 return "https://atyourservicejain.in/";
             }
         }
+
+        // FFImageLoading now uses an SSL-bypass HttpClient, so https works even with the
+        // expired cert. Keep https. (Toggle only kept for emergencies.)
+        public static bool UseHttpForImages = false;
+
+        // Scheme used for image URLs only. Flips http/https based on the toggle above.
+        public static string ImageScheme => UseHttpForImages ? "http://" : "https://";
+
+        // Rewrites any url's scheme to the current ImageScheme.
+        public static string ToImageUrl(string url)
+        {
+            if (string.IsNullOrEmpty(url)) return url;
+            return url.Replace("https://", ImageScheme).Replace("http://", ImageScheme);
+        }
         public static string GetImageFolderURL
         {
             get

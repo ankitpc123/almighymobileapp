@@ -133,7 +133,7 @@ namespace Matrimony.Models
                 if (image == "" || image == null)
                     return gender == "Female" ? "girl" : "boy";// "welcome.jpg";// "MarriageIcon.jpg";
                 else
-                    return $"{apiService.ImageHostName}{memberid}/{image}";// string.Concat(App.GetImageGalleryFolderURL, memberid, "/", image);
+                    return $"{App.ToImageUrl(apiService.ImageHostName)}{memberid}/{image}";
             }
         }
 
@@ -177,7 +177,7 @@ namespace Matrimony.Models
                 if (kundaliImageName == "" || kundaliImageName == null)
                     return gender == "Female" ? "girl" : "boy";// "welcome.jpg";// "MarriageIcon.jpg";
                 else
-                    return $"{apiService.ImageHostName}{memberid}/{kundaliImageName}";// string.Concat(App.GetImageGalleryFolderURL, memberid, "/", image);
+                    return $"{App.ToImageUrl(apiService.ImageHostName)}{memberid}/{kundaliImageName}";
             }
         }
     }
